@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 $font-size-root: 16px;
 $body-font-family: 'Raleway', sans-serif !default;
+$card-border-radius: 0;
+$chip-label-border-radius: 0;
 
 // For updating SASS lists
 $ripple-animation-transition-in: none;

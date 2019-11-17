@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <v-app :style="{background: 'black'}">
-            <v-app-bar app color="black" tile height="70px" flat elevation-1 absolute>
+            <v-app-bar app color="black" tile height="70px" elevate-on-scroll fixed style="z-index: 9999">
                 <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
                 <v-avatar width="200px" tile>
                     <v-img :src="logo" contain></v-img>
@@ -9,7 +9,7 @@
                 <v-spacer></v-spacer>
 
                 <div class="hidden-md-and-down">
-                    <v-btn text height="100%" class="font-weight-bold" v-for="(item, index) in navItems" :key="index">
+                    <v-btn text height="72px" class="font-weight-bold" v-for="(item, index) in navItems" :key="index" v-if="item.isMainNavItem">
                         {{item.title}}
                     </v-btn>
                 </div>
@@ -25,11 +25,13 @@
                 </v-icon>
                 <v-layout justify-center align-center fill-height column>
                     <v-list>
-                        <v-list-item class="text-center headline hidden-md-and-up" v-for="(item, index) in navItems" :key="index">
+                        <v-list-item class="text-center headline hidden-md-and-up" v-for="(item, index) in navItems" :key="index" v-if="item.isMainNavItem">
                             {{item.title}}
                         </v-list-item>
-                        <v-list-item class="text-center headline">Gallery</v-list-item>
-                        <v-list-item class="text-center headline">Exclusive Bookings</v-list-item>
+
+                        <v-list-item class="text-center headline" v-for="(item, index) in navItems" :key="index" v-if="!item.isMainNavItem">
+                            {{item.title}}
+                        </v-list-item>
                     </v-list>
                 </v-layout>
 
@@ -39,6 +41,64 @@
             <v-content>
                 <router-view/>
             </v-content>
+
+            <v-divider class="mt-12"></v-divider>
+            <v-footer color="black" class="pt-4">
+                <v-container>
+                    <v-row no-gutters>
+                        <v-col cols="12" md="4" sm="12" class="text-center">
+                            <v-avatar width="200px" tile>
+                                <v-img :src="logo" contain></v-img>
+                            </v-avatar>
+                            <ul id="sitemap-links">
+                                <li v-for="(item, index) in navItems" :key="index">
+                                    {{item.title}}
+                                </li>
+                            </ul>
+                        </v-col>
+
+                        <v-col cols="12" md="4" sm="12" class="text-center">
+                            <h3 class="pb-6">Contact Us</h3>
+
+                            <div id="contactus-list">
+                                <div class="contactus-item">
+                                    <v-icon color="primary">mdi-map-marker</v-icon>
+                                    <p>Wadduwa Beach Villa 36/17, Sanath Perera Mawatha, South Thalpitiya, Wadduwa, Sri Lanka</p>
+                                </div>
+
+                                <div class="contactus-item">
+                                    <v-icon color="primary">mdi-phone</v-icon>
+                                    <p>+94 712 532 311 / +94 713 770 692 / +94 382 295 758 / +94 710 150 415</p>
+                                </div>
+
+                                <div class="contactus-item">
+                                    <v-icon color="primary">mdi-email</v-icon>
+                                    <p>wadduwabeachvilla@gmail.com</p>
+                                </div>
+                            </div>
+                        </v-col>
+
+                        <v-col cols="12" md="4" sm="12" class="text-center">
+                            <h3 class="pb-6">Social</h3>
+
+                            <v-layout justify-center>
+                                <a target="_blank" href="https://www.facebook.com/wadduwabeachvilla/">
+                                    <v-img :src="fb" max-width="40" max-height="40" contain class="ml-2"></v-img>
+                                </a>
+                                <a target="_blank" href="https://www.tripadvisor.com/VacationRentalReview-g499081-d4756867-Wadduwa_Beach_Villa-Wadduwa_Western_Province.html">
+                                    <v-img :src="ta" max-width="40" max-height="40" contain class="ml-2"></v-img>
+                                </a>
+                            </v-layout>
+                        </v-col>
+                    </v-row>
+                </v-container>
+            </v-footer>
+
+            <v-system-bar color="#212121" dark light height="55px">
+                <v-spacer></v-spacer>
+                <p class="text--white font-weight-bold mb-0">© Copyright 2020 Wadduwa Beach Villa. All rights reserved</p>
+                <v-spacer></v-spacer>
+            </v-system-bar>
         </v-app>
     </div>
 </template>
@@ -55,22 +115,57 @@
         .pl-large {
             padding-left: 200px;
         }
+
+        #sitemap-links {
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 20px;
+            overflow: hidden;
+
+            li {
+                padding: 10px 15px;
+                float: left;
+            }
+        }
+
+        #contactus-list {
+            .contactus-item {
+                padding-bottom: 20px;
+                display: flex;
+                i {
+                    align-self: center;
+                }
+
+                p {
+                    padding: 0;
+                    margin: 0 0 0 20px;
+                    text-align: left;
+                    text-justify: auto;
+                }
+            }
+        }
     }
 </style>
 
 <script>
     import logo from "@/assets/logo.png";
+    import fb from "@/assets/fb.png";
+    import ta from "@/assets/ta.png";
     export default {
         data() {
             return {
                 drawer: false,
                 logo: logo,
+                fb: fb,
+                ta: ta,
                 videoHeight: null,
                 navItems: [
-                    { title: "The Villas"},
-                    { title: "Facilities"},
-                    { title: "The Villas"},
-                    { title: "Contact Us"},
+                    { title: "The Villas", isMainNavItem: true},
+                    { title: "Facilities", isMainNavItem: true},
+                    { title: "The Villas", isMainNavItem: true},
+                    { title: "Contact Us", isMainNavItem: true},
+                    { title: "Gallery", isMainNavItem: false},
+                    { title: "Exclusive Bookings", isMainNavItem: false},
                 ]
             }
         }

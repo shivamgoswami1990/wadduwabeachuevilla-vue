@@ -18,7 +18,7 @@
         <v-container :style="{ height: videoHeight + 'px' }">
           <v-layout justify-center align-start fill-height column wrap id="video-section">
             <div class="title text--secondary">Sri Lanka</div>
-            <h1 class="display-4 white--text">Wadduwa Beach Villas</h1>
+            <h1 class="white--text" :class="$vuetify.breakpoint.mdAndDown ? 'display-3' : 'display-4'">Wadduwa Beach Villas</h1>
             <div class="display-1 white--text text--secondary">A local icon of private luxury</div>
             <a class="title" :style="{ color: $vuetify.theme.currentTheme.primary }">
               Find out more about our packages
@@ -34,7 +34,7 @@
     <!-- Rooms section -->
     <v-container class="pt-12">
       <h2 class="display-2">The Villas</h2>
-      <p class="title text--secondary text-justify">
+      <p class="text-justify pa-2">
         We provide a range of accommodation options from Superior cottages to Deluxe double occupancy rooms.
         The main difference in each is the size of the rooms and living areas and the size of the beds.
         The bungalows are situated on an one and a half acre (6070 square meter) landscaped, grassed land with
