@@ -5,6 +5,11 @@ import router from './router';
 
 Vue.config.productionTip = false;
 
+// Init viewport height for in app use - video & hero image
+Vue.prototype.visibleViewportHeight = () => {
+  return vuetify.framework.breakpoint.height;
+};
+
 new Vue({
   vuetify,
   router,

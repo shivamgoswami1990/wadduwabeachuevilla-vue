@@ -42,7 +42,8 @@
       </p>
       <v-row no-gutters>
         <v-col cols="12" v-for="(room, index) in rooms" :key="index" md="4">
-          <v-card tile color="white" class="black--text ma-4" height="470px">
+          <v-responsive aspect-ratio="16/9">
+          <v-card tile color="white" class="black--text ma-4" height="480">
             <v-img height="250" :src="room.titleImg" class="white--text align-end" gradient="to bottom, transparent, rgba(0,0,0,0.8)">
               <v-card-title class="font-weight-bold">{{room.title}}</v-card-title>
             </v-img>
@@ -56,6 +57,7 @@
               {{room.description}}
             </v-card-text>
           </v-card>
+          </v-responsive>
         </v-col>
       </v-row>
     </v-container>
@@ -72,6 +74,14 @@
 
   .vue-video-section__overlay-content-wrapper__content-wrapper {
     background: radial-gradient(ellipse at left,transparent 0,transparent 30%,#000 138%,#000 0);
+  }
+
+  .vue-video-section__overlay-content-wrapper__background, .vue-video-section__overlay-content-wrapper__content-wrapper {
+    z-index: 3;
+  }
+
+  #content-video {
+    z-index: 2;
   }
 </style>
 
@@ -100,8 +110,7 @@ export default {
     }
   },
   mounted() {
-    this.videoHeight = this.$vuetify.breakpoint.height - 75;
-    console.log(this.$vuetify.breakpoint);
+    this.videoHeight = this.visibleViewportHeight();
   }
 }
 </script>
