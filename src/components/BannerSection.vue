@@ -1,5 +1,5 @@
 <template>
-    <v-img src="@/assets/contactus.jpg" :height="bannerHeight" gradient="90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 17%, rgba(0,0,0,0.23) 100%">
+    <v-img :src="imgSrc" :height="bannerHeight" gradient="90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 17%, rgba(0,0,0,0.23) 100%">
         <v-container :style="{ height: bannerHeight + 'px' }">
             <v-layout justify-center align-start fill-height column wrap>
                 <div class="title text--secondary">{{$attrs.preTitle}}</div>
@@ -25,11 +25,13 @@
 
         data() {
             return {
-                bannerHeight: null
+                bannerHeight: null,
+                imgSrc: ''
             }
         },
         mounted() {
             this.bannerHeight = this.visibleViewportHeight();
+            this.imgSrc = require('@/assets/' + this.$attrs.imgFilename);
         }
     }
 </script>
