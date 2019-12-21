@@ -1,10 +1,10 @@
 <template>
-    <v-img :src="imgSrc" :height="bannerHeight" gradient="90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 17%, rgba(0,0,0,0.23) 100%">
+    <v-img :src="imgSrc" :height="bannerHeight" gradient="360deg, rgba(0,0,0,0.95) 5%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.23) 100%">
         <v-container :style="{ height: bannerHeight + 'px' }">
             <v-layout justify-center align-start fill-height column wrap>
                 <div class="title text--secondary">{{$attrs.preTitle}}</div>
                 <h1 class="white--text" :class="$vuetify.breakpoint.mdAndDown ? 'display-3' : 'display-4'">{{$attrs.title}}</h1>
-                <div class="display-1 white--text text--secondary">{{$attrs.description}}</div>
+                <div class="display-1 white--text">{{$attrs.description}}</div>
             </v-layout>
         </v-container>
     </v-img>

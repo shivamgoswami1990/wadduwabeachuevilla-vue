@@ -30,14 +30,18 @@
                 <v-spacer></v-spacer>
 
                 <div class="hidden-md-and-down">
-                    <v-btn text height="72px" class="font-weight-bold" v-for="(item, index) in navItems" :key="index" v-if="item.isMainNavItem" @click="$router.push({ name: item.linkTo})">
+                    <v-btn text height="45" class="font-weight-bold" v-for="(item, index) in navItems" :key="index" v-if="item.isMainNavItem" @click="$router.push({ name: item.linkTo})">
                         {{item.title}}
                     </v-btn>
                 </div>
 
                 <v-spacer></v-spacer>
 
-                <v-btn color="primary" height="80%" width="170px" class="black--text" tile>Book Now</v-btn>
+                <v-btn color="primary" height="80%" width="40%" max-width="170px" class="black--text hidden-sm-and-down" tile>
+                    Book Now
+                </v-btn>
+
+                <v-icon class="hidden-sm-and-up" color="primary" size="35">mdi-phone</v-icon>
             </v-app-bar>
 
             <v-content class="pt-0">
@@ -155,12 +159,12 @@
                 ta: ta,
                 videoHeight: null,
                 navItems: [
-                    { title: "The Villas", isMainNavItem: true},
+                    { title: "The Villas", isMainNavItem: true, linkTo: 'villas'},
+                    { title: "Restaurant", isMainNavItem: true},
                     { title: "Facilities", isMainNavItem: true},
-                    { title: "The Villas", isMainNavItem: true},
-                    { title: "Contact Us", isMainNavItem: true, linkTo: 'contactus'},
                     { title: "Gallery", isMainNavItem: false},
-                    { title: "Exclusive Bookings", isMainNavItem: false},
+                    { title: "Exclusive", isMainNavItem: false},
+                    { title: "Contact Us", isMainNavItem: true, linkTo: 'contactus'},
                 ]
             }
         }
