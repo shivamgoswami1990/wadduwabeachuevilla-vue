@@ -22,6 +22,27 @@
                     <v-card-text>wadduwabeachvilla@gmail.com</v-card-text>
                 </v-card>
             </v-layout>
+
+            <v-layout justify-center align-start fill-height row wrap>
+            <v-card tile flat color="black" width="70%" min-width="400">
+                <h2 class="display-2 mt-10 pt-5 text-center">Menus</h2>
+                <v-card-text>
+                    <v-carousel hide-delimiters height="600">
+                        <v-carousel-item v-for="(menu, index) in menus" :key="index"
+                                         :src="require('@/assets/' + menu.image)"
+                                         reverse-transition="fade-transition"
+                                         transition="fade-transition">
+
+                            <v-layout justify-center align-end fill-height row wrap>
+                                <v-btn tile block color="gray" height="50" class="font-weight-bold subtitle-1">
+                                    {{menu.title}}
+                                </v-btn>
+                            </v-layout>
+                        </v-carousel-item>
+                    </v-carousel>
+                </v-card-text>
+            </v-card>
+            </v-layout>
         </v-container>
     </div>
 </template>
@@ -56,7 +77,21 @@
         },
         data() {
             return {
-                bannerHeight: null
+                bannerHeight: null,
+                menus: [
+                    {
+                        image: 'room-1.jpg',
+                        title: 'A la Carte'
+                    },
+                    {
+                        image: 'room-2.jpg',
+                        title: 'Dinner'
+                    },
+                    {
+                        image: 'room-3.jpg',
+                        title: 'Snacks & Drinks'
+                    },
+                ]
             }
         },
         mounted() {
