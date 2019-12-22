@@ -20,7 +20,7 @@
                                       :rules="[rules.required]" class="my-2">
                         </v-textarea>
 
-                        <v-btn color="primary" type="submit" :disabled="!valid" depressed width="40%" height="45"
+                        <v-btn color="primary" type="submit" tile :disabled="!valid" depressed width="40%" height="45"
                                @click.native="save" class="black--text mt-5">Submit</v-btn>
                     </v-form>
                 </v-col>

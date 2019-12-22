@@ -7,17 +7,17 @@
                 </v-icon>
                 <v-layout justify-center align-center fill-height column>
                     <v-list>
-                        <v-list-item class="text-center headline hidden-md-and-up" v-for="(item, index) in navItems" :key="index" v-if="item.isMainNavItem">
+                        <v-list-item class="text-center headline hidden-md-and-up" v-for="(item, index) in navItems"
+                                     :key="index" v-if="item.isMainNavItem" @click="$router.push({ name: item.linkTo})">
                             {{item.title}}
                         </v-list-item>
 
-                        <v-list-item class="text-center headline" v-for="(item, index) in navItems" :key="index" v-if="!item.isMainNavItem">
+                        <v-list-item class="text-center headline" v-for="(item, index) in navItems" :key="index"
+                                     v-if="!item.isMainNavItem" @click="$router.push({ name: item.linkTo})">
                             {{item.title}}
                         </v-list-item>
                     </v-list>
                 </v-layout>
-
-
             </v-navigation-drawer>
 
             <v-app-bar app color="transparent" tile height="70px" elevation="0" hide-on-scroll fixed>
@@ -30,7 +30,8 @@
                 <v-spacer></v-spacer>
 
                 <div class="hidden-md-and-down">
-                    <v-btn text height="45" class="font-weight-bold" v-for="(item, index) in navItems" :key="index" v-if="item.isMainNavItem" @click="$router.push({ name: item.linkTo})">
+                    <v-btn text tile height="70" class="font-weight-bold nav-btn" v-for="(item, index) in navItems" :key="index"
+                           v-if="item.isMainNavItem" :to="item.linkTo">
                         {{item.title}}
                     </v-btn>
                 </div>
@@ -56,7 +57,8 @@
                                 <v-img :src="logo" contain></v-img>
                             </v-avatar>
                             <ul id="sitemap-links">
-                                <li v-for="(item, index) in navItems" :key="index">
+                                <li v-for="(item, index) in navItems" :key="index"
+                                    @click="$router.push({ name: item.linkTo})">
                                     {{item.title}}
                                 </li>
                             </ul>
@@ -111,6 +113,11 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
 
+        a.nav-btn.v-btn--active {
+            color: #FADE03;
+            text-decoration: underline;
+        }
+
         .pl-large {
             padding-left: 200px;
         }
@@ -124,6 +131,11 @@
             li {
                 padding: 10px 15px;
                 float: left;
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                    color: #FADE03;
+                }
             }
         }
 
@@ -160,9 +172,8 @@
                 videoHeight: null,
                 navItems: [
                     { title: "The Villas", isMainNavItem: true, linkTo: 'villas'},
-                    { title: "Restaurant", isMainNavItem: true},
+                    { title: "Restaurant", isMainNavItem: true, linkTo: 'restaurant'},
                     { title: "Facilities", isMainNavItem: true},
-                    { title: "Gallery", isMainNavItem: false},
                     { title: "Exclusive", isMainNavItem: false},
                     { title: "Contact Us", isMainNavItem: true, linkTo: 'contactus'},
                 ]
