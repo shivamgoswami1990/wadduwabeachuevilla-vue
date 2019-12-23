@@ -10,6 +10,10 @@ Vue.prototype.visibleViewportHeight = () => {
   return vuetify.framework.breakpoint.height;
 };
 
+Vue.prototype.visibleViewportWidth = () => {
+  return vuetify.framework.breakpoint.width;
+};
+
 // Form validation rules
 Vue.prototype.validateFormRules = (value, opType, limit, msg) => {
   if (value !== undefined && value !== null) {

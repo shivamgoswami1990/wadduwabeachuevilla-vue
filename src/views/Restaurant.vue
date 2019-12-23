@@ -24,24 +24,90 @@
             </v-layout>
 
             <v-layout justify-center align-start fill-height row wrap>
-            <v-card tile flat color="black" width="70%" min-width="400">
-                <h2 class="display-2 mt-10 pt-5 text-center">Menus</h2>
-                <v-card-text>
-                    <v-carousel hide-delimiters height="600">
-                        <v-carousel-item v-for="(menu, index) in menus" :key="index"
-                                         :src="require('@/assets/' + menu.image)"
-                                         reverse-transition="fade-transition"
-                                         transition="fade-transition">
 
-                            <v-layout justify-center align-end fill-height row wrap>
-                                <v-btn tile block color="gray" height="50" class="font-weight-bold subtitle-1">
-                                    {{menu.title}}
+                <!-- Desktop only carousel -->
+                <v-sheet width="80%" min-width="400" color="black" class="hidden-xs-only">
+                    <h2 class="display-2 mt-10 pt-5 text-center">Menus</h2>
+                    <v-slide-group v-model="slideGroup" center-active show-arrows>
+                        <v-slide-item v-for="(menu, index) in menus" :key="index" class="ma-4" v-slot:default="{ active, toggle }">
+
+                            <!-- Hover comp -->
+                            <v-hover v-slot:default="{ hover }">
+                                <v-img :src="require('@/assets/menus/' + menu.image)" width="695" height="900" contain @click="toggle">
+
+                                    <!-- Overlay comp -->
+                                    <v-overlay :value="hover" absolute z-index="3">
+                                        <v-layout justify-center align-center fill-height row wrap>
+
+                                            <v-btn tile depressed color="primary" height="40"
+                                                   class="black--text" @click="showDialog(menu.image)">
+                                                <v-icon>mdi-fullscreen</v-icon> Open
+                                            </v-btn>
+                                        </v-layout>
+                                    </v-overlay>
+                                    <!-- Overlay comp -->
+
+                                    <v-layout fill-height row wrap justify-end>
+                                        <v-btn tile depressed width="100%" color="gray" height="40"
+                                               class="font-weight-bold subtitle-1 ma-0 align-self-end justify-center"
+                                               :class="active ? 'primary black--text' : ''">
+                                            {{menu.title}}
+                                        </v-btn>
+                                    </v-layout>
+                                </v-img>
+                            </v-hover>
+                            <!-- Hover comp -->
+
+                        </v-slide-item>
+                    </v-slide-group>
+                </v-sheet>
+                <!-- Desktop only carousel -->
+
+                <!-- Mobile only carousel -->
+                <v-card tile flat color="black" width="70%" min-width="400" class="hidden-sm-and-up">
+                    <h2 class="display-2 mt-10 pt-5 text-center">Menus</h2>
+                    <v-card-text>
+                        <v-carousel hide-delimiters height="600">
+                            <v-carousel-item v-for="(menu, index) in menus" :key="index"
+                                             :src="require('@/assets/menus/' + menu.image)"
+                                             reverse-transition="fade-transition"
+                                             transition="fade-transition">
+
+                                <v-layout justify-center align-end fill-height row wrap>
+                                    <v-btn tile block color="gray" height="50" class="font-weight-bold subtitle-1">
+                                        {{menu.title}}
+                                    </v-btn>
+                                </v-layout>
+                            </v-carousel-item>
+                        </v-carousel>
+                    </v-card-text>
+                </v-card>
+                <!-- Mobile only carousel -->
+
+                <!-- Fullscreen dialog comp -->
+                <v-dialog v-model="dialog" :width="viewportWidth" v-if="selectedImagePath !== null">
+                        <v-card tile flat color="black" :width="viewportWidth" :height="bannerHeight - 100">
+                            <v-toolbar light color="primary" dense>
+                                <v-toolbar-title>Restaurant menu</v-toolbar-title>
+                                <v-spacer></v-spacer>
+                                <v-btn icon light @click="dialog = false">
+                                    <v-icon>mdi-close</v-icon>
                                 </v-btn>
-                            </v-layout>
-                        </v-carousel-item>
-                    </v-carousel>
-                </v-card-text>
-            </v-card>
+                            </v-toolbar>
+
+                            <v-card-text style="height: calc(100% - 48px)">
+                                <v-layout align-center justify-center wrap fill-height>
+
+                                    <v-img :src="require('@/assets/menus/' + selectedImagePath)"
+                                           :max-height="bannerHeight - 150" contain>
+                                    </v-img>
+
+                                </v-layout>
+                            </v-card-text>
+                        </v-card>
+                </v-dialog>
+                <!-- Fullscreen dialog comp -->
+
             </v-layout>
         </v-container>
     </div>
@@ -78,24 +144,47 @@
         data() {
             return {
                 bannerHeight: null,
+                viewportWidth: null,
+                slideGroup: null,
+                dialog: false,
+                selectedImagePath: null,
                 menus: [
                     {
-                        image: 'room-1.jpg',
-                        title: 'A la Carte'
+                        image: 'breakfast.jpg',
+                        title: 'Breakfast'
                     },
                     {
-                        image: 'room-2.jpg',
-                        title: 'Dinner'
+                        image: 'snack.jpg',
+                        title: 'Half day snack'
                     },
                     {
-                        image: 'room-3.jpg',
-                        title: 'Snacks & Drinks'
+                        image: 'bbq.jpg',
+                        title: 'BBQ'
                     },
+                    {
+                        image: 'menu-1.jpg',
+                        title: 'Menu 1'
+                    },
+                    {
+                        image: 'menu-2.jpg',
+                        title: 'Menu 2'
+                    },
+                    {
+                        image: 'menu-3.jpg',
+                        title: 'Menu 3'
+                    }
                 ]
             }
         },
         mounted() {
             this.bannerHeight = this.visibleViewportHeight();
+            this.viewportWidth = this.visibleViewportWidth();
+        },
+        methods: {
+            showDialog(imagePath) {
+                this.dialog = true;
+                this.selectedImagePath = imagePath;
+            }
         }
     }
 </script>
