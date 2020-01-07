@@ -80,7 +80,7 @@
 
                                 <div class="contactus-item">
                                     <v-icon color="primary">mdi-email</v-icon>
-                                    <p>wadduwabeachvilla@gmail.com</p>
+                                    <p>wadduwabeachvilla@gmail.com,  wadduwabeachvilla@outlook.com</p>
                                 </div>
                             </div>
                         </v-col>
@@ -89,11 +89,17 @@
                             <h3 class="pb-6">Social</h3>
 
                             <v-layout justify-center>
-                                <a target="_blank" href="https://www.facebook.com/wadduwabeachvilla/">
+                                <a target="_blank" href="https://www.facebook.com/wadduwabeachvillasPvtLtd/">
                                     <v-img :src="fb" max-width="40" max-height="40" contain class="ml-2"></v-img>
                                 </a>
-                                <a target="_blank" href="https://www.tripadvisor.com/VacationRentalReview-g499081-d4756867-Wadduwa_Beach_Villa-Wadduwa_Western_Province.html">
+                                <a target="_blank" href="https://www.tripadvisor.com/RentalPropertyManager-a_manager.236794">
                                     <v-img :src="ta" max-width="40" max-height="40" contain class="ml-2"></v-img>
+                                </a>
+                                <a target="_blank" href="https://www.airbnb.com/users/show/19675962">
+                                    <v-img :src="ab" max-width="40" max-height="40" contain class="ml-2"></v-img>
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/wadduwa.beach.villas/">
+                                    <v-img :src="ig" max-width="40" max-height="40" contain class="ml-2"></v-img>
                                 </a>
                             </v-layout>
                         </v-col>
@@ -160,8 +166,10 @@
 
 <script>
     import logo from "@/assets/logo.png";
-    import fb from "@/assets/fb.png";
-    import ta from "@/assets/ta.png";
+    import fb from "@/assets/Footer/fb.png";
+    import ta from "@/assets/Footer/ta.png";
+    import ab from "@/assets/Footer/ab.png";
+    import ig from "@/assets/Footer/ig.png";
     export default {
         data() {
             return {
@@ -169,6 +177,8 @@
                 logo: logo,
                 fb: fb,
                 ta: ta,
+                ab: ab,
+                ig: ig,
                 videoHeight: null,
                 navItems: [
                     { title: "The Villas", isMainNavItem: true, linkTo: 'villas'},

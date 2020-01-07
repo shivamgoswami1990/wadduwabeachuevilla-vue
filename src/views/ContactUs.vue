@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="contactus.jpg" preTitle="Wadduwa Beach Villa" title="Contact Us"
+        <banner-section imgFilename="ContactUs/Contactus.jpg" preTitle="Wadduwa Beach Villa" title="Contact Us"
                         description="Get in touch"/>
 
         <v-container class="py-12">
@@ -42,7 +42,7 @@
 <script>
     // @ is an alias to /src
     import BannerSection from "@/components/BannerSection.vue";
-    import locationImg from "@/assets/location.png";
+    import locationImg from "@/assets/ContactUs/location.png";
 
     export default {
         components: {

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="restaurant.jpg" preTitle="Wadduwa Beach Villa" title="Restaurant"
+        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villa" title="Restaurant"
                         description="The finest dining experience paired with panoramic ocean views"/>
 
         <v-container class="py-12">
@@ -33,7 +33,7 @@
 
                             <!-- Hover comp -->
                             <v-hover v-slot:default="{ hover }">
-                                <v-img :src="require('@/assets/menus/' + menu.image)" width="695" height="900" contain @click="toggle">
+                                <v-img :src="require('../assets/Restaurant/menus/' + menu.image)" width="695" height="900" contain @click="toggle">
 
                                     <!-- Overlay comp -->
                                     <v-overlay :value="hover" absolute z-index="3">
@@ -69,7 +69,7 @@
                     <v-card-text>
                         <v-carousel hide-delimiters height="600">
                             <v-carousel-item v-for="(menu, index) in menus" :key="index"
-                                             :src="require('@/assets/menus/' + menu.image)"
+                                             :src="require('../assets/Restaurant/menus/' + menu.image)"
                                              reverse-transition="fade-transition"
                                              transition="fade-transition">
 
@@ -98,7 +98,7 @@
                             <v-card-text style="height: calc(100% - 48px)">
                                 <v-layout align-center justify-center wrap fill-height>
 
-                                    <v-img :src="require('@/assets/menus/' + selectedImagePath)"
+                                    <v-img :src="require('../assets/Restaurant/menus/' + selectedImagePath)"
                                            :max-height="bannerHeight - 150" contain>
                                     </v-img>
 

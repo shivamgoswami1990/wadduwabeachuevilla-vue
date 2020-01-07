@@ -4,7 +4,7 @@
     <vue-video-section
             :elementId="'content-video'"
             :ref="'content-video'"
-            :mp4Source="require('../assets/background.mp4')"
+            :mp4Source="require('../assets/Home/background.mp4')"
             :mobileBreakpoint="992"
             :desktopHeight="videoHeight"
             :mobileHeight="videoHeight"
@@ -40,26 +40,29 @@
         The bungalows are situated on an one and a half acre (6070 square meter) landscaped, grassed land with
         coconut and other native trees.
       </p>
-      <v-row no-gutters>
+      <v-layout wrap justify-center align-center>
         <v-col cols="12" v-for="(room, index) in rooms" :key="index" md="4">
           <v-responsive aspect-ratio="16/9">
           <v-card tile color="white" class="black--text ma-4" height="480">
-            <v-img height="250" :src="room.titleImg" class="white--text align-end" gradient="to bottom, transparent, rgba(0,0,0,0.8)">
-              <v-card-title class="font-weight-bold">{{room.title}}</v-card-title>
+            <v-img height="250" :src="require('@/assets/' + room.images[0])" class="white--text align-end" gradient="to bottom, transparent, rgba(0,0,0,0.8)">
+              <v-card-title class="font-weight-bold">{{room.name}}</v-card-title>
             </v-img>
 
             <v-chip label color="primary" class="black--text font-weight-bold" style="position: absolute; top: 0; right: 0">
-              USD 140
+              Starting from USD {{room.price}}
             </v-chip>
 
-            <v-btn tile block color="primary" class="elevation-0 black--text font-weight-bold" height="45px">Book now</v-btn>
+            <v-btn tile block color="primary" class="elevation-0 black--text font-weight-bold"
+                   height="45px" :href="room.altLink" target="_blank">
+              Book now
+            </v-btn>
             <v-card-text class="black--text text-justify">
               {{room.description}}
             </v-card-text>
           </v-card>
           </v-responsive>
         </v-col>
-      </v-row>
+      </v-layout>
     </v-container>
     <!-- Rooms section -->
   </div>
@@ -88,9 +91,6 @@
 <script>
 // @ is an alias to /src
 import VueVideoSection from 'vue-video-section';
-import room1 from "@/assets/room-1.jpg";
-import room2 from "@/assets/room-2.jpg";
-import room3 from "@/assets/room-3.jpg";
 
 export default {
   components: {
@@ -99,18 +99,12 @@ export default {
   data() {
     return {
       videoHeight: null,
-      room1: room1,
-      room2: room2,
-      room3: room3,
-      rooms: [
-        {title: "Superior Two Bedroom Cottage", titleImg: room1, description: "The Superior Two Bedroom Cottage has a pool view and is located 30 meters from the sea shore. It has two separate bedrooms with attached bathroos, one with a sky view bathroom. This cottage includes a sitting and dining room with full kitchen, as well as an outside veranda and seating. Sleeps four adults."},
-        {title: "Deluxe Two Bedroom Bungalow", titleImg: room2, description: "The Deluxe Two Bedroom Cottage has both a beach and pool view. The two rooms have two separate attached bathrooms and a kitchen. It has an enclosed veranda with 180 degree view. Sleeps four adults."},
-        {title: "Just Two- Secluded Cottage", titleImg: room3, description: "The Just Two- Secluded Cottage has both a pool and beach view. The single bedroom cottage has an attached bathroom with kitchen and veranda which offers a 180 degree view of the greenery and lawn. It is secluded and offers privacy as it is located in a secluded area of the property. Sleeps two adults."},
-      ]
+      rooms: []
     }
   },
   mounted() {
     this.videoHeight = this.visibleViewportHeight();
+    this.rooms = this.availableRooms();
   }
 }
 </script>
