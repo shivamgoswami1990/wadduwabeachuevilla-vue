@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villa" title="Restaurant"
+        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villas" title="Restaurant"
                         description="The finest dining experience paired with panoramic ocean views"/>
 
         <v-container class="py-12">
@@ -150,28 +150,40 @@
                 selectedImagePath: null,
                 menus: [
                     {
-                        image: 'breakfast.jpg',
-                        title: 'Breakfast'
+                        image: 'bbqmenu1.jpg',
+                        title: 'BBQ Menu 1'
                     },
                     {
-                        image: 'snack.jpg',
-                        title: 'Half day snack'
+                        image: 'bbqmenu2.jpg',
+                        title: 'BBQ Menu 2'
                     },
                     {
-                        image: 'bbq.jpg',
-                        title: 'BBQ'
+                        image: 'bbqmenu3.jpg',
+                        title: 'BBQ Menu 3'
                     },
                     {
-                        image: 'menu-1.jpg',
-                        title: 'Menu 1'
+                        image: 'daymenu1.jpg',
+                        title: 'Day Out Menu 1'
                     },
                     {
-                        image: 'menu-2.jpg',
-                        title: 'Menu 2'
+                        image: 'daymenu2.jpg',
+                        title: 'Day Out Menu 2'
                     },
                     {
-                        image: 'menu-3.jpg',
-                        title: 'Menu 3'
+                        image: 'daymenu3.jpg',
+                        title: 'Day Out Menu 3'
+                    },
+                    {
+                        image: 'daymenu4.jpg',
+                        title: 'Day Out Menu 4'
+                    },
+                    {
+                        image: 'daymenu5.jpg',
+                        title: 'Day Out Menu 5'
+                    },
+                    {
+                        image: 'wbvbite.jpg',
+                        title: 'Bites Menu'
                     }
                 ]
             }
@@ -179,6 +191,13 @@
         mounted() {
             this.bannerHeight = this.visibleViewportHeight();
             this.viewportWidth = this.visibleViewportWidth();
+
+            //Scroll to top
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
         },
         methods: {
             showDialog(imagePath) {

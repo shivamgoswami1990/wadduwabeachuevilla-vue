@@ -1,10 +1,10 @@
 <template>
     <div>
-        <banner-section imgFilename="ContactUs/Contactus.jpg" preTitle="Wadduwa Beach Villa" title="Contact Us"
+        <banner-section imgFilename="ContactUs/Contactus.jpg" preTitle="Wadduwa Beach Villas" title="Contact Us"
                         description="Get in touch"/>
 
         <v-container class="py-12">
-            <h2 class="display-2">Contact Wadduwa Beach Villa</h2>
+            <h2 class="display-2">Contact Wadduwa Beach Villas</h2>
             <v-row class="pl-1 pt-5 justify-space-between">
                 <v-col cols="12" md="5" class="align-self-center">
                     <v-form ref="form" v-model="valid" lazy-validation @submit.prevent="save">
@@ -75,6 +75,13 @@
         },
         mounted() {
             this.bannerHeight = this.visibleViewportHeight();
+
+            //Scroll to top
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
         },
         methods: {
             save() {

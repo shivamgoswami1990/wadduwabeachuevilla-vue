@@ -38,21 +38,23 @@ Vue.prototype.availableRooms = () => {
   return [
     {
       name: "Double Room",
-      description: "",
+      description: "Our standard double room is an expanded hotel room is designed for two people. Room amenities include; a king size bed, cable TV, storage space, wardrobe, clothes rack, continuous WIFI access, and en suite bathroom. This room type is ideal for a brief stay of a few days. All room options offer stunning views of the property and surrounding environment.",
       price: "70",
       facilities: ["Pool view", "Attached bathroom", "Kitchen", "Veranda"],
       people: 2,
-      images: ['room-3.jpg', 'room-2.jpg', 'room-1.jpg'],
+      parentDir: 'DoubleRoom',
+      images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
       link: "https://hotels.cloudbeds.com/reservation/3DqprA",
       altLink: "https://hotels.cloudbeds.com/reservation/3DqprA"
     },
     {
       name: "Triple Room",
-      description: "",
+      description: "Our standard triple room is an expanded hotel room designed for three people. Room amenities include; a king size bed, a large sofa bed, cable TV, storage space, wardrobe, clothes rack, continuous WIFI access, and en suite bathroom. This room type is ideal for a brief stay of a few days. All room options offer stunning views of the property and surrounding environment.",
       price: "90",
       facilities: ["Pool view", "Attached bathroom", "Kitchen", "Veranda"],
       people: 2,
-      images: ['room-3.jpg', 'room-2.jpg', 'room-1.jpg'],
+      parentDir: 'TripleRoom',
+      images: ['1.jpg', '2.jpg'],
       link: "https://hotels.cloudbeds.com/reservation/3DqprA",
       altLink: "https://hotels.cloudbeds.com/reservation/3DqprA"
     },
@@ -62,7 +64,8 @@ Vue.prototype.availableRooms = () => {
       price: "135",
       facilities: ["Pool view", "Attached bathroom", "Dining room"],
       people: 4,
-      images: ['room-1.jpg', 'room-2.jpg', 'room-3.jpg'],
+      parentDir: 'FamilyVilla',
+      images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
       link: "https://hotels.cloudbeds.com/reservation/3DqprA",
       altLink: "https://hotels.cloudbeds.com/reservation/3DqprA"
     },
@@ -72,7 +75,8 @@ Vue.prototype.availableRooms = () => {
       price: "90",
       facilities: ["Pool view", "Two attached bathroom", "Kitchen"],
       people: 4,
-      images: ['room-2.jpg', 'room-1.jpg', 'room-3.jpg'],
+      parentDir: 'TwoRoomVilla',
+      images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
       link: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1578334775_ae4H3z%2FC6DWd9EV6",
       altLink: "tel:+0094713770692"
     },
@@ -82,7 +86,8 @@ Vue.prototype.availableRooms = () => {
       price: "70",
       facilities: ["Pool view", "Attached bathroom", "Kitchen", "Veranda"],
       people: 2,
-      images: ['room-3.jpg', 'room-2.jpg', 'room-1.jpg'],
+      parentDir: 'HoneymoonVilla',
+      images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
       link: "https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1578334672_9d%2FqFgFRqPEwmSBS",
       altLink: "tel:+0094713770692"
     }

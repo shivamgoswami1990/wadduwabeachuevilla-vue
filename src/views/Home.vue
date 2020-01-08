@@ -5,6 +5,7 @@
             :elementId="'content-video'"
             :ref="'content-video'"
             :mp4Source="require('../assets/Home/background.mp4')"
+            :posterSource="require('../assets/Home/background.jpg')"
             :mobileBreakpoint="992"
             :desktopHeight="videoHeight"
             :mobileHeight="videoHeight"
@@ -43,8 +44,9 @@
       <v-layout wrap justify-center align-center>
         <v-col cols="12" v-for="(room, index) in rooms" :key="index" md="4">
           <v-responsive aspect-ratio="16/9">
-          <v-card tile color="white" class="black--text ma-4" height="480">
-            <v-img height="250" :src="require('@/assets/' + room.images[0])" class="white--text align-end" gradient="to bottom, transparent, rgba(0,0,0,0.8)">
+          <v-card tile color="white" class="black--text ma-4" height="580">
+            <v-img height="300" :src="require('@/assets/Villas/rooms/' + room.parentDir + '/' + room.images[0])"
+                   class="white--text align-end" gradient="to bottom, transparent, rgba(0,0,0,0.5)">
               <v-card-title class="font-weight-bold">{{room.name}}</v-card-title>
             </v-img>
 
@@ -56,9 +58,16 @@
                    height="45px" :href="room.altLink" target="_blank">
               Book now
             </v-btn>
+
             <v-card-text class="black--text text-justify">
               {{room.description}}
             </v-card-text>
+
+            <div class="explore-container">
+              <router-link class="explore subtitle-1 font-weight-bold" to="/villas">
+                Explore ...
+              </router-link>
+            </div>
           </v-card>
           </v-responsive>
         </v-col>
@@ -86,6 +95,28 @@
   #content-video {
     z-index: 2;
   }
+
+  .explore-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #FADE03;
+    width: 300px;
+    height: 100px;
+    clip-path: polygon(100% 55%, 0% 100%, 100% 100%);
+
+    & .explore {
+      position: absolute;
+      bottom: 1px;
+      right: 5px;
+      color: black !important;
+      text-decoration: underline;
+
+      &:hover {
+        color: blue !important;
+      }
+    }
+  }
 </style>
 
 <script>
@@ -105,6 +136,13 @@ export default {
   mounted() {
     this.videoHeight = this.visibleViewportHeight();
     this.rooms = this.availableRooms();
+
+    //Scroll to top
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 }
 </script>

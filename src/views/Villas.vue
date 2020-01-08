@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Villas/Villas.jpg" preTitle="Wadduwa Beach Villa" title="Our Villas"
+        <banner-section imgFilename="Villas/Villas.jpg" preTitle="Wadduwa Beach Villas" title="Our Villas"
                         description="Rooms and Villas"/>
 
         <v-container class="py-12">
@@ -10,7 +10,7 @@
 
                     <v-tab v-for="(room, index) in rooms" :href="'#tab-' + index" :key="index">
                         <v-avatar size="80" tile class="hidden-sm-and-down mr-2">
-                            <v-img :src="require('@/assets/' + room.images[0])"></v-img>
+                            <v-img :src="require('@/assets/Villas/rooms/' + room.parentDir + '/' + room.images[0])"></v-img>
                         </v-avatar>
                         {{room.name}}
                     </v-tab>
@@ -23,9 +23,9 @@
                             <!-- Image carousel, facilities & description -->
                             <v-row>
                                 <v-col cols="12" md="7">
-                                    <v-carousel hide-delimiter-background delimiter-icon="mdi-minus" height="450">
+                                    <v-carousel hide-delimiter-background delimiter-icon="mdi-minus" height="500">
                                         <v-carousel-item v-for="(image, index2) in room.images" :key="index2"
-                                                         :src="require('@/assets/' + image)"
+                                                         :src="require('@/assets/Villas/rooms/' + room.parentDir + '/' + image)"
                                                          reverse-transition="fade-transition"
                                                          transition="fade-transition">
                                         </v-carousel-item>
@@ -91,6 +91,13 @@
         mounted() {
             this.bannerHeight = this.visibleViewportHeight();
             this.rooms = this.availableRooms();
+
+            //Scroll to top
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
         },
         methods: {
             openTargetLink(room) {
