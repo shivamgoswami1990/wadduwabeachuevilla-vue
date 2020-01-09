@@ -138,6 +138,14 @@
     import BannerSection from "@/components/BannerSection.vue";
 
     export default {
+        metaInfo: {
+            title: 'Wadduwa Beach Villa',
+            titleTemplate: 'Restaurant → %s',
+            meta: [
+                { name: 'name', content: 'Wadduwa Beach Villa restaurant' },
+                { name: 'description', content: 'The finest dining experience paired with panoramic ocean views' }
+            ]
+        },
         components: {
             BannerSection
         },

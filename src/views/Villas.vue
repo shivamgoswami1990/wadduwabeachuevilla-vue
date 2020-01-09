@@ -78,6 +78,14 @@
     import BannerSection from "@/components/BannerSection.vue";
 
     export default {
+        metaInfo: {
+            title: 'Wadduwa Beach Villa',
+            titleTemplate: 'Rooms → %s',
+            meta: [
+                { name: 'name', content: 'Wadduwa Beach Villa rooms' },
+                { name: 'description', content: 'Rooms and Villas' }
+            ]
+        },
         components: {
             BannerSection
         },

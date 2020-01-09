@@ -45,6 +45,14 @@
     import locationImg from "@/assets/ContactUs/location.png";
 
     export default {
+        metaInfo: {
+            title: 'Wadduwa Beach Villa',
+            titleTemplate: 'Contact us → %s',
+            meta: [
+                { name: 'name', content: 'Wadduwa Beach Villa contact us' },
+                { name: 'description', content: 'Get in touch' }
+            ]
+        },
         components: {
             BannerSection
         },

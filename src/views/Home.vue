@@ -118,6 +118,14 @@
 import VueVideoSection from 'vue-video-section';
 
 export default {
+  metaInfo: {
+    title: 'Wadduwa Beach Villa',
+    titleTemplate: 'Home → %s',
+    meta: [
+      { name: 'name', content: 'Wadduwa Beach Villa Home' },
+      { name: 'description', content: 'A local icon of private luxury' }
+    ]
+  },
   components: {
     VueVideoSection
   },
