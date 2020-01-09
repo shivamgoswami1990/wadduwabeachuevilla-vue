@@ -187,8 +187,8 @@
                     { title: "The Villas", isMainNavItem: true, linkTo: 'villas'},
                     { title: "Restaurant", isMainNavItem: true, linkTo: 'restaurant'},
                     { title: "Facilities", isMainNavItem: true},
-                    { title: "Exclusive", isMainNavItem: false, linkTo: 'exclusive'},
-                    { title: "Contact Us", isMainNavItem: true, linkTo: 'contactus'},
+                    { title: "Exclusive", isMainNavItem: true, linkTo: 'exclusive'},
+                    { title: "Contact Us", isMainNavItem: false, linkTo: 'contactus'},
                 ]
             }
         },
