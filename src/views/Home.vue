@@ -63,11 +63,11 @@
               {{room.description}}
             </v-card-text>
 
-            <div class="explore-container">
-              <router-link class="explore subtitle-1 font-weight-bold" to="/villas">
-                Explore ...
-              </router-link>
-            </div>
+            <router-link class="explore-container" to="/villas">
+              <div class="explore">
+                <v-icon color="black" size="25">mdi-arrow-right</v-icon>
+              </div>
+            </router-link>
           </v-card>
           </v-responsive>
         </v-col>
@@ -107,14 +107,8 @@
 
     & .explore {
       position: absolute;
-      bottom: 1px;
-      right: 5px;
-      color: black !important;
-      text-decoration: underline;
-
-      &:hover {
-        color: blue !important;
-      }
+      bottom: 5px;
+      right: 10px;
     }
   }
 </style>

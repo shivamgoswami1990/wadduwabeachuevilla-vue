@@ -38,11 +38,14 @@
 
                 <v-spacer></v-spacer>
 
-                <v-btn color="primary" height="80%" width="40%" max-width="170px" class="black--text hidden-sm-and-down" tile>
+                <v-btn color="primary" @click="openBookingLink"
+                       height="80%" width="40%" max-width="170px" class="black--text hidden-sm-and-down" tile>
                     Book Now
                 </v-btn>
 
-                <v-icon class="hidden-sm-and-up" color="primary" size="35">mdi-phone</v-icon>
+                <v-btn href="tel:+94712532311" icon tile :ripple="false">
+                    <v-icon class="hidden-sm-and-up" color="primary" size="35">mdi-phone</v-icon>
+                </v-btn>
             </v-app-bar>
 
             <v-content class="pt-0">
@@ -184,9 +187,14 @@
                     { title: "The Villas", isMainNavItem: true, linkTo: 'villas'},
                     { title: "Restaurant", isMainNavItem: true, linkTo: 'restaurant'},
                     { title: "Facilities", isMainNavItem: true},
-                    { title: "Exclusive", isMainNavItem: false},
+                    { title: "Exclusive", isMainNavItem: false, linkTo: 'exclusive'},
                     { title: "Contact Us", isMainNavItem: true, linkTo: 'contactus'},
                 ]
+            }
+        },
+        methods: {
+            openBookingLink() {
+                window.open('https://hotels.cloudbeds.com/reservation/3DqprA', '_blank');
             }
         }
     }
