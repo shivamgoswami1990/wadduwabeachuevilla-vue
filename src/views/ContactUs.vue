@@ -42,7 +42,7 @@
 <script>
     // @ is an alias to /src
     import BannerSection from "@/components/BannerSection.vue";
-    import locationImg from "@/assets/ContactUs/location.png";
+    import locationImg from "@/assets/ContactUs/location.jpg";
 
     export default {
         metaInfo: {

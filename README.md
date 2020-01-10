@@ -20,5 +20,6 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Image sizes
+Content section - 540 x 360 (60% original quality)
+Title Section - 1199 x 800 (50% original quality)
