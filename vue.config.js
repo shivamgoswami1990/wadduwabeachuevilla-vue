@@ -3,15 +3,15 @@ module.exports = {
     "vuetify"
   ],
 
-  pluginOptions: {
-    prerenderSpa: {
-      registry: undefined,
-      renderRoutes: [
-        '/'
-      ],
-      useRenderEvent: true,
-      headless: true,
-      onlyProduction: true
-    }
-  }
+  // pluginOptions: {
+  //   prerenderSpa: {
+  //     registry: undefined,
+  //     renderRoutes: [
+  //       '/'
+  //     ],
+  //     useRenderEvent: true,
+  //     headless: true,
+  //     onlyProduction: true
+  //   }
+  // }
 }
