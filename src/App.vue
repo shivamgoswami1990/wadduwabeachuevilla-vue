@@ -186,7 +186,7 @@
                 navItems: [
                     { title: "The Villas", isMainNavItem: true, linkTo: 'villas'},
                     { title: "Restaurant", isMainNavItem: true, linkTo: 'restaurant'},
-                    { title: "Facilities", isMainNavItem: true},
+                    { title: "Facilities", isMainNavItem: true, linkTo: 'facilities'},
                     { title: "Exclusive", isMainNavItem: true, linkTo: 'exclusive'},
                     { title: "Contact Us", isMainNavItem: false, linkTo: 'contactus'},
                 ]
