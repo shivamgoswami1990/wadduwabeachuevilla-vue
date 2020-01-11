@@ -152,7 +152,7 @@
                     'Sun Deck',
                     'Non-smoking Rooms',
                     'Satellite TV',
-                    'Shared Kitchen'
+                    'Private Veranda'
                 ]
             }
         },
