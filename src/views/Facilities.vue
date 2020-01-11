@@ -12,7 +12,7 @@
                 to create your own unique experience today.
             </p>
             <v-row no-gutters class="mt-10">
-                <v-col cols="12" md="5" >
+                <v-col cols="12" md="4" >
                     <vue-video-section
                             :elementId="'facilities-video'"
                             :ref="'facilities-video'"
@@ -28,7 +28,7 @@
                     />
                 </v-col>
 
-                <v-col cols="12" md="7">
+                <v-col cols="12" md="8">
                     <v-card flat tile height="100%" color="black" class="mx-5 pa-5" dark>
                         <v-card-title class="headline">Amenities</v-card-title>
 
