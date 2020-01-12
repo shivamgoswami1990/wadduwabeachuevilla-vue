@@ -5,21 +5,25 @@
 
         <v-container class="py-12">
             <h2 class="display-2">Seeking Privacy and Exclusivity ?</h2>
-            <p class="pt-5">
-                Wadduwa Beach Villas provide you with a custom experience, be it a day out or as a guest.
+            <p class="pt-5 mb-0">
+                We are able to use our facilities to provide you with a custom experience,
+                be it as a day out package or as an in-house guest.
                 Please view our videos for examples of events we have hosted.
+            </p>
+            <p>
                 <router-link to="contactus"><b>Contact us</b></router-link>
                 to create your own unique experience today.
             </p>
+
             <v-row no-gutters class="mt-10">
-                <v-col cols="12" md="4" >
+                <v-col cols="12" md="7" class="pt-12">
                     <vue-video-section
                             :elementId="'facilities-video'"
                             :ref="'facilities-video'"
-                            :mp4Source="require('../assets/Facilities/1.mp4')"
+                            :mp4Source="require('../assets/Facilities/3.mp4')"
                             :mobileBreakpoint="992"
-                            :desktopHeight="900"
-                            :mobileHeight="900"
+                            :desktopHeight="720"
+                            :mobileHeight="720"
                             :playsinline="true"
                             :loop="true"
                             :autoplay="true"
@@ -28,7 +32,7 @@
                     />
                 </v-col>
 
-                <v-col cols="12" md="8">
+                <v-col cols="12" md="5">
                     <v-card flat tile height="100%" color="black" class="mx-5 pa-5" dark>
                         <v-card-title class="headline">Amenities</v-card-title>
 
@@ -61,34 +65,69 @@
                                 </v-col>
                             </v-row>
                             <!-- Amenities -->
-
-                            <!-- Contact -->
-                            <v-layout justify-center align-start fill-height row wrap class="mt-10">
-                                <v-responsive  height="100" class="seperator align-center">
-                                    <p class="text-center">
-                                        <router-link to="contactus" class="subtitle-1">Contact us</router-link>
-                                    </p>
-                                </v-responsive>
-
-                                <v-responsive  height="100" class="seperator align-center">
-                                    <p class="text-center">
-                                        <a href="https://hotels.cloudbeds.com/reservation/3DqprA" target="_blank"
-                                           class="subtitle-1">
-                                            Book now
-                                        </a>
-                                    </p>
-                                </v-responsive>
-
-                                <v-responsive  height="100" class="seperator align-center">
-                                    <p class="text-center">
-                                        <router-link to="exclusive" class="subtitle-1">Exclusive bookings</router-link>
-                                    </p>
-                                </v-responsive>
-                            </v-layout>
-                            <!-- Contact -->
-
                         </v-card-text>
                     </v-card>
+                </v-col>
+            </v-row>
+
+            <v-row no-gutters class="mt-10">
+                <v-col cols="12" md="4" class="hidden-sm-and-down">
+                    <vue-video-section
+                            :elementId="'facilities1-video'"
+                            :ref="'facilities1-video'"
+                            :mp4Source="require('../assets/Facilities/1.mp4')"
+                            :mobileBreakpoint="992"
+                            :desktopHeight="720"
+                            :mobileHeight="720"
+                            :playsinline="true"
+                            :loop="true"
+                            :autoplay="true"
+                            :autobuffer="true"
+                            :muted="true"
+                    />
+                </v-col>
+
+                <v-col cols="12" md="4">
+                    <!-- Contact -->
+                    <v-layout justify-center align-center fill-height column wrap>
+                        <v-responsive class="align-center">
+                            <p class="text-center">
+                                <router-link to="contactus" class="subtitle-1">Contact us</router-link>
+                            </p>
+                        </v-responsive>
+
+                        <v-responsive class="align-center">
+                            <p class="text-center">
+                                <a href="https://hotels.cloudbeds.com/reservation/3DqprA" target="_blank"
+                                   class="subtitle-1">
+                                    Book now
+                                </a>
+                            </p>
+                        </v-responsive>
+
+                        <v-responsive class="align-center">
+                            <p class="text-center">
+                                <router-link to="exclusive" class="subtitle-1">Exclusive bookings</router-link>
+                            </p>
+                        </v-responsive>
+                    </v-layout>
+                    <!-- Contact -->
+                </v-col>
+
+                <v-col cols="12" md="4" class="hidden-sm-and-down">
+                    <vue-video-section
+                            :elementId="'facilities2-video'"
+                            :ref="'facilities2-video'"
+                            :mp4Source="require('../assets/Facilities/2.mp4')"
+                            :mobileBreakpoint="992"
+                            :desktopHeight="800"
+                            :mobileHeight="800"
+                            :playsinline="true"
+                            :loop="true"
+                            :autoplay="true"
+                            :autobuffer="true"
+                            :muted="true"
+                    />
                 </v-col>
             </v-row>
         </v-container>
@@ -144,15 +183,15 @@
                     'Badminton',
                     'Restaurant and BBQ',
                     'Food Action Stations',
-                    'Music, DJ and Lighting'
+                    'Music, DJ'
                 ],
                 otherFeatures: [
-                    'Facilities for Disabled Guests',
-                    'BBQ Facilities',
-                    'Sun Deck',
-                    'Non-smoking Rooms',
-                    'Satellite TV',
-                    'Private Veranda'
+                    'Hot water',
+                    'Wifi Access',
+                    'Events Lighting',
+                    'Self Contained Villas and Rooms',
+                    'Beach Towels for In-House Guests',
+                    'Organised Tours and Transportation'
                 ]
             }
         },

@@ -36,10 +36,10 @@
     <v-container class="pt-12">
       <h2 class="display-2">The Villas</h2>
       <p class="text-justify pa-2">
-        We provide a range of accommodation options from Superior cottages to Deluxe double occupancy rooms.
-        The main difference in each is the size of the rooms and living areas and the size of the beds.
-        The bungalows are situated on an one and a half acre (6070 square meter) landscaped, grassed land with
-        coconut and other native trees.
+        We provide a range of accommodation options that cater to different customer specifications.
+        The main difference in each is the size of the rooms, living areas, and added amenities.
+        All rooms and villas are situated on one and a half acres of landscaped, grassed land with
+        coconut trees and other native flora and fauna.
       </p>
       <v-layout wrap justify-center align-center>
         <v-col cols="12" v-for="(room, index) in rooms" :key="index" md="4">

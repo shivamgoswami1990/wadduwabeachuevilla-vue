@@ -5,21 +5,25 @@
 
         <v-container class="py-12">
             <v-layout justify-center align-start fill-height row wrap>
-                <v-card tile flat color="black" width="190" height="140" class="seperator">
+                <v-card tile flat color="black" width="250" height="140" class="seperator">
                     <v-card-title>LOCATION</v-card-title>
                     <v-card-text>Ground floor, Wadduwa Beach Villas</v-card-text>
                 </v-card>
 
-                <v-card tile flat color="black" width="200" height="140" class="seperator">
+                <v-card tile flat color="black" width="250" height="140" class="seperator">
                     <v-card-title>OPENING TIMES</v-card-title>
                     <v-card-text>
-                        Lunch: Sat - Thu, 12:00 - 14:30 | Dinner: Mon - Sat, 17:00 - 20:30
+                        <p class="pa-0 ma-0">Lunch: Sat - Thu, 12:00 - 14:30</p>
+                        <p class="pa-0 ma-0">Dinner: Mon - Sat, 17:00 - 20:30</p>
                     </v-card-text>
                 </v-card>
 
-                <v-card tile flat color="black" width="190" height="140" class="hidden-xs-only">
+                <v-card tile flat color="black" width="250" height="140" class="hidden-xs-only">
                     <v-card-title>CONTACT</v-card-title>
-                    <v-card-text>wadduwabeachvilla@gmail.com</v-card-text>
+                    <v-card-text>
+                        <p class="pa-0 ma-0">wadduwabeachvilla@gmail.com</p>
+                        <p class="pa-0 ma-0">wadduwabeachvilla@outlook.com</p>
+                    </v-card-text>
                 </v-card>
             </v-layout>
 

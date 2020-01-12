@@ -5,11 +5,14 @@
 
         <v-container class="py-12">
             <h2 class="display-2">Seeking Privacy and Exclusivity ?</h2>
-            <p class="pt-5">
+            <p class="pt-5 mb-0">
                 You can book the entire 1.5 acre property exclusively for yourself and company.
                 Rates starting from LKR 150,000 per night on BB basis.
-                <b>Get in touch with us at <a href="tel:+0094713770692">+0094713770692</a></b>
             </p>
+            <p>
+                <a href="tel:+0094713770692"><b>Get in touch with us at +0094713770692</b></a>
+            </p>
+
             <v-row no-gutters v-for="(feature, index) in features" :key="index">
                 <v-col cols="12" md="6" class="pa-4"
                        :order="getImageOrder(index)">
@@ -19,7 +22,7 @@
 
                 <v-col cols="12" md="6" order="1" class="pa-4">
                     <v-layout wrap fill-height justify-center align-center>
-                        <h3 class="headline white--text" style="max-width: 400px">{{feature.title}}</h3>
+                        <h3 class="headline white--text text-uppercase" style="max-width: 400px">{{feature.title}}</h3>
                     </v-layout>
                 </v-col>
             </v-row>
