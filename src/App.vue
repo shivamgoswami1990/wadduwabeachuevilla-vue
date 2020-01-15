@@ -104,6 +104,9 @@
                                 <a target="_blank" href="https://www.instagram.com/wadduwa.beach.villas/">
                                     <v-img :src="ig" max-width="40" max-height="40" contain class="ml-2"></v-img>
                                 </a>
+                                <a target="_blank" href="https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information">
+                                    <v-img :src="ex" max-width="40" max-height="40" contain class="ml-2"></v-img>
+                                </a>
                             </v-layout>
                         </v-col>
                     </v-row>
@@ -173,6 +176,7 @@
     import ta from "@/assets/Footer/ta.png";
     import ab from "@/assets/Footer/ab.png";
     import ig from "@/assets/Footer/ig.png";
+    import ex from "@/assets/Footer/ex.png";
     export default {
         data() {
             return {
@@ -182,6 +186,7 @@
                 ta: ta,
                 ab: ab,
                 ig: ig,
+                ex: ex,
                 videoHeight: null,
                 navItems: [
                     { title: "The Villas", isMainNavItem: true, linkTo: 'villas'},

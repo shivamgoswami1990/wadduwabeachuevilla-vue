@@ -59,7 +59,12 @@
 
                                     <v-btn color="primary" depressed block height="45" tile
                                            class="black--text mt-5" @click="openTargetLink(room)">
-                                        Book now</v-btn>
+                                        Book now with
+                                        <v-avatar size="30" class="ml-2">
+                                            <v-img :src="room.btnIconType === 'airbnb' ? ab : ex">
+                                            </v-img>
+                                        </v-avatar>
+                                    </v-btn>
                                 </v-col>
                             </v-row>
                             <!-- Image carousel, facilities & description -->
@@ -76,6 +81,8 @@
 <script>
     // @ is an alias to /src
     import BannerSection from "@/components/BannerSection.vue";
+    import ab from "@/assets/Footer/ab.png";
+    import ex from "@/assets/Footer/ex.png";
 
     export default {
         metaInfo: {
@@ -93,7 +100,9 @@
             return {
                 bannerHeight: null,
                 tab: null,
-                rooms: []
+                rooms: [],
+                ab: ab,
+                ex: ex
             }
         },
         mounted() {
