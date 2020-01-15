@@ -56,7 +56,11 @@
 
             <v-btn tile block color="primary" class="elevation-0 black--text font-weight-bold"
                    height="45px" :href="room.altLink" target="_blank">
-              Book now
+              Book now with
+              <v-avatar size="30" class="ml-2">
+                <v-img :src="room.btnIconType === 'airbnb' ? ab : ex">
+                </v-img>
+              </v-avatar>
             </v-btn>
 
             <v-card-text class="black--text text-justify">
@@ -116,6 +120,8 @@
 <script>
 // @ is an alias to /src
 import VueVideoSection from 'vue-video-section';
+import ab from "@/assets/Footer/ab.png";
+import ex from "@/assets/Footer/ex.png";
 
 export default {
   metaInfo: {
@@ -132,7 +138,9 @@ export default {
   data() {
     return {
       videoHeight: null,
-      rooms: []
+      rooms: [],
+      ab: ab,
+      ex: ex
     }
   },
   mounted() {

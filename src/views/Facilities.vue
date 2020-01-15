@@ -98,10 +98,36 @@
 
                         <v-responsive class="align-center">
                             <p class="text-center">
-                                <a href="https://hotels.cloudbeds.com/reservation/3DqprA" target="_blank"
-                                   class="subtitle-1">
-                                    Book now
-                                </a>
+
+                                <v-menu offset-y open-on-hover>
+                                    <template v-slot:activator="{ on }">
+                                        <a class="subtitle-1" v-on="on" style="text-decoration: underline">
+                                            Book now
+                                        </a>
+                                    </template>
+
+                                    <v-list color="black" light tile :rounded="false">
+                                        <v-list-item @click="openBookNowLink('airbnb')">
+                                            <v-list-item-title class="text--primary font-weight-bold">
+                                                Book now with
+                                                <v-avatar size="30" class="ml-2">
+                                                    <v-img :src="ab">
+                                                    </v-img>
+                                                </v-avatar>
+                                            </v-list-item-title>
+                                        </v-list-item>
+
+                                        <v-list-item @click="openBookNowLink('expedia')">
+                                            <v-list-item-title class="text--primary font-weight-bold">
+                                                Book now with
+                                                <v-avatar size="30" class="ml-2">
+                                                    <v-img :src="ex">
+                                                    </v-img>
+                                                </v-avatar>
+                                            </v-list-item-title>
+                                        </v-list-item>
+                                    </v-list>
+                                </v-menu>
                             </p>
                         </v-responsive>
 
@@ -159,6 +185,8 @@
     // @ is an alias to /src
     import BannerSection from "@/components/BannerSection.vue";
     import VueVideoSection from 'vue-video-section';
+    import ab from "@/assets/Footer/ab.png";
+    import ex from "@/assets/Footer/ex.png";
 
     export default {
         metaInfo: {
@@ -197,7 +225,9 @@
                     'Organised Tours and Transportation',
                     'Free Wifi',
                     'Beach View'
-                ]
+                ],
+                ab: ab,
+                ex: ex
             }
         },
         mounted() {
@@ -209,6 +239,15 @@
                 left: 0,
                 behavior: 'smooth'
             });
+        },
+        methods: {
+            openBookNowLink(companyName) {
+                if (companyName === 'airbnb') {
+                    window.open('https://www.airbnb.com/users/show/19675962', '_blank');
+                } else if (companyName === 'expedia') {
+                    window.open('https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information', '_blank');
+                }
+            }
         }
     }
 </script>

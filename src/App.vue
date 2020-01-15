@@ -38,14 +38,40 @@
 
                 <v-spacer></v-spacer>
 
-                <v-btn color="primary" @click="openBookingLink"
-                       height="80%" width="40%" max-width="170px" class="black--text hidden-sm-and-down" tile>
-                    Book Now
-                </v-btn>
+                <v-menu offset-y open-on-hover>
+                    <template v-slot:activator="{ on }">
+                        <v-btn color="primary" v-on="on"
+                               height="80%" width="40%" max-width="170px" class="black--text hidden-sm-and-down" tile>
+                            Book Now
+                        </v-btn>
 
-                <v-btn href="tel:+94712532311" icon tile :ripple="false">
-                    <v-icon class="hidden-sm-and-up" color="primary" size="35">mdi-phone</v-icon>
-                </v-btn>
+                        <v-btn v-on="on" icon tile :ripple="false">
+                            <v-icon class="hidden-sm-and-up" color="primary" size="35">mdi-phone</v-icon>
+                        </v-btn>
+                    </template>
+
+                    <v-list color="black" light tile :rounded="false">
+                        <v-list-item @click="openBookNowLink('airbnb')">
+                            <v-list-item-title class="text--primary font-weight-bold">
+                                Book now with
+                                <v-avatar size="30" class="ml-2">
+                                    <v-img :src="ab">
+                                    </v-img>
+                                </v-avatar>
+                            </v-list-item-title>
+                        </v-list-item>
+
+                        <v-list-item @click="openBookNowLink('expedia')">
+                            <v-list-item-title class="text--primary font-weight-bold">
+                                Book now with
+                                <v-avatar size="30" class="ml-2">
+                                    <v-img :src="ex">
+                                    </v-img>
+                                </v-avatar>
+                            </v-list-item-title>
+                        </v-list-item>
+                    </v-list>
+                </v-menu>
             </v-app-bar>
 
             <v-content class="pt-0">
@@ -174,8 +200,8 @@
     import logo from "@/assets/logo.png";
     import fb from "@/assets/Footer/fb.png";
     import ta from "@/assets/Footer/ta.png";
-    import ab from "@/assets/Footer/ab.png";
     import ig from "@/assets/Footer/ig.png";
+    import ab from "@/assets/Footer/ab.png";
     import ex from "@/assets/Footer/ex.png";
     export default {
         data() {
@@ -184,8 +210,8 @@
                 logo: logo,
                 fb: fb,
                 ta: ta,
-                ab: ab,
                 ig: ig,
+                ab: ab,
                 ex: ex,
                 videoHeight: null,
                 navItems: [
@@ -200,6 +226,13 @@
         methods: {
             openBookingLink() {
                 window.open('https://hotels.cloudbeds.com/reservation/3DqprA', '_blank');
+            },
+            openBookNowLink(companyName) {
+                if (companyName === 'airbnb') {
+                    window.open('https://www.airbnb.com/users/show/19675962', '_blank');
+                } else if (companyName === 'expedia') {
+                    window.open('https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information', '_blank');
+                }
             }
         }
     }
