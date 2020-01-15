@@ -7,8 +7,8 @@
             <h2 class="display-2">Seeking Privacy and Exclusivity ?</h2>
             <p class="pt-5 mb-0">
                 You can book the entire 1.5 acre property exclusively for yourself and company.
-                Rates starting from LKR 150,000 per night on BB basis.
             </p>
+            <p class="mb-0">Rates starting from LKR 150,000 per night on BB basis.</p>
             <p>
                 <a href="tel:+0094713770692"><b>Get in touch with us at +0094713770692</b></a>
             </p>

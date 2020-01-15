@@ -8,8 +8,8 @@
             <p class="pt-5 mb-0">
                 We are able to use our facilities to provide you with a custom experience,
                 be it as a day out package or as an in-house guest.
-                Please view our videos for examples of events we have hosted.
             </p>
+            <p class="mb-0">Please view our videos for examples of events we have hosted.</p>
             <p>
                 <router-link to="contactus"><b>Contact us</b></router-link>
                 to create your own unique experience today.

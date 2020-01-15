@@ -66,8 +66,8 @@ Vue.prototype.availableRooms = () => {
       people: 4,
       parentDir: 'FamilyVilla',
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
-      link: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH",
-      altLink: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH"
+      link: "https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579088127_n%2Ftg0WXIR0%2F4Retl",
+      altLink: "https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579088127_n%2Ftg0WXIR0%2F4Retl"
     },
     {
       name: "Two Bedroom Villa",
@@ -88,8 +88,8 @@ Vue.prototype.availableRooms = () => {
       people: 2,
       parentDir: 'HoneymoonVilla',
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
-      link: "https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579079028_%2BLvtRkywymUu47CN",
-      altLink: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH"
+      link: "https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1579088185_%2FYvlnDpyHBmFUoBl",
+      altLink: "https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1579088185_%2FYvlnDpyHBmFUoBl"
     }
   ];
 };
