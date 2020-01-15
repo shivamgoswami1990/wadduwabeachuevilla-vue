@@ -54,7 +54,7 @@ Vue.prototype.availableRooms = () => {
       facilities: ["Pool view", "Attached bathroom", "Kitchen", "Veranda"],
       people: 2,
       parentDir: 'TripleRoom',
-      images: ['1.jpg', '2.jpg'],
+      images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'],
       link: "https://hotels.cloudbeds.com/reservation/3DqprA",
       altLink: "https://hotels.cloudbeds.com/reservation/3DqprA"
     },
