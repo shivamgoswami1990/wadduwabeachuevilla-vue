@@ -44,8 +44,8 @@ Vue.prototype.availableRooms = () => {
       people: 2,
       parentDir: 'DoubleRoom',
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
-      link: "https://hotels.cloudbeds.com/reservation/3DqprA",
-      altLink: "https://hotels.cloudbeds.com/reservation/3DqprA"
+      link: "https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information",
+      altLink: "https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information"
     },
     {
       name: "Triple Room",
@@ -55,8 +55,8 @@ Vue.prototype.availableRooms = () => {
       people: 2,
       parentDir: 'TripleRoom',
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'],
-      link: "https://hotels.cloudbeds.com/reservation/3DqprA",
-      altLink: "https://hotels.cloudbeds.com/reservation/3DqprA"
+      link: "https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information",
+      altLink: "https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information"
     },
     {
       name: "Family Villa",
@@ -66,8 +66,8 @@ Vue.prototype.availableRooms = () => {
       people: 4,
       parentDir: 'FamilyVilla',
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
-      link: "https://hotels.cloudbeds.com/reservation/3DqprA",
-      altLink: "https://hotels.cloudbeds.com/reservation/3DqprA"
+      link: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH",
+      altLink: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH"
     },
     {
       name: "Two Bedroom Villa",
@@ -77,8 +77,8 @@ Vue.prototype.availableRooms = () => {
       people: 4,
       parentDir: 'TwoRoomVilla',
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
-      link: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1578334775_ae4H3z%2FC6DWd9EV6",
-      altLink: "tel:+0094713770692"
+      link: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH",
+      altLink: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH"
     },
     {
       name: "Honeymoon Villa",
@@ -88,8 +88,8 @@ Vue.prototype.availableRooms = () => {
       people: 2,
       parentDir: 'HoneymoonVilla',
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
-      link: "https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1578334672_9d%2FqFgFRqPEwmSBS",
-      altLink: "tel:+0094713770692"
+      link: "https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579079028_%2BLvtRkywymUu47CN",
+      altLink: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH"
     }
   ];
 };

@@ -177,21 +177,26 @@
                 bannerHeight: null,
                 features: ['Free WiFi', 'Free Parking'],
                 mainFeatures: [
-                    'Pool and Baby Pool',
+                    'Outdoor Pool (Pool and Baby Pool)',
                     'Beach Access',
                     'Beach Volleyball',
                     'Badminton',
                     'Restaurant and BBQ',
                     'Food Action Stations',
-                    'Music, DJ'
+                    'Music and DJ',
+                    'Air Conditioned and Non-Smoking Rooms',
+                    'Designated Smoking Area'
                 ],
                 otherFeatures: [
                     'Hot water',
                     'Wifi Access',
                     'Events Lighting',
+                    'Free Parking',
                     'Self Contained Villas and Rooms',
                     'Beach Towels for In-House Guests',
-                    'Organised Tours and Transportation'
+                    'Organised Tours and Transportation',
+                    'Free Wifi',
+                    'Beach View'
                 ]
             }
         },
