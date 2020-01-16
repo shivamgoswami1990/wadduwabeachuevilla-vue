@@ -98,36 +98,7 @@
 
                         <v-responsive class="align-center">
                             <p class="text-center">
-
-                                <v-menu offset-y open-on-hover>
-                                    <template v-slot:activator="{ on }">
-                                        <a class="subtitle-1" v-on="on" style="text-decoration: underline">
-                                            Book now
-                                        </a>
-                                    </template>
-
-                                    <v-list color="black" light tile :rounded="false">
-                                        <v-list-item @click="openBookNowLink('airbnb')">
-                                            <v-list-item-title class="text--primary font-weight-bold">
-                                                Book now with
-                                                <v-avatar size="30" class="ml-2">
-                                                    <v-img :src="ab">
-                                                    </v-img>
-                                                </v-avatar>
-                                            </v-list-item-title>
-                                        </v-list-item>
-
-                                        <v-list-item @click="openBookNowLink('expedia')">
-                                            <v-list-item-title class="text--primary font-weight-bold">
-                                                Book now with
-                                                <v-avatar size="30" class="ml-2">
-                                                    <v-img :src="ex">
-                                                    </v-img>
-                                                </v-avatar>
-                                            </v-list-item-title>
-                                        </v-list-item>
-                                    </v-list>
-                                </v-menu>
+                                <book-now-menu type="anchor"/>
                             </p>
                         </v-responsive>
 
@@ -185,6 +156,7 @@
     // @ is an alias to /src
     import BannerSection from "@/components/BannerSection.vue";
     import VueVideoSection from 'vue-video-section';
+    import BookNowMenu from '@/components/BookNowMenu.vue';
     import ab from "@/assets/Footer/ab.png";
     import ex from "@/assets/Footer/ex.png";
 
@@ -198,7 +170,7 @@
             ]
         },
         components: {
-            BannerSection,VueVideoSection
+            BannerSection, VueVideoSection, BookNowMenu
         },
         data() {
             return {

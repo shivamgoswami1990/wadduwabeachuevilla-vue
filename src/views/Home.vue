@@ -41,41 +41,8 @@
         All rooms and villas are situated on one and a half acres of landscaped, grassed land with
         coconut trees and other native flora and fauna.
       </p>
-      <v-layout wrap justify-center align-center>
-        <v-col cols="12" v-for="(room, index) in rooms" :key="index" md="4">
-          <v-responsive aspect-ratio="16/9">
-          <v-card tile color="white" class="black--text ma-4" height="580">
-            <v-img height="300" :src="require('@/assets/Villas/rooms/' + room.parentDir + '/' + room.images[0])"
-                   class="white--text align-end" gradient="to bottom, transparent, rgba(0,0,0,0.5)">
-              <v-card-title class="font-weight-bold">{{room.name}}</v-card-title>
-            </v-img>
 
-            <v-chip label color="primary" class="black--text font-weight-bold" style="position: absolute; top: 0; right: 0">
-              Starting from USD {{room.price}}
-            </v-chip>
-
-            <v-btn tile block color="primary" class="elevation-0 black--text font-weight-bold"
-                   height="45px" :href="room.altLink" target="_blank">
-              Book now with
-              <v-avatar size="30" class="ml-2">
-                <v-img :src="room.btnIconType === 'airbnb' ? ab : ex">
-                </v-img>
-              </v-avatar>
-            </v-btn>
-
-            <v-card-text class="black--text text-justify">
-              {{room.description}}
-            </v-card-text>
-
-            <router-link class="explore-container" to="/villas">
-              <div class="explore">
-                <v-icon color="black" size="25">mdi-arrow-right</v-icon>
-              </div>
-            </router-link>
-          </v-card>
-          </v-responsive>
-        </v-col>
-      </v-layout>
+      <room-cards :data="rooms" :height="580"/>
     </v-container>
     <!-- Rooms section -->
   </div>
@@ -99,29 +66,12 @@
   #content-video {
     z-index: 2;
   }
-
-  .explore-container {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: #FADE03;
-    width: 300px;
-    height: 100px;
-    clip-path: polygon(100% 55%, 0% 100%, 100% 100%);
-
-    & .explore {
-      position: absolute;
-      bottom: 5px;
-      right: 10px;
-    }
-  }
 </style>
 
 <script>
 // @ is an alias to /src
 import VueVideoSection from 'vue-video-section';
-import ab from "@/assets/Footer/ab.png";
-import ex from "@/assets/Footer/ex.png";
+import RoomCards from '@/components/RoomCards.vue';
 
 export default {
   metaInfo: {
@@ -133,14 +83,12 @@ export default {
     ]
   },
   components: {
-    VueVideoSection
+    VueVideoSection, RoomCards
   },
   data() {
     return {
       videoHeight: null,
-      rooms: [],
-      ab: ab,
-      ex: ex
+      rooms: []
     }
   },
   mounted() {

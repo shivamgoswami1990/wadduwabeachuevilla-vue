@@ -46,7 +46,7 @@ Vue.prototype.availableRooms = () => {
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
       link: "https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information",
       altLink: "https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information",
-      btnIconType: 'expedia'
+      btnBookWithIconPath: "ex.png"
     },
     {
       name: "Triple Room",
@@ -58,7 +58,7 @@ Vue.prototype.availableRooms = () => {
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'],
       link: "https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information",
       altLink: "https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information",
-      btnIconType: 'expedia'
+      btnBookWithIconPath: 'ex.png'
     },
     {
       name: "Family Villa",
@@ -70,7 +70,7 @@ Vue.prototype.availableRooms = () => {
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
       link: "https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579088127_n%2Ftg0WXIR0%2F4Retl",
       altLink: "https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579088127_n%2Ftg0WXIR0%2F4Retl",
-      btnIconType: 'airbnb'
+      btnBookWithIconPath: 'ab.png'
     },
     {
       name: "Two Bedroom Villa",
@@ -82,7 +82,7 @@ Vue.prototype.availableRooms = () => {
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
       link: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH",
       altLink: "https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH",
-      btnIconType: 'airbnb'
+      btnBookWithIconPath: 'ab.png'
     },
     {
       name: "Honeymoon Villa",
@@ -94,7 +94,7 @@ Vue.prototype.availableRooms = () => {
       images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
       link: "https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1579088185_%2FYvlnDpyHBmFUoBl",
       altLink: "https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1579088185_%2FYvlnDpyHBmFUoBl",
-      btnIconType: 'airbnb'
+      btnBookWithIconPath: 'ab.png'
     }
   ];
 };

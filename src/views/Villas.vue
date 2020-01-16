@@ -57,14 +57,7 @@
                                     <p class="mt-5 mb-0 pb-0 font-weight-bold subtitle-1">Description</p>
                                     <p class="text-justify">{{room.description}}</p>
 
-                                    <v-btn color="primary" depressed block height="45" tile
-                                           class="black--text mt-5" @click="openTargetLink(room)">
-                                        Book now with
-                                        <v-avatar size="30" class="ml-2">
-                                            <v-img :src="room.btnIconType === 'airbnb' ? ab : ex">
-                                            </v-img>
-                                        </v-avatar>
-                                    </v-btn>
+                                    <btn-with-icon :href="room.altLink" :icon-src="room.btnBookWithIconPath"/>
                                 </v-col>
                             </v-row>
                             <!-- Image carousel, facilities & description -->
@@ -81,6 +74,7 @@
 <script>
     // @ is an alias to /src
     import BannerSection from "@/components/BannerSection.vue";
+    import BtnWithIcon from '@/components/BtnWithIcon.vue';
     import ab from "@/assets/Footer/ab.png";
     import ex from "@/assets/Footer/ex.png";
 
@@ -94,7 +88,7 @@
             ]
         },
         components: {
-            BannerSection
+            BannerSection, BtnWithIcon
         },
         data() {
             return {
