@@ -9,7 +9,7 @@
             </v-btn>
 
             <v-btn v-on="on" icon tile :ripple="false" v-if="$attrs.type === 'button'">
-                <v-icon class="hidden-sm-and-up" color="primary" size="35">mdi-phone</v-icon>
+                <v-icon class="hidden-sm-and-up" color="primary" size="35">mdi-airplane-takeoff</v-icon>
             </v-btn>
 
             <a class="subtitle-1" v-on="on" style="text-decoration: underline" v-if="$attrs.type === 'anchor'">

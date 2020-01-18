@@ -23,7 +23,8 @@
                             <!-- Image carousel, facilities & description -->
                             <v-row>
                                 <v-col cols="12" md="7">
-                                    <v-carousel hide-delimiter-background delimiter-icon="mdi-minus" height="500">
+                                    <v-carousel hide-delimiter-background id="carousel-container"
+                                                delimiter-icon="mdi-minus" height="500">
                                         <v-carousel-item v-for="(image, index2) in room.images" :key="index2"
                                                          :src="require('@/assets/Villas/rooms/' + room.parentDir + '/' + image)"
                                                          reverse-transition="fade-transition"
@@ -71,6 +72,16 @@
     </div>
 </template>
 
+<style lang="scss">
+    #carousel-container {
+        .v-image {
+            .v-image__image.v-image__image--cover {
+                background-size: contain !important;
+            }
+        }
+    }
+</style>
+
 <script>
     // @ is an alias to /src
     import BannerSection from "@/components/BannerSection.vue";
@@ -103,16 +114,14 @@
             this.bannerHeight = this.visibleViewportHeight();
             this.rooms = this.availableRooms();
 
-            //Scroll to top
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'smooth'
-            });
-        },
-        methods: {
-            openTargetLink(room) {
-                window.open(room.link, '_blank');
+            if (this.$route.params !== undefined && this.$route.params !== null) {
+                // Set the tab id & scroll to  iy
+                this.tab = 'tab-' + this.$route.params.index;
+                this.$vuetify.goTo(
+                    document.getElementsByClassName('v-tabs-items')[0], {
+                        offset: -500
+                    }
+                );
             }
         }
     }

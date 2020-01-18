@@ -203,13 +203,6 @@
         mounted() {
             this.bannerHeight = this.visibleViewportHeight();
             this.viewportWidth = this.visibleViewportWidth();
-
-            //Scroll to top
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'smooth'
-            });
         },
         methods: {
             showDialog(imagePath) {

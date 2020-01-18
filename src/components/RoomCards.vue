@@ -18,7 +18,7 @@
                         {{room.description}}
                     </v-card-text>
 
-                    <router-link class="explore-container" to="/villas">
+                    <router-link class="explore-container" :to="{ name: 'villas', params: { index: index}}">
                         <div class="explore">
                             <v-icon color="black" size="25">mdi-arrow-right</v-icon>
                         </div>

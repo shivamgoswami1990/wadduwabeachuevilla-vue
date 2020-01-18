@@ -21,10 +21,9 @@
             <div class="title text--secondary">Sri Lanka</div>
             <h1 class="white--text" :class="$vuetify.breakpoint.mdAndDown ? 'display-3' : 'display-4'">Wadduwa Beach Villas</h1>
             <div class="display-1 white--text text--secondary">A local icon of private luxury</div>
-            <a class="title" :style="{ color: $vuetify.theme.currentTheme.primary }">
+            <router-link class="title" :style="{ color: $vuetify.theme.currentTheme.primary }" to="/facilities">
               Find out more about our packages
-              <v-icon color="primary" size="30">mdi-chevron-right</v-icon>
-            </a>
+            </router-link>
 
           </v-layout>
         </v-container>
@@ -94,13 +93,6 @@ export default {
   mounted() {
     this.videoHeight = this.visibleViewportHeight();
     this.rooms = this.availableRooms();
-
-    //Scroll to top
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    });
   }
 }
 </script>

@@ -4,8 +4,12 @@
             <nav-drawer :items="navItems" :drawer.sync="drawer"/>
 
             <v-app-bar app color="transparent" tile height="70px" elevation="0" hide-on-scroll fixed>
-                <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-                <a @click="$router.push({ name: 'home'})">
+                <v-app-bar-nav-icon @click.stop="drawer = !drawer">
+                    <slot>
+                        <v-icon size="32" color="primary">mdi-text</v-icon>
+                    </slot>
+                </v-app-bar-nav-icon>
+                <a @click="$router.push({ name: 'home'})" class="ml-5">
                     <v-avatar width="200px" tile>
                         <v-img :src="logo" contain></v-img>
                     </v-avatar>
