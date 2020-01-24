@@ -20,6 +20,10 @@
                                       :rules="[rules.required]" class="my-2">
                         </v-textarea>
 
+                        <v-alert type="primary" class="black--text" border="top"
+                                 outlined light icon="mdi-check-circle" v-if="showSuccessMessage">
+                            Your query has been submitted. We will be in touch
+                        </v-alert>
                         <v-btn color="primary" type="submit" tile :disabled="!valid" depressed width="40%" height="45"
                                @click.native="save" class="black--text mt-5">Submit</v-btn>
                     </v-form>
@@ -78,16 +82,51 @@
                 },
                 name: '',
                 email: '',
-                message: ''
+                message: '',
+                showSuccessMessage: false
             }
         },
         mounted() {
             this.bannerHeight = this.visibleViewportHeight();
+            console.log(process.env.VUE_APP_REST_URL);
         },
         methods: {
             save() {
                 if (this.$refs.form.validate()) {
-                    console.log("Form valid");
+                    // Submit form on valid
+                    const data = { contact: {
+                        "name": this.name,
+                        "email": this.email,
+                        "message": this.message,
+                        }};
+                    let vm = this;
+                    fetch(process.env.VUE_APP_REST_URL + '/contacts', {
+                        method: 'POST', // or 'PUT'
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data),
+                    })
+                        .then((response) => response.json())
+                        .then((data) => {
+                            // On success, clear form & display success message
+                            if ('response_code' in data) {
+                                if (data.response_code === '202') {
+                                    vm.name = '';
+                                    vm.email = '';
+                                    vm.message = '';
+
+                                    // Show the message on a timeout
+                                    vm.showSuccessMessage = true;
+                                    setTimeout(function () {
+                                        vm.showSuccessMessage = false;
+                                    }, 4000);
+                                }
+                            }
+                        })
+                        .catch((error) => {
+                            console.error('Error:', error);
+                        });
                 }
             },
             openMaps() {
