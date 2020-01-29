@@ -163,10 +163,11 @@
     export default {
         metaInfo: {
             title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Facilities → %s',
+            titleTemplate: 'Music and DJ → Outdoor functions → Free parking → Free WiFi → Pool → %s',
             meta: [
-                { name: 'name', content: 'Wadduwa Beach Villa facilities' },
-                { name: 'description', content: 'Luxury Villa Amenities' }
+                { name: 'name', content: 'Facilities at Wadduwa Beach Villa' },
+                { name: 'description', content: 'Come and enjoy a great day out by the pool. We have facilities such as' +
+                        ' free parking, music, events lighting, beach view, self contained villas to make your stay comfortable' }
             ]
         },
         components: {

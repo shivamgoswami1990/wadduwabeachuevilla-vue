@@ -18,7 +18,7 @@
 
                 <div class="hidden-md-and-down">
                     <v-btn text tile height="70" class="font-weight-bold nav-btn" v-for="(item, index) in navItems" :key="index"
-                           v-if="item.isMainNavItem" :to="item.linkTo">
+                           v-if="item.isMainNavItem" :to="{ 'name' : item.linkTo}">
                         {{item.title}}
                     </v-btn>
                 </div>

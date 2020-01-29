@@ -144,10 +144,11 @@
     export default {
         metaInfo: {
             title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Restaurant → %s',
+            titleTemplate: 'Restaurant → Outdoor BBQ → Buffet → Beach resort dining → %s',
             meta: [
-                { name: 'name', content: 'Wadduwa Beach Villa restaurant' },
-                { name: 'description', content: 'The finest dining experience paired with panoramic ocean views' }
+                { name: 'name', content: 'Wadduwa Beach Villa Restaurant' },
+                { name: 'description', content: 'Visit our villa for a great outdoor dining experience by' +
+                        ' the beach. We have daily buffets and some of the best dishes in Sri Lanka.' }
             ]
         },
         components: {

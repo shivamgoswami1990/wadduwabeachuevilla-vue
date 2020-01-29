@@ -13,7 +13,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
   },
   {
-    path: '/contactus',
+    path: '/contact-beachfront-hotel-in-wadduwa',
     name: 'contactus',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -21,7 +21,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/ContactUs.vue')
   },
   {
-    path: '/villas',
+    path: '/luxury-villas-triple-room-two-bedroom-villa-family-villa',
     name: 'villas',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -29,7 +29,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Villas.vue')
   },
   {
-    path: '/restaurant',
+    path: '/restaurants-wadduwa-buffet-bed-and-breakfast-outdoor-dining',
     name: 'restaurant',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -37,7 +37,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Restaurant.vue')
   },
   {
-    path: '/exclusive',
+    path: '/corporate-functions-and-exclusive-private-outings',
     name: 'exclusive',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -45,7 +45,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Exclusive.vue')
   },
   {
-    path: '/facilities',
+    path: '/outdoor-pool-restaurant-free-wifi-beach-view-villas',
     name: 'facilities',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

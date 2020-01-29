@@ -92,10 +92,11 @@
     export default {
         metaInfo: {
             title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Rooms → %s',
+            titleTemplate: 'Honeymoon Villa → Family Villa → Double Room → %s',
             meta: [
-                { name: 'name', content: 'Wadduwa Beach Villa rooms' },
-                { name: 'description', content: 'Rooms and Villas' }
+                { name: 'name', content: 'Luxury villas in Wadduwa' },
+                { name: 'description', content: 'Come and enjoy your stay at luxury villas with outdoor pool,' +
+                        ' beach view and restaurant' }
             ]
         },
         components: {

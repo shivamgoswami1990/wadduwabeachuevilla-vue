@@ -75,10 +75,11 @@ import RoomCards from '@/components/RoomCards.vue';
 export default {
   metaInfo: {
     title: 'Wadduwa Beach Villa',
-    titleTemplate: 'Home → %s',
+    titleTemplate: 'Beach villas → Outdoor Events → Day out packages → Villas near Colombo → %s',
     meta: [
-      { name: 'name', content: 'Wadduwa Beach Villa Home' },
-      { name: 'description', content: 'A local icon of private luxury' }
+      { name: 'name', content: 'Visit luxury beach villas near Colombo' },
+      { name: 'description', content: 'Come stay at an affordable luxury villa in Sri Lanka.' +
+                'Enjoy great local cuisine outdoors by the beach' }
     ]
   },
   components: {

@@ -37,10 +37,10 @@
     export default {
         metaInfo: {
             title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Exclusive → %s',
+            titleTemplate: 'Corporate functions → Private pool → Dedicated restaurant → %s',
             meta: [
-                { name: 'name', content: 'Wadduwa Beach Villa exclusive bookings' },
-                { name: 'description', content: 'Corporate and Private functions' }
+                { name: 'name', content: 'Exclusive bookings near Colombo, Sri Lanka' },
+                { name: 'description', content: 'Contact us for your next corporate functions, weddings and family outings' }
             ]
         },
         components: {

@@ -24,8 +24,14 @@
                                  outlined light icon="mdi-check-circle" v-if="showSuccessMessage">
                             Your query has been submitted. We will be in touch
                         </v-alert>
+                        <v-alert type="error" class="black--text" border="top"
+                                 outlined light icon="mdi-cancel" v-if="showErrorMessage">
+                            Something went wrong. Please try again
+                        </v-alert>
                         <v-btn color="primary" type="submit" tile :disabled="!valid" depressed width="40%" height="45"
-                               @click.native="save" class="black--text mt-5">Submit</v-btn>
+                               @click.native="save" class="black--text mt-5" :loading="isLoading">
+                            Submit
+                        </v-btn>
                     </v-form>
                 </v-col>
 
@@ -51,10 +57,10 @@
     export default {
         metaInfo: {
             title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Contact us → %s',
+            titleTemplate: 'Contact beach villas → %s',
             meta: [
-                { name: 'name', content: 'Wadduwa Beach Villa contact us' },
-                { name: 'description', content: 'Get in touch' }
+                { name: 'name', content: 'Contact us' },
+                { name: 'description', content: 'Contact Beach Hotel near Colombo in Sri Lanka' }
             ]
         },
         components: {
@@ -83,7 +89,9 @@
                 name: '',
                 email: '',
                 message: '',
-                showSuccessMessage: false
+                showSuccessMessage: false,
+                showErrorMessage: false,
+                isLoading: false
             }
         },
         mounted() {
@@ -100,6 +108,7 @@
                         "message": this.message,
                         }};
                     let vm = this;
+                    vm.isLoading = true;
                     fetch(process.env.VUE_APP_REST_URL + '/contacts', {
                         method: 'POST', // or 'PUT'
                         headers: {
@@ -115,6 +124,7 @@
                                     vm.name = '';
                                     vm.email = '';
                                     vm.message = '';
+                                    vm.isLoading = false;
 
                                     // Show the message on a timeout
                                     vm.showSuccessMessage = true;
@@ -125,7 +135,13 @@
                             }
                         })
                         .catch((error) => {
-                            console.error('Error:', error);
+                            vm.isLoading = false;
+                            console.log(error);
+                            // Show the message on a timeout
+                            vm.showErrorMessage = true;
+                            setTimeout(function () {
+                                vm.showErrorMessage = false;
+                            }, 4000);
                         });
                 }
             },
