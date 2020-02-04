@@ -116,13 +116,15 @@
             this.rooms = this.availableRooms();
 
             if (this.$route.params !== undefined && this.$route.params !== null) {
-                // Set the tab id & scroll to  iy
-                this.tab = 'tab-' + this.$route.params.index;
-                this.$vuetify.goTo(
-                    document.getElementsByClassName('v-tabs-items')[0], {
-                        offset: -500
-                    }
-                );
+                if (Object.keys(this.$route.params).length > 0) {
+                    // Set the tab id & scroll to  iy
+                    this.tab = 'tab-' + this.$route.params.index;
+                    this.$vuetify.goTo(
+                        document.getElementsByClassName('v-tabs-items')[0], {
+                            offset: -500
+                        }
+                    );
+                }
             }
         }
     }

@@ -62,7 +62,11 @@
         </v-footer>
 
         <v-bottom-navigation background-color="black" dark height="50">
-            <p class="text-center">© Copyright 2020 Wadduwa Beach Villa. All rights reserved</p>
+            <p class="text-center">
+                © Copyright 2020 Wadduwa Beach Villa. All rights reserved
+                <br>
+                Made with ❣ by <a href="https://shivamgoswami.online" target="_blank">Shivam Goswami</a>
+            </p>
         </v-bottom-navigation>
     </div>
 </template>
