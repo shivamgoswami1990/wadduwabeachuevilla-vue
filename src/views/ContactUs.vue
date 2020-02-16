@@ -56,7 +56,7 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villa',
+            title: 'Wadduwa Beach Villas',
             titleTemplate: 'Contact beach villas → %s',
             meta: [
                 { name: 'name', content: 'Contact us' },

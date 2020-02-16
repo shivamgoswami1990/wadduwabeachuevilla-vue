@@ -36,7 +36,7 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villa',
+            title: 'Wadduwa Beach Villas',
             titleTemplate: 'Corporate functions → Private pool → Dedicated restaurant → %s',
             meta: [
                 { name: 'name', content: 'Exclusive bookings near Colombo, Sri Lanka' },

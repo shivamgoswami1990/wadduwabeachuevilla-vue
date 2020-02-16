@@ -11,7 +11,7 @@
             </p>
             <p class="mb-0">Please view our videos for examples of events we have hosted.</p>
             <p>
-                <router-link to="contactus"><b>Contact us</b></router-link>
+                <router-link :to="{ name: 'contactus' }"><b>Contact us</b></router-link>
                 to create your own unique experience today.
             </p>
 
@@ -92,7 +92,7 @@
                     <v-layout justify-center align-center fill-height column wrap>
                         <v-responsive class="align-center">
                             <p class="text-center">
-                                <router-link to="contactus" class="subtitle-1">Contact us</router-link>
+                                <router-link :to="{ name: 'contactus' }" class="subtitle-1">Contact us</router-link>
                             </p>
                         </v-responsive>
 
@@ -104,7 +104,7 @@
 
                         <v-responsive class="align-center">
                             <p class="text-center">
-                                <router-link to="exclusive" class="subtitle-1">Exclusive bookings</router-link>
+                                <router-link :to="{ name: 'exclusive' }" class="subtitle-1">Exclusive bookings</router-link>
                             </p>
                         </v-responsive>
                     </v-layout>
@@ -162,10 +162,10 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villa',
+            title: 'Wadduwa Beach Villas',
             titleTemplate: 'Music and DJ → Outdoor functions → Free parking → Free WiFi → Pool → %s',
             meta: [
-                { name: 'name', content: 'Facilities at Wadduwa Beach Villa' },
+                { name: 'name', content: 'Facilities at Wadduwa Beach Villas' },
                 { name: 'description', content: 'Come and enjoy a great day out by the pool. We have facilities such as' +
                         ' free parking, music, events lighting, beach view, self contained villas to make your stay comfortable' }
             ]

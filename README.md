@@ -20,6 +20,7 @@ yarn build
 yarn lint
 ```
 
-### Image sizes
+### Image sizes (https://www3.lunapic.com/)
 Content section - 540 x 360 (60% original quality)
 Title Section - 1199 x 800 (50% original quality)
+Blog section - 700 x 375 (80% original quality)

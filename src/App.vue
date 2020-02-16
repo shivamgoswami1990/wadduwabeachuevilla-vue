@@ -73,6 +73,7 @@
                     { title: "Restaurant", isMainNavItem: true, linkTo: 'restaurant'},
                     { title: "Facilities", isMainNavItem: true, linkTo: 'facilities'},
                     { title: "Exclusive", isMainNavItem: true, linkTo: 'exclusive'},
+                    { title: "Blog", isMainNavItem: true, linkTo: 'blog'},
                     { title: "Contact Us", isMainNavItem: false, linkTo: 'contactus'},
                 ]
             }
