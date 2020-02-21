@@ -23,6 +23,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.1.2",
+    "postcss-pxtorem": "^4.0.1",
     "prerender-spa-plugin": "^3.4.0",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
@@ -51,7 +52,15 @@
   },
   "postcss": {
     "plugins": {
-      "autoprefixer": {}
+      "autoprefixer": {},
+      "postcss-pxtorem": {
+        "rootValue": 16,
+        "unitPrecision": 5,
+        "propList": [
+          "*"
+        ],
+        "replace": true
+      }
     }
   },
   "browserslist": [
