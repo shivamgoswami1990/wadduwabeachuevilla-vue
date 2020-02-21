@@ -1,7 +1,7 @@
 <template>
-    <v-navigation-drawer v-model="drawer" temporary app color="black"
+    <v-navigation-drawer v-model="drawer" temporary app color="black" @transitionend="closeDrawer"
                          :width=" $vuetify.breakpoint.mdAndDown ? '100%': '30%'">
-        <v-icon size="35" style="position: absolute; right: 10px; top: 10px" @click.stop="syncDrawerValue(drawer)">
+        <v-icon size="35" style="position: absolute; right: 10px; top: 10px" @click="closeDrawer">
             mdi-close
         </v-icon>
         <v-layout justify-center align-center fill-height column>
@@ -22,10 +22,14 @@
 
 <script>
     export default {
-        props: ["drawer"],
+        data() {
+            return {
+                drawer: true
+            }
+        },
         methods: {
-            syncDrawerValue(val) {
-                this.$emit('update:drawer', !val);
+            closeDrawer() {
+                this.$emit('showDrawer', false);
             }
         }
     }

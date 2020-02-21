@@ -1,10 +1,10 @@
 <template>
     <div id="app">
         <v-app>
-            <nav-drawer :items="navItems" :drawer.sync="drawer"/>
+            <nav-drawer :items="navItems" v-if="showDrawer" @showDrawer="transitionend" />
 
             <v-app-bar app color="transparent" tile height="70px" elevation="0" hide-on-scroll fixed>
-                <v-app-bar-nav-icon @click.stop="drawer = !drawer">
+                <v-app-bar-nav-icon @click="showDrawer = true">
                     <slot>
                         <v-icon size="32" color="primary">mdi-text</v-icon>
                     </slot>
@@ -65,7 +65,7 @@
         },
         data() {
             return {
-                drawer: false,
+                showDrawer: false,
                 videoHeight: null,
                 logo: logo,
                 navItems: [
@@ -76,6 +76,11 @@
                     { title: "Blog", isMainNavItem: true, linkTo: 'blog'},
                     { title: "Contact Us", isMainNavItem: false, linkTo: 'contactus'},
                 ]
+            }
+        },
+        methods: {
+            transitionend() {
+                this.showDrawer = false;
             }
         }
     }
