@@ -8,14 +8,13 @@
                 <v-col cols="12" md="5" lg="4" class="align-self-center">
                     <div class="blog-img-container">
                         <div class="top-border-div"/>
-                        <div class="bottom-border-div"/>
                         <v-img :src="require('@/assets/Blog/' + post.image1)" width="100%" height="350"/>
                     </div>
                 </v-col>
 
                 <v-col cols="12" md="6" lg="7" class="align-self-center pl-5">
-                    <h2 class="post-title">{{post.subheading1}}</h2>
                     <p class="text-justify">{{post.section1}}</p>
+                    <h2 class="post-title">{{post.subheading1}}</h2>
                     <p class="text-justify">{{post.section2}}</p>
                 </v-col>
             </v-row>
@@ -32,7 +31,6 @@
                 <v-col cols="12" md="5" lg="4" class="align-self-center">
                     <div class="blog-img-container">
                         <div class="top-border-div"/>
-                        <div class="bottom-border-div"/>
                         <v-img :src="require('@/assets/Blog/' + post.image2)" width="100%" height="350"/>
                     </div>
                 </v-col>
