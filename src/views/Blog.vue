@@ -16,12 +16,26 @@
                 </v-col>
 
                 <v-col cols="12" md="6" lg="7" class="align-self-center">
-                    <h2 class="pb-5 post-title" :style="{ color: $vuetify.theme.currentTheme.primary }">
+                    <h2 class="pb-5 post-title"
+                        @click="$router.push(
+                            { name: 'post',
+                              params: {
+                                name: post.title.replace(/\s+/g, '-').toLowerCase()
+                                }
+                            })"
+                        :style="{ color: $vuetify.theme.currentTheme.primary }">
                         {{post.title}}
                     </h2>
                     <p class="text-justify mt-2">
                         {{post.section1}} ...
-                        <a>Read more</a>
+                        <a @click="$router.push(
+                            { name: 'post',
+                              params: {
+                                name: post.title.replace(/\s+/g, '-').toLowerCase()
+                                }
+                            })">
+                            Read more
+                        </a>
                     </p>
                 </v-col>
             </v-row>
@@ -29,9 +43,10 @@
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .post-title {
         text-decoration: underline;
+        cursor: pointer;
     }
 
     .blog-img-container {
