@@ -13,19 +13,19 @@
                 </v-col>
 
                 <v-col cols="12" md="6" lg="7" class="align-self-center pl-5">
-                    <p class="text-justify">{{post.section1}}</p>
-                    <h2 class="post-title">{{post.subheading1}}</h2>
-                    <p class="text-justify">{{post.section2}}</p>
+                    <p class="text-justify" v-html="post.section1"/>
+                    <h2 class="post-title" v-html="post.subheading1"/>
+                    <p class="text-justify" v-html="post.section2"></p>
                 </v-col>
             </v-row>
 
             <v-row class="mt-12">
                 <v-col cols="12" :order="$vuetify.breakpoint.smAndDown? 1 : 0" md="6" lg="7" class="align-self-center pl-5">
-                    <h2 class="post-title">{{post.subheading2}}</h2>
-                    <p class="text-justify">{{post.section3}}</p>
+                    <h2 class="post-title" v-html="post.subheading2"></h2>
+                    <p class="text-justify" v-html="post.section3"></p>
 
-                    <h2 class="post-title">{{post.subheading3}}</h2>
-                    <p class="text-justify">{{post.section4}}</p>
+                    <h2 class="post-title" v-html="post.subheading3"></h2>
+                    <p class="text-justify" v-html="post.section4"></p>
                 </v-col>
 
                 <v-col cols="12" md="5" lg="4" class="align-self-center">
@@ -36,9 +36,7 @@
                 </v-col>
             </v-row>
 
-            <v-row class="pa-5 pr-10 text-justify">
-                <p>{{post.section5}}</p>
-            </v-row>
+            <v-row class="pa-5 pr-10 text-justify"><p v-html="post.section5"/></v-row>
 
         </v-container>
     </div>
