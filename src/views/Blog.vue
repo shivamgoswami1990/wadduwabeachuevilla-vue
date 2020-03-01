@@ -27,7 +27,7 @@
                         {{post.title}}
                     </h2>
                     <p class="text-justify mt-2">
-                        {{post.section1}} ...
+                        {{post.blogFeatDesc}} ...
                         <a @click="$router.push(
                             { name: 'post',
                               params: {

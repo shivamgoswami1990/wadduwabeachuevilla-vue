@@ -103,6 +103,7 @@ Vue.prototype.blogPosts = () => {
   return [
     {
       title: "3 Reasons Why You Should Stay at Wadduwa Beach Villas",
+      blogFeatDesc: "This post aims to provide you with 3 concise reasons, as to why you should visit and stay with us at Wadduwa Beach Villas. The villa was founded in 2014 - six years ago and has been welcoming guests from all over the world.  We are proud to be a quiet getaway near Colombo with outstanding Sri Lankan hospitality",
       section1: "Hello everyone. This post aims to provide you with 3 concise reasons, as to why you should visit and stay with us at Wadduwa Beach Villas. The villa was founded in 2014 - six years ago and has been welcoming guests from all over the world.  We are proud to be a quiet getaway near Colombo with outstanding Sri Lankan hospitality",
       subheading1: "Private Pool",
       section2: "The hot and humid weather of Sri Lanka means you will be spending a lot of time in the water! We have a large outdoor pool which you can indulge yourself in. Cool off during the day or enjoy the warm water as the colder weather of the night sets in.  Traveling with kids? No worries we have a baby pool too! The pool is attended by staff and you can order your favorite beverages and food. We also have sun lounges for those who want to relax, sunbathe and read. For those who prefer swimming in the ocean, the beach a few steps away from the pool !",
@@ -116,8 +117,9 @@ Vue.prototype.blogPosts = () => {
     },
     {
       title: "7 Reasons why you should dine at Wadduwa Beach Villas",
+      blogFeatDesc: "At Wadduwa Beach Villas we have a lovely Al- Fresco restaurant that serves a variety of tasty foods from Sri Lankan cuisine, select European dishes, and select Chinese dishes",
       section1: "<h2 class='post-title'>Hello Again !</h2>" +
-          "Feeling Hungry ? At Wadduwa Beach Villas we have a lovely Al- Fresco restaurant that serves a variety of tasty foods from; Sri Lankan cuisine, select European dishes, and select Chinese dishes",
+          "Feeling Hungry ? At Wadduwa Beach Villas we have a lovely Al- Fresco restaurant that serves a variety of tasty foods from Sri Lankan cuisine, select European dishes, and select Chinese dishes",
       subheading1: "Al Fresco seating",
       section2: "We provide both indoor and outdoor seating in our Al Fresco restaurant set within 1.6 acres of landscaped palm gardens lapped by the Indian Ocean. A truly tranquil environment for your overseas holiday or, to hangout and chill with your family and loved ones.",
       image1: "Post2/1.png",
@@ -137,8 +139,9 @@ Vue.prototype.blogPosts = () => {
     },
     {
       title: "4 reasons to celebrate your next day out package at Wadduwa Beach Villas",
+      blogFeatDesc: "Are you looking for the beach, a pool and a lush landscaped pal garden to chill out ? We can provide all the above in the same location! Wadduwa Beach Villas also has a baby pool where our baby can enjoy them while you keep a watchful eye from the main pool.",
       section1: "Ayubowan !<br><br><h2 class='post-title'>The Ambience !</h2>" +
-          "Are you looking for; the beach, a pool and a lush landscaped pal garden to chill out ? We can provide all the above in the same location! Wadduwa Beach Villas also has a baby pool where our baby can enjoy them while you keep a watchful eye from the main pool.",
+          "Are you looking for the beach, a pool and a lush landscaped pal garden to chill out ? We can provide all the above in the same location! Wadduwa Beach Villas also has a baby pool where our baby can enjoy them while you keep a watchful eye from the main pool.",
       subheading1: "Customer centric service",
       section2: "We put the customer first towards creating a unique experience. As a result we look to cater to your unique needs be it; day out packages, birthdays, events, and private lunch bookings/ buffets.",
       image1: "Post3/1.jpg",
