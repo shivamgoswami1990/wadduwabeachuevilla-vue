@@ -113,7 +113,8 @@ Vue.prototype.blogPosts = () => {
       subheading3: "Restaurant",
       section4: "The venue comes with a restaurant that provides both a la carte service and a buffet. Our highly skilled chefs are capable of providing local curry based dishes and international delights. We also understand that not everyone is the same and individuals have various dietary requirements and allergies. Our kitchen staff is able to provide for everyone. These include yummy vegan, vegetarian, gluten-free and dairy-free meals. If you let them know, they will surely look after you.",
       image2: "Post1/2.jpg",
-      section5: "So there you have it. If you are planning a trip to Sri Lanka be sure to add Wadduwa Beach Villas to your list. We can assure you, that it will be a trip of a lifetime. We look forward to welcoming you to our villas."
+      section5: "So there you have it. If you are planning a trip to Sri Lanka be sure to add Wadduwa Beach Villas to your list. We can assure you, that it will be a trip of a lifetime. We look forward to welcoming you to our villas.",
+      isNoticePost: false
     },
     {
       title: "7 Reasons why you should dine at Wadduwa Beach Villas",
@@ -135,7 +136,8 @@ Vue.prototype.blogPosts = () => {
           "<h2 class='post-title'>Hygiene</h2>" +
           "We understand that a dining experience is meant to taste and feel good, while at the premises and later. Therefore, different foods are cut/prepared using designated boards and knives. This process also allows us to avoid cross contamination. Cleanliness is a priority for us to serve you better!<br><br>" +
           "<h2 class='post-title'>Value</h2>" +
-          "We understand that quality needs to be matched with price. We aim to provide you with quality food that is reasonably priced. However, we also understand that at a certain level of quality cannot be provided at a lower price. Therefore, we provide a dining experience as opposed to simply meals. If that sounds like you, don’t miss out!"
+          "We understand that quality needs to be matched with price. We aim to provide you with quality food that is reasonably priced. However, we also understand that at a certain level of quality cannot be provided at a lower price. Therefore, we provide a dining experience as opposed to simply meals. If that sounds like you, don’t miss out!",
+      isNoticePost: false
     },
     {
       title: "4 reasons to celebrate your next day out package at Wadduwa Beach Villas",
@@ -150,7 +152,14 @@ Vue.prototype.blogPosts = () => {
       subheading3: "Convenience factor: A 40 min drive from Colombo to Freedom!",
       section4: "Your time is valuable. Hence, we are only a breezy 40 minute drive away from Colombo to get away. You can have fun sooner ! If you are an International traveller you can easily take two scenic train rides and explore the local scenery before getting to Wadduwa Beach Villas.",
       image2: "Post3/2.png",
-      section5: ""
+      section5: "",
+      isNoticePost: false
+    },
+    {
+      title: "Handling of guest safety in light of COVID-19",
+      blogFeatDesc: "At Wadduwa Beach Villas(Pvt)Ltd,we are continuously monitoring the development of COVID-19 around the worid. Our number one priority is the well-being,health and safety of our guest and team members.In order to secure just that,we have set-up procedures,plans and routines in place,so that all  of our guests can be safe when staying at our hotel.",
+      image1: "Post4/1.jpg",
+      isNoticePost: true
     }
   ];
 };

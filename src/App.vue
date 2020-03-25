@@ -28,7 +28,19 @@
                 <book-now-menu type="button"/>
             </v-app-bar>
 
-            <v-content class="pt-0">
+            <v-content>
+                <v-alert color="primary" tile class="ma-0 text-center" light>
+                    We're taking active steps about the COVID-19 situation.
+                    <a class="blue--text" style="text-decoration: underline; cursor:pointer;"
+                       @click="$router.push(
+                            { name: 'post',
+                              params: {
+                                name: 'Handling of guest safety in light of COVID-19'.replace(/\s+/g, '-').toLowerCase()
+                                }
+                            })">
+                        Please see our response
+                    </a>
+                </v-alert>
                 <router-view/>
             </v-content>
 

@@ -37,7 +37,7 @@
                             <div class="contactus-item">
                                 <v-icon color="primary">mdi-email</v-icon>
                                 <p class="caption">
-                                    wadduwabeachvilla@gmail.com,  wadduwabeachvilla@outlook.com
+                                    wadduwabeachvilla@gmail.com,  wbv.manager@wadduwabeachvilla.com
                                 </p>
                             </div>
                         </div>
