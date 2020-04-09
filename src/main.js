@@ -113,8 +113,7 @@ Vue.prototype.blogPosts = () => {
       subheading3: "Restaurant",
       section4: "The venue comes with a restaurant that provides both a la carte service and a buffet. Our highly skilled chefs are capable of providing local curry based dishes and international delights. We also understand that not everyone is the same and individuals have various dietary requirements and allergies. Our kitchen staff is able to provide for everyone. These include yummy vegan, vegetarian, gluten-free and dairy-free meals. If you let them know, they will surely look after you.",
       image2: "Post1/2.jpg",
-      section5: "So there you have it. If you are planning a trip to Sri Lanka be sure to add Wadduwa Beach Villas to your list. We can assure you, that it will be a trip of a lifetime. We look forward to welcoming you to our villas.",
-      isNoticePost: false
+      section5: "So there you have it. If you are planning a trip to Sri Lanka be sure to add Wadduwa Beach Villas to your list. We can assure you, that it will be a trip of a lifetime. We look forward to welcoming you to our villas."
     },
     {
       title: "7 Reasons why you should dine at Wadduwa Beach Villas",
@@ -136,8 +135,7 @@ Vue.prototype.blogPosts = () => {
           "<h2 class='post-title'>Hygiene</h2>" +
           "We understand that a dining experience is meant to taste and feel good, while at the premises and later. Therefore, different foods are cut/prepared using designated boards and knives. This process also allows us to avoid cross contamination. Cleanliness is a priority for us to serve you better!<br><br>" +
           "<h2 class='post-title'>Value</h2>" +
-          "We understand that quality needs to be matched with price. We aim to provide you with quality food that is reasonably priced. However, we also understand that at a certain level of quality cannot be provided at a lower price. Therefore, we provide a dining experience as opposed to simply meals. If that sounds like you, don’t miss out!",
-      isNoticePost: false
+          "We understand that quality needs to be matched with price. We aim to provide you with quality food that is reasonably priced. However, we also understand that at a certain level of quality cannot be provided at a lower price. Therefore, we provide a dining experience as opposed to simply meals. If that sounds like you, don’t miss out!"
     },
     {
       title: "4 reasons to celebrate your next day out package at Wadduwa Beach Villas",
@@ -152,15 +150,58 @@ Vue.prototype.blogPosts = () => {
       subheading3: "Convenience factor: A 40 min drive from Colombo to Freedom!",
       section4: "Your time is valuable. Hence, we are only a breezy 40 minute drive away from Colombo to get away. You can have fun sooner ! If you are an International traveller you can easily take two scenic train rides and explore the local scenery before getting to Wadduwa Beach Villas.",
       image2: "Post3/2.png",
-      section5: "",
-      isNoticePost: false
+      section5: ""
     },
     {
       title: "Handling of guest safety in light of COVID-19",
       blogFeatDesc: "At Wadduwa Beach Villas(Pvt)Ltd,we are continuously monitoring the development of COVID-19 around the worid. Our number one priority is the well-being,health and safety of our guest and team members.In order to secure just that,we have set-up procedures,plans and routines in place,so that all  of our guests can be safe when staying at our hotel.",
       image1: "Post4/1.jpg",
-      isNoticePost: true
-    }
+      isNoticePost1: true
+    },
+    {
+      title: "Visit Sri Lanka ? Do not miss out, Serendipity awaits !",
+      blogFeatDesc: "There are very few places on earth that pack this much variety and choice as Sri Lanka, the year-round holiday destination. Colombo its capital, is easily accessible from anywhere in the world. Sri Lanka continues to surprise even the well-travelled because it is not a single experience destination.",
+      section1: "Beaches, sun, surf great food and drink 365 days a year? Yes!<br><br>" +
+          "Safaris, whale watching, snorkelling and diving? Tick!",
+      subheading1: "",
+      section2: "Home stays to seven-star hotels or sustainable vacations in homely comfort - absolutely.Prefer culture, history, religious places of interest and cool climes surrounded by world heritage sites, forts of yesterday year the choices are varied.",
+      image1: "Post5/1.jpg",
+      subheading2: "",
+      section3: "However, just lazing with a good book, lounging by the pool sipping your favourite drink with a blood red sunset before dinner has its own charm.<br><br>" +
+          "For the whole of being experience, Ayurveda, yoga, special meals and spa activities cleanse the body and mind reinvigorating your being like nothing else. This can be fulfilled on site and in other locations around Colombo, and Sri Lanka.",
+      subheading3: "",
+      section4: "Sri Lanka offers all of this and more in 65 000 square kilometres of island the size of Ireland where you can travel in comfort by land, air, or sea.<br><br>" +
+          "It is time you visited Sri Lanka to see, feel, enjoy and experience the true Lanka and its many mysteries and charm.",
+      image2: "",
+      section5: ""
+    },
+    {
+      title: "Woman Entrepreneurs around Sri Lanka #IWD2020",
+      blogFeatDesc: "We are proud to see our founder Mrs. Fernando featured as a Sri Lankan woman entrepreneur on Satyn magazine for International Women’s Days 2020 – Sri Lankas most popular women’s magazine.",
+      section1: "Congratulations to all the other featured Women Entrepreneurs, and those that are working on their Entrepreneurial dreams in Sri Lanka, and around the world.",
+      subheading1: "",
+      section2: "In a developing country such as Sri Lanka, it is important to recognize and allow women entrepreneurs to reach their potential. The impacts of women entrepreneurs provide a great value-added service to society based on how women interact with society simultaneously, across multiple levels; as an employer, a mother, a voice in civil society to name a few.",
+      image1: "Post6/1.png",
+      subheading2: "",
+      section3: "Notwithstanding women entrepreneurship in Colombo, there needs to be a greater participation of women from regional and lesser developed parts of Sri Lanka. These opportunities would allow for greater gender, social, and economic mobility for said women and their community. Furthermore, it would contribute towards the overall holistic development of Sri Lanka as a nation.",
+      subheading3: "",
+      section4: "Please follow the link below to see and read about fellow Women entrepreneurs who have a wide range of skills, " +
+          "talents, and amazing stories of entrepreneurship in a diverse range of industries.<br><br>" +
+          "<a href='https://www.satynmag.com/2020/03/06/women-entrepreneurs-we-are-proud-of-iwd-2020/' target='_blank'>" +
+          "https://www.satynmag.com/2020/03/06/women-entrepreneurs-we-are-proud-of-iwd-2020/</a>",
+      image2: "",
+      section5: "" +
+          "<a href='https://www.facebook.com/hashtag/business?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#business</a>" +
+          "<a href='https://www.facebook.com/hashtag/internationalwomensday?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#internationalwomensday</a>" +
+          "<a href='https://www.facebook.com/hashtag/businesswomen?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#businesswomen</a>" +
+          "<a href='https://www.facebook.com/hashtag/entrepreneurship?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#entrepreneurship</a>" +
+          "<a href='https://www.facebook.com/hashtag/satynmagbusinesswomen?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#satynmagbusinesswomen</a>" +
+          "<a href='https://www.facebook.com/hashtag/womeninbusiness?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#womeninbusiness</a>" +
+          "<a href='https://www.facebook.com/hashtag/womenownedbusiness?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#womenownedbusiness</a>" +
+          "<a href='https://www.facebook.com/hashtag/satynmag?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#satynmag</a>" +
+          "<a href='https://www.facebook.com/hashtag/satynmagreaders?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#satynmagreaders</a>" +
+          "<a href='' class='d-inline-flex mr-2' target='_blank'>#wadduwabeachvilla</a>"
+    },
   ];
 };
 

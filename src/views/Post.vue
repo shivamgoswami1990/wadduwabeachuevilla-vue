@@ -31,7 +31,7 @@
                 <v-col cols="12" md="5" lg="4" class="align-self-center">
                     <div class="blog-img-container">
                         <div class="top-border-div"/>
-                        <v-img :src="require('@/assets/Blog/' + post.image2)" width="100%" height="350"/>
+                        <v-img :src="require('@/assets/Blog/' + post.image2)" v-if="post.image2" width="100%" height="350"/>
                     </div>
                 </v-col>
             </v-row>
@@ -41,7 +41,7 @@
         </v-container>
 
         <!-- Notice post -->
-        <v-container class="py-12" v-if="post.isNoticePost">
+        <v-container class="py-12" v-if="post.isNoticePost1">
             <v-img :src="require('@/assets/Blog/' + post.image1)" width="300" class="mx-auto"/>
 
             <p class="mt-10">15th March 2020</p>
