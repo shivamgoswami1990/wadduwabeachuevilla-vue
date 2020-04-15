@@ -159,38 +159,51 @@ Vue.prototype.blogPosts = () => {
       isNoticePost1: true
     },
     {
-      title: "Visit Sri Lanka ? Do not miss out, Serendipity awaits !",
+      title: "Visit Sri Lanka ? Do not miss out, Serendib awaits !",
       blogFeatDesc: "There are very few places on earth that pack this much variety and choice as Sri Lanka, the year-round holiday destination. Colombo its capital, is easily accessible from anywhere in the world. Sri Lanka continues to surprise even the well-travelled because it is not a single experience destination.",
-      section1: "Beaches, sun, surf great food and drink 365 days a year? Yes!<br><br>" +
-          "Safaris, whale watching, snorkelling and diving? Tick!",
-      subheading1: "",
-      section2: "Home stays to seven-star hotels or sustainable vacations in homely comfort - absolutely.Prefer culture, history, religious places of interest and cool climes surrounded by world heritage sites, forts of yesterday year the choices are varied.",
+      section1: "<h2>Where ?</h2>" +
+          "There are very few places on earth that pack this much variety and choice as Sri Lanka, the year-round holiday destination. " +
+          "Colombo its capital, is easily accessible from anywhere in the world. Sri Lanka continues to surprise even the well-travelled because it " +
+          "is not a single experience destination. " +
+          "<br/>Beaches, sun, surf, great food and drink 365 days a year? Yes!" +
+          "<br/>Safaris, whale watching, snorkelling and diving? Tick!",
+      subheading1: "Tell me more ?",
+      section2: "Home stays to seven-star hotels or sustainable vacations in homely comfort - absolutely.Prefer culture, history, religious places of interest, cool climes surrounded by world heritage sites, forts of yesterday year ? The choices are varied.",
       image1: "Post5/1.jpg",
       subheading2: "",
-      section3: "However, just lazing with a good book, lounging by the pool sipping your favourite drink with a blood red sunset before dinner has its own charm.<br><br>" +
+      section3: "However, just lazing with a good book, lounging by the pool sipping your favourite drink with a blood red sunset before dinner has its own charm.<br/>" +
           "For the whole of being experience, Ayurveda, yoga, special meals and spa activities cleanse the body and mind reinvigorating your being like nothing else. This can be fulfilled on site and in other locations around Colombo, and Sri Lanka.",
-      subheading3: "",
-      section4: "Sri Lanka offers all of this and more in 65 000 square kilometres of island the size of Ireland where you can travel in comfort by land, air, or sea.<br><br>" +
+      subheading3: "Will I have enough time ?",
+      section4: "<br/>Sri Lanka offers all of this and more in 65 000 square kilometres of island the size of Ireland where you can travel in comfort by land, air, or sea.<br>" +
           "It is time you visited Sri Lanka to see, feel, enjoy and experience the true Lanka and its many mysteries and charm.",
       image2: "",
       section5: ""
     },
     {
-      title: "Woman Entrepreneurs around Sri Lanka #IWD2020",
+      title: "Woman Entrepreneurs in Sri Lanka #IWD2020",
       blogFeatDesc: "We are proud to see our founder Mrs. Fernando featured as a Sri Lankan woman entrepreneur on Satyn magazine for International Women’s Days 2020 – Sri Lankas most popular women’s magazine.",
-      section1: "Congratulations to all the other featured Women Entrepreneurs, and those that are working on their Entrepreneurial dreams in Sri Lanka, and around the world.",
+      section1: "<h2>International Women's Day 2020:</h2>" +
+          "We are proud to see our founder Mrs. Fernando featured as a Sri Lankan woman entrepreneur on Satyn magazine for International Women’s Days 2020 – Sri Lanka's " +
+          "most popular women’s magazine." +
+          "<br/><br/> Congratulations to all the other featured Women Entrepreneurs, and those that are working on their Entrepreneurial dreams in Sri Lanka, and around the world.",
       subheading1: "",
-      section2: "In a developing country such as Sri Lanka, it is important to recognize and allow women entrepreneurs to reach their potential. The impacts of women entrepreneurs provide a great value-added service to society based on how women interact with society simultaneously, across multiple levels; as an employer, a mother, a voice in civil society to name a few.",
+      section2: "",
       image1: "Post6/1.png",
-      subheading2: "",
-      section3: "Notwithstanding women entrepreneurship in Colombo, there needs to be a greater participation of women from regional and lesser developed parts of Sri Lanka. These opportunities would allow for greater gender, social, and economic mobility for said women and their community. Furthermore, it would contribute towards the overall holistic development of Sri Lanka as a nation.",
+      subheading2: "Women in Sri Lanka:",
+      section3: "In a developing country such as Sri Lanka, it is important to recognize and allow women entrepreneurs to reach their potential." +
+          " The impacts of women entrepreneurs provide a great value-added service to society based on how women interact with society simultaneously," +
+          " across multiple levels; as an employer, a mother, a voice in civil society to name a few. <br/><br/>" +
+          "Notwithstanding women entrepreneurship in Colombo, there needs to be a greater participation of women from regional and lesser " +
+          "developed parts of Sri Lanka. These opportunities would allow for greater gender, social, and economic mobility for said women and " +
+          "their community. Furthermore, it would contribute towards the overall holistic development of Sri Lanka as a nation.",
       subheading3: "",
-      section4: "Please follow the link below to see and read about fellow Women entrepreneurs who have a wide range of skills, " +
-          "talents, and amazing stories of entrepreneurship in a diverse range of industries.<br><br>" +
-          "<a href='https://www.satynmag.com/2020/03/06/women-entrepreneurs-we-are-proud-of-iwd-2020/' target='_blank'>" +
-          "https://www.satynmag.com/2020/03/06/women-entrepreneurs-we-are-proud-of-iwd-2020/</a>",
+      section4: "",
       image2: "",
-      section5: "" +
+      section5: "<h3>Find out more:</h3>" +
+          "<br/>Please follow the link below to see and read about fellow Women entrepreneurs who have a wide range of skills, talents, and " +
+          "amazing stories of entrepreneurship in a diverse range of industries.<br/><br/>" +
+          "<a href='https://www.satynmag.com/2020/03/06/women-entrepreneurs-we-are-proud-of-iwd-2020/' target='_blank'>" +
+          "https://www.satynmag.com/2020/03/06/women-entrepreneurs-we-are-proud-of-iwd-2020/</a><br/><br/>" +
           "<a href='https://www.facebook.com/hashtag/business?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#business</a>" +
           "<a href='https://www.facebook.com/hashtag/internationalwomensday?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#internationalwomensday</a>" +
           "<a href='https://www.facebook.com/hashtag/businesswomen?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#businesswomen</a>" +

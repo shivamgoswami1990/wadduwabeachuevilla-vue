@@ -3,7 +3,7 @@
         <banner-section imgFilename="Blog/Post.jpg" preTitle="Wadduwa Beach Villas" title="Recent story"
                         :description="post.title"/>
 
-        <v-container class="py-12" v-if="!post.isNoticePost">
+        <v-container class="py-12" v-if="!post.isNoticePost1">
             <v-row>
                 <v-col cols="12" md="5" lg="4" class="align-self-center">
                     <div class="blog-img-container">
@@ -106,7 +106,7 @@
             <p>
                 The Police Media Division stated that hosting (All private & Government Sectors) any events,including
                 gatherings that involve large crowds of people will be prohibited for two weeks with effect
-                from 15"March 2020 to 27" March 2020.
+                from 15th March 2020 to 15th April 2020.
                 <br><br>
                 We will keep you updated as soon as we receive an update from local health authorities.
             </p>
