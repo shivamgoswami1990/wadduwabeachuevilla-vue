@@ -117,38 +117,40 @@ Vue.prototype.blogPosts = () => {
     },
     {
       title: "7 Reasons why you should dine at Wadduwa Beach Villas",
-      blogFeatDesc: "At Wadduwa Beach Villas we have a lovely Al- Fresco restaurant that serves a variety of tasty foods from Sri Lankan cuisine, select European dishes, and select Chinese dishes",
+      blogFeatDesc: "At Wadduwa Beach Villas we have a lovely Al-Fresco restaurant that serves a wide variety of delicious meals. Our menu ranges from tantalising, spicy Sri Lankan cuisine, to select sweet and savoury European and Chinese dishes. You will truly be spoilt for choice.",
       section1: "<h2 class='post-title'>Hello Again !</h2>" +
-          "Feeling Hungry ? At Wadduwa Beach Villas we have a lovely Al- Fresco restaurant that serves a variety of tasty foods from Sri Lankan cuisine, select European dishes, and select Chinese dishes",
+          "Feeling Hungry ? At Wadduwa Beach Villas we have a lovely Al-Fresco restaurant that serves a wide variety of delicious meals. Our menu ranges from tantalising, spicy Sri Lankan cuisine, to select sweet and savoury European and Chinese dishes. You will truly be spoilt for choice.",
       subheading1: "Al Fresco seating",
-      section2: "We provide both indoor and outdoor seating in our Al Fresco restaurant set within 1.6 acres of landscaped palm gardens lapped by the Indian Ocean. A truly tranquil environment for your overseas holiday or, to hangout and chill with your family and loved ones.",
+      section2: "Set within 1.6 acres of landscaped palm gardens, our Al-Fresco restaurant provides both indoor and outdoor seating. You can choose a high quality, indoor dining experience that is sheltered from the elements, or opt to sit outside and enjoy the natural surroundings of our beach resort. This truly tranquil atmosphere is elevated by the sounds of the native birds and the waves of the Indian Ocean, which laps at the beach our restaurant overlooks. Vibrant, spacious, and nestled in greenery, it is the perfect environment to hangout and relax with your family and loved ones.",
       image1: "Post2/1.png",
       subheading2: "A passion for food",
-      section3: "We select only the freshest quality ingredients for your dining experience. We also aim to support local business - quality fresh seafood is from the local Wadduwa fish market which is hauled in daily from the ocean. Furthermore, if you are seated towards the beach you can witness fish being hauled in for the day  using large fishing nets; you can even take part in the associated activities from mid November to April as we are located in a quiet fishing village. Keep an eye out!",
+      section3: "We select only the freshest, quality ingredients to create an elevated dining experience for our guests. We aim to support local businesses by sourcing our seafood fresh from the local Wadduwa fish market; the morning catch is hauled in daily from the ocean, guaranteeing us the freshest fish on this side of the coast. Furthermore, if you are seated facing the beach, you can witness firsthand the process of the fishermen. Watch as they drag in their large fishing nets and sort out fresh fish and crabs while the birds call out from above. If you’re interested in truly experiencing life in a quiet fishing village, you can even take part in the associated activities from mid-November to April. Keep an eye out!",
       subheading3: "Flexibility towards your dietary requirements",
-      section4: "Please ask our friendly, and accommodating staff if we can accommodate your dietary needs. We can cater for vegans, dairy free, and vegetarians.  If you have any other requirements please get in touch with us!",
+      section4: "At our restaurant, we understand that no two patrons are alike and are pleased to offer a wide variety of options to meet your dietary requirements. Please ask our friendly and accommodating staff if we can adjust our dishes to your dietary needs; we cater to vegans, dairy free, and vegetarians alike. If you have any other requirements or want to notify us of allergies, please get in touch with us and we will do our utmost to accommodate you.",
       image2: "Post2/2.png",
       section5: "<h2 class='post-title'> Recycling Material / Composting</h2>" +
-          "At Wadduwa Beach Villas, we are passionate about doing our bit for the environment. We recycle/compost organic waste and by-products from food service. The resultant compost is then reused to keep our landscape plants happy and lush to provide a natural and tranquil setting for your enjoyment. Other applicable non-organic waste is collected and provided to local businesses that recycle and reuse them.<br><br>" +
+          "At Wadduwa Beach Villas, we are passionate about doing our part to save the environment. We recycle and compost all our organic waste along with the by-products from our food service. The resultant compost is then reused in our landscaped garden to keep the plants happy and lush. This allows us to give back to the same nature that provides us with such a beautiful and tranquil environment to enjoy. Other applicable non-organic wastes, such as glass and metal, are collected and handed over to local recycling businesses in order to reuse them.<br><br>" +
           "<h2 class='post-title'>Customer centric service</h2>" +
-          "At the heart of a business is customer service. We appreciate our patrons very much, and aim to reflect that in the service we provide to create a memorable experience.<br><br>" +
+          "At the heart of good business, is good customer service. We at Wadduwa Beach Villas understand this and appreciate your patronage. We aim to reflect that in the services we provide by creating memorable, unique experiences that are tailored to each patron.<br><br>" +
           "<h2 class='post-title'>Hygiene</h2>" +
-          "We understand that a dining experience is meant to taste and feel good, while at the premises and later. Therefore, different foods are cut/prepared using designated boards and knives. This process also allows us to avoid cross contamination. Cleanliness is a priority for us to serve you better!<br><br>" +
+          "At our resort, we believe that an excellent dining experience is meant not only to taste amazing, but also to make our patrons feel good, both at the premises and after the meal is done. Therefore, different food items are cut and prepared using designated boards and knives, as per industry standard. It is important to us that we respect your specific dietary needs, as such, this process also allows us to avoid cross contamination when catering to you. You will never have to doubt if your vegan meal is truly vegan, as cleanliness and hygiene are a priority to us, in order to serve you better!<br><br>" +
           "<h2 class='post-title'>Value</h2>" +
-          "We understand that quality needs to be matched with price. We aim to provide you with quality food that is reasonably priced. However, we also understand that at a certain level of quality cannot be provided at a lower price. Therefore, we provide a dining experience as opposed to simply meals. If that sounds like you, don’t miss out!"
+          "We understand that the quality of a service needs to be matched with an appropriate price, however, we also understand that a certain level of quality cannot be provided at a lower price. As such, at our villas, we provide a dining experience as opposed to a simple meal: for a reasonable price, we provide you with high quality food that not only looks and tastes great, but is supported by a perfect ambience and service. If this sounds like your cup of tea, excuse the pun, be sure not to miss out!"
     },
     {
       title: "4 reasons to celebrate your next day out package at Wadduwa Beach Villas",
-      blogFeatDesc: "Are you looking for the beach, a pool and a lush landscaped pal garden to chill out ? We can provide all the above in the same location! Wadduwa Beach Villas also has a baby pool where our baby can enjoy them while you keep a watchful eye from the main pool.",
+      blogFeatDesc: "Are you looking for a sunny beach, a warm pool, and a lush, landscaped garden to relax and soak up the sun in? Are you looking to entertain a crowd, be it family or friends, and make unforgettable memories? Or perhaps you want to take the kids out so they can enjoy themselves while the adults have some quiet time? Well, we can provide all of that in the same location! At Wadduwa Beach Villas, we have not only the sun, sand and ocean, we also have a pool with an attached baby pool and a restaurant so that you can enjoy your day out and keep the kids safely entertained.",
       section1: "Ayubowan !<br><br><h2 class='post-title'>The Ambience !</h2>" +
-          "Are you looking for the beach, a pool and a lush landscaped pal garden to chill out ? We can provide all the above in the same location! Wadduwa Beach Villas also has a baby pool where our baby can enjoy them while you keep a watchful eye from the main pool.",
+          "Are you looking for a sunny beach, a warm pool, and a lush, landscaped garden to relax and soak up the sun in? Are you looking to entertain a crowd, be it family or friends, and make unforgettable memories? Or perhaps you want to take the kids out so they can enjoy themselves while the adults have some quiet time? Well, we can provide all of that in the same location! At Wadduwa Beach Villas, we have not only the sun, sand and ocean, we also have a pool with an attached baby pool and a restaurant so that you can enjoy your day out and keep the kids safely entertained.",
       subheading1: "Customer centric service",
-      section2: "We put the customer first towards creating a unique experience. As a result we look to cater to your unique needs be it; day out packages, birthdays, events, and private lunch bookings/ buffets.",
+      section2: "At Wadduwa Beach Villas, we put our customers’ needs first in order to create unique and meaningful experiences. As a result, we look to cater our services to your individual needs. We pride ourselves on the fact that every day out package, birthday party, and family event can be adjusted to your liking. Similarly, our corporate events, private lunch bookings and buffets can be arranged to suit your needs. Just call to find out how we can best serve you!",
       image1: "Post3/1.jpg",
       subheading2: "Private Bookings",
-      section3: "Are you looking for a venue to host corporate and/or private events? You can book the entire 1.5 acre property exclusively for yourself and company with rates starting from LKR 150,000 per night on a Bed and Breakfast basis. For these exclusive bookings, you will be able to celebrate with; a private swimming pool, exclusive access to 1.5 acres of landscaped garden with the associated outdoor living and dining areas, a customizable configuration of 3 rooms and 3 villas for a total of  22 persons, dedicated restaurant and wait staff, and private beach access.",
+      section3: "Are you looking for a venue to host corporate and/or private events?" +
+          "You can book our entire 1.6 acre  property exclusively for yourself and company, with rates starting from LKR 150,000 per night on a Bed and Breakfast basis.\n" +
+          "For these exclusive bookings, you will be able to celebrate the important events in your life with a private swimming pool, exclusive access to 1.5 acres of landscaped garden, and access to the associated outdoor living and dining areas. With it comes a customizable configuration of 3 rooms and 3 villas for a total of 22 persons, a dedicated restaurant and wait staff, as well as private beach access.",
       subheading3: "Convenience factor: A 40 min drive from Colombo to Freedom!",
-      section4: "Your time is valuable. Hence, we are only a breezy 40 minute drive away from Colombo to get away. You can have fun sooner ! If you are an International traveller you can easily take two scenic train rides and explore the local scenery before getting to Wadduwa Beach Villas.",
+      section4: "Your time is valuable. Hence, our villas are only a breezy 40 minute drive away from Colombo so that you can have fun sooner! To reach our beach get away, you have two options; you can drive down the picturesque coast or, if you’re an international traveller, you can take two scenic train rides to reach Wadduwa Beach Villas. If you do take the train, you will get to experience the sights and sounds of village life as you make the short walk from the train station to our beach resort.",
       image2: "Post3/2.png",
       section5: ""
     },
@@ -160,22 +162,30 @@ Vue.prototype.blogPosts = () => {
     },
     {
       title: "Visit Sri Lanka ? Do not miss out, Serendib awaits !",
-      blogFeatDesc: "There are very few places on earth that pack this much variety and choice as Sri Lanka, the year-round holiday destination. Colombo its capital, is easily accessible from anywhere in the world. Sri Lanka continues to surprise even the well-travelled because it is not a single experience destination.",
+      blogFeatDesc: "There are very few places in the world that offer as much variety and choice for travellers as Sri Lanka does. Our small island nation, just 65,000 square kilometres, is packed full to the brim with nature, history, art, culture, exotic foods and resorts. With many hidden gems, Sri Lanka continues to surprise even well-seasoned travellers.",
       section1: "<h2>Where ?</h2>" +
-          "There are very few places on earth that pack this much variety and choice as Sri Lanka, the year-round holiday destination. " +
-          "Colombo its capital, is easily accessible from anywhere in the world. Sri Lanka continues to surprise even the well-travelled because it " +
-          "is not a single experience destination. " +
-          "<br/>Beaches, sun, surf, great food and drink 365 days a year? Yes!" +
-          "<br/>Safaris, whale watching, snorkelling and diving? Tick!",
+          "There are very few places in the world that offer as much variety and choice for travellers as Sri Lanka does." +
+          " Our small island nation, just 65,000 square kilometres, is packed full to the brim with nature, history, art," +
+          " culture, exotic foods and resorts. With many hidden gems, Sri Lanka continues to surprise even well-seasoned travellers." +
+          "<br/><br/>" +
+          "Unlike most places, we are not a single activity destination; we cater to all. Do you want to kick back and" +
+          " relax in the sun, lounge on the beach, and enjoy good food and drinks 365 days a year? Perhaps you like " +
+          "adrenaline pumping through your veins as you go snorkelling, diving and surfing? A maybe you want to enjoy" +
+          " nature and all its beauty, watching the whales and exploring tropical rainforests on safari?\n" +
+          "As a year-round holiday destination, our capital Colombo, is easily accessible from anywhere in the world;" +
+          " we are simply a flight away. So, don’t hesitate, come join us in our island paradise!",
       subheading1: "Tell me more ?",
-      section2: "Home stays to seven-star hotels or sustainable vacations in homely comfort - absolutely.Prefer culture, history, religious places of interest, cool climes surrounded by world heritage sites, forts of yesterday year ? The choices are varied.",
+      section2: "Sri Lanka’s seven-star hotels, eco-lodges and B&Bs all offer impeccable service whilst retaining the comfort of home. Our island is cloaked in culture and boasts a rich history that will enthral any visitor, with several places of religious interest, world heritage sites, and remnants of forts from the yesteryears." +
+          "For those interested in a spiritual cleansing of the mind and body, we have mastered the art of Ayurveda over generations, combined with yoga, nutritious food and spa treatments; it’s bound to reinvigorate your spirit.",
       image1: "Post5/1.jpg",
       subheading2: "",
-      section3: "However, just lazing with a good book, lounging by the pool sipping your favourite drink with a blood red sunset before dinner has its own charm.<br/>" +
-          "For the whole of being experience, Ayurveda, yoga, special meals and spa activities cleanse the body and mind reinvigorating your being like nothing else. This can be fulfilled on site and in other locations around Colombo, and Sri Lanka.",
+      section3: "And if you want to simply take a day off by the pool with a good book and your favourite drink, why not enjoy a blood-red sunset and the sight of the night sky and millions of stars too? Sri Lanka caters to all of this, not only in Colombo, but at several sites all over the country.",
       subheading3: "Will I have enough time ?",
-      section4: "<br/>Sri Lanka offers all of this and more in 65 000 square kilometres of island the size of Ireland where you can travel in comfort by land, air, or sea.<br>" +
-          "It is time you visited Sri Lanka to see, feel, enjoy and experience the true Lanka and its many mysteries and charm.",
+      section4: "<br/>About the same size as Ireland, Sri Lanka offers all of these experiences, plus the comfort of travelling" +
+          " by land, air, or sea. Take a train to the hill-country and be transported to the colonial era with the English" +
+          " climate and architecture. Or fly down south to see what the coastal life is like. Better yet," +
+          " why not sail up north to experience the once-hidden gems? All this can be done at your leisure, with more than enough time to see every sight." +
+          "<br/>It is time that you visit Sri Lanka to discover the sights, be one with nature, enjoy the culture, and experience the true charm and many hidden gems the island has to offer.",
       image2: "",
       section5: ""
     },
@@ -190,12 +200,21 @@ Vue.prototype.blogPosts = () => {
       section2: "",
       image1: "Post6/1.png",
       subheading2: "Women in Sri Lanka:",
-      section3: "In a developing country such as Sri Lanka, it is important to recognize and allow women entrepreneurs to reach their potential." +
-          " The impacts of women entrepreneurs provide a great value-added service to society based on how women interact with society simultaneously," +
-          " across multiple levels; as an employer, a mother, a voice in civil society to name a few. <br/><br/>" +
-          "Notwithstanding women entrepreneurship in Colombo, there needs to be a greater participation of women from regional and lesser " +
-          "developed parts of Sri Lanka. These opportunities would allow for greater gender, social, and economic mobility for said women and " +
-          "their community. Furthermore, it would contribute towards the overall holistic development of Sri Lanka as a nation.",
+      section3: "In a developing country such as Sri Lanka, it is important to recognize the role of women in society;" +
+          " they act as caretakers and educators, run businesses and act as voices in civil. Women not only belong to the" +
+          " family unit, but also to the workforce. With approximately 45% of the global workforce being made up of women," +
+          " they are a driving factor in a country’s economy. <br/><br/>" +
+          "The impacts of women entrepreneurs provide a great value-added service to society based on how women interact" +
+          " with society simultaneously and across multiple levels. As such, women entrepreneurs need to be supported in " +
+          "reaching their full potential. It is important to understand that empowering an individual also empowers the" +
+          " whole community, by providing opportunities to work quality jobs, which in turn allow women to make" +
+          " meaningful choices that raise their community. <br/><br/>" +
+          "Notwithstanding women entrepreneurship in Colombo, there needs to be a greater participation of women from " +
+          "regional and lesser developed parts of Sri Lanka. Empowering women and providing them with opportunities and" +
+          " a voice allows for greater gender, social, and economic mobility for said women and their community." +
+          " Small, rural businesses can expand to form economic networks that sustain future generations." +
+          " The same economic networks develop villages into town, and towns into cities, thus contributing towards" +
+          " the overall holistic development of Sri Lanka as a nation.",
       subheading3: "",
       section4: "",
       image2: "",
