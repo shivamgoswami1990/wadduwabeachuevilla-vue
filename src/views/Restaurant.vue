@@ -37,7 +37,8 @@
 
                             <!-- Hover comp -->
                             <v-hover v-slot:default="{ hover }">
-                                <v-img :src="require('../assets/Restaurant/menus/' + menu.image)" width="695" height="900" contain @click="toggle">
+                                <v-img :src="require('../assets/Restaurant/menus/' + menu.image)" width="695"
+                                       height="900" contain eager @click="toggle">
 
                                     <!-- Overlay comp -->
                                     <v-overlay :value="hover" absolute z-index="3">
@@ -162,6 +163,18 @@
                 dialog: false,
                 selectedImagePath: null,
                 menus: [
+                    {
+                        image: 'iftar-menu1.jpg',
+                        title: 'Iftar Menu 1'
+                    },
+                    {
+                        image: 'iftar-menu2.jpg',
+                        title: 'Iftar Menu 2'
+                    },
+                    {
+                        image: 'iftar-tandc.jpg',
+                        title: 'Iftar terms and conditions'
+                    },
                     {
                         image: 'bbqmenu1.jpg',
                         title: 'BBQ Menu 1'
