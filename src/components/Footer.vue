@@ -72,7 +72,7 @@
             <p class="text-center caption">
                 © Copyright 2020 Wadduwa Beach Villa. All rights reserved
                 <br>
-                Made with ❣ by <a href="https://shivamgoswami.online" target="_blank">Shivam Goswami</a>
+                Made with ❣ by <a href="https://shivamgoswami.live" target="_blank">Shivam Goswami</a>
             </p>
         </v-bottom-navigation>
     </div>
