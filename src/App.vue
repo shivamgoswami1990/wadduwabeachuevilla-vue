@@ -86,6 +86,7 @@
                     { title: "Facilities", isMainNavItem: true, linkTo: 'facilities'},
                     { title: "Exclusive", isMainNavItem: true, linkTo: 'exclusive'},
                     { title: "Blog", isMainNavItem: true, linkTo: 'blog'},
+                    { title: "Guidelines", isMainNavItem: true, linkTo: 'guidelines'},
                     { title: "Contact Us", isMainNavItem: false, linkTo: 'contactus'},
                 ]
             }
