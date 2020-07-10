@@ -22,7 +22,7 @@
                     <v-card-title>CONTACT</v-card-title>
                     <v-card-text>
                         <p class="pa-0 ma-0">wadduwabeachvilla@gmail.com</p>
-                        <p class="pa-0 ma-0">wadduwabeachvilla@outlook.com</p>
+                        <p class="pa-0 ma-0">wbv.manager@wadduwabeachvilla.com</p>
                     </v-card-text>
                 </v-card>
             </v-layout>
@@ -202,10 +202,6 @@
                     {
                         image: 'daymenu4.jpg',
                         title: 'Day Out Menu 4'
-                    },
-                    {
-                        image: 'daymenu5.jpg',
-                        title: 'Day Out Menu 5'
                     },
                     {
                         image: 'wbvbite.jpg',
