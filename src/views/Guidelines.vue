@@ -69,7 +69,7 @@
 
                 <!-- Mobile only carousel -->
                 <v-card tile flat color="black" width="70%" min-width="400" class="hidden-sm-and-up">
-                    <h2 class="display-2 mt-10 pt-5 text-center">Menus</h2>
+                    <h2 class="display-2 mt-10 pt-5 text-center">Rules and Guidelines</h2>
                     <v-card-text>
                         <v-carousel hide-delimiters height="600">
                             <v-carousel-item v-for="(menu, index) in menus" :key="index"
