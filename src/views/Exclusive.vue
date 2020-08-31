@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Exclusive/Exclusive.jpg" preTitle="Wadduwa Beach Villas" title="Exclusive bookings"
+        <banner-section imgFilename="Exclusive/Exclusive.jpg" preTitle="Wadduwa Beach Villa" title="Exclusive bookings"
                         description="Corporate and Private functions"/>
 
         <v-container class="py-12">
@@ -36,7 +36,7 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villas',
+            title: 'Wadduwa Beach Villa',
             titleTemplate: 'Corporate functions → Private pool → Dedicated restaurant → %s',
             meta: [
                 { name: 'name', content: 'Exclusive bookings near Colombo, Sri Lanka' },

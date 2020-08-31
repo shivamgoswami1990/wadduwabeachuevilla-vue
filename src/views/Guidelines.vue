@@ -1,13 +1,13 @@
 <template>
     <div>
-        <banner-section imgFilename="Guidelines/Guidelines.jpg" preTitle="Wadduwa Beach Villas" title="Rules and Guidelines"
+        <banner-section imgFilename="Guidelines/Guidelines.jpg" preTitle="Wadduwa Beach Villa" title="Rules and Guidelines"
                         description="Help us make your experience more comfortable"/>
 
         <v-container class="py-12">
             <v-layout justify-center align-start fill-height row wrap>
                 <v-card tile flat color="black" width="250" height="140" class="seperator">
                     <v-card-title>LOCATION</v-card-title>
-                    <v-card-text>Ground floor, Wadduwa Beach Villas</v-card-text>
+                    <v-card-text>Ground floor, Wadduwa Beach Villa</v-card-text>
                 </v-card>
 
                 <v-card tile flat color="black" width="250" height="140" class="seperator">
@@ -143,10 +143,10 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villas',
+            title: 'Wadduwa Beach Villa',
             titleTemplate: 'Guidelines → Outdoor BBQ → Buffet → Beach resort dining → Dayout → %s',
             meta: [
-                { name: 'name', content: 'Wadduwa Beach Villas Guidelines' },
+                { name: 'name', content: 'Wadduwa Beach Villa Guidelines' },
                 { name: 'description', content: 'Visit our villa for a great outdoor dining experience by' +
                         ' the beach. Help us make your experience more comfortable.' }
             ]

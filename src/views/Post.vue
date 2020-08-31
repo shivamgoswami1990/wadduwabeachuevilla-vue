@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Blog/Post.jpg" preTitle="Wadduwa Beach Villas" title="Recent story"
+        <banner-section imgFilename="Blog/Post.jpg" preTitle="Wadduwa Beach Villa" title="Recent story"
                         :description="post.title"/>
 
         <v-container class="py-12" v-if="!post.isNoticePost1">
@@ -47,18 +47,18 @@
             <p class="mt-10">15th March 2020</p>
 
             <h3 style="text-decoration: underline">
-                Wadduwa Beach Villas(Pvt)Ltd's Handling of Guest Safety in light of Covid-19
+                Wadduwa Beach Villa(Pvt)Ltd's Handling of Guest Safety in light of Covid-19
             </h3>
 
             <p class="text-justify mt-10">
                 Dear Valued Guests,
                 <br><br>
-                At Wadduwa Beach Villas(Pvt)Ltd,we are continuously monitoring the development of COVID-19 around the worid.
+                At Wadduwa Beach Villa(Pvt)Ltd,we are continuously monitoring the development of COVID-19 around the worid.
                 Our number one priority is the well-being,health and safety of our guest and team members. In order to secure
                 just that,we have set-up procedures,plans and routines in place,so that all  of our guests can be safe when staying at our hotel.
                 <br>
 
-                At Wadduwa Beach Villas(Pvt)Ltd,we follow the guidelines of local health authorities,and act according
+                At Wadduwa Beach Villa(Pvt)Ltd,we follow the guidelines of local health authorities,and act according
                 to the routines and procedures to prevent the spread of COVID-19 at our hotel. Our team members are
                 trained to handle situations that may occur at our hotel and we have confidence in their abilities.
                 <br>
@@ -146,7 +146,7 @@
             if (this.post !== undefined && this.post !== null) {
                 if (typeof this.post === 'object') {
                     return {
-                        title: 'Wadduwa Beach Villas',
+                        title: 'Wadduwa Beach Villa',
                         titleTemplate: this.post.title + ' → %s',
                         meta: [
                             { name: 'name', content: this.post.title },

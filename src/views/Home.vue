@@ -20,7 +20,7 @@
           <v-layout justify-center align-start fill-height column wrap id="video-section">
             <div class="title text--secondary">Sri Lanka</div>
             <h1 class="white--text" :class="$vuetify.breakpoint.mdAndDown ? 'display-3' : 'display-4'">
-              Wadduwa Beach Villas
+              Wadduwa Beach Villa
             </h1>
             <div class="display-1 white--text text--secondary">A local icon of private luxury</div>
             <router-link class="title" :style="{ color: $vuetify.theme.currentTheme.primary }"
@@ -77,7 +77,7 @@ import RoomCards from '@/components/RoomCards.vue';
 
 export default {
   metaInfo: {
-    title: 'Wadduwa Beach Villas',
+    title: 'Wadduwa Beach Villa',
     titleTemplate: 'Beach villas → Outdoor Events → Day out packages → Villas near Colombo → %s',
     meta: [
       { name: 'name', content: 'Visit luxury beach villas near Colombo' },

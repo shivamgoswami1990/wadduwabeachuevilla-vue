@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Facilities/Facilities.jpg" preTitle="Wadduwa Beach Villas" title="Facilities"
+        <banner-section imgFilename="Facilities/Facilities.jpg" preTitle="Wadduwa Beach Villa" title="Facilities"
                         description="Luxury Villa Amenities"/>
 
         <v-container class="py-12">
@@ -162,10 +162,10 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villas',
+            title: 'Wadduwa Beach Villa',
             titleTemplate: 'Music and DJ → Outdoor functions → Free parking → Free WiFi → Pool → %s',
             meta: [
-                { name: 'name', content: 'Facilities at Wadduwa Beach Villas' },
+                { name: 'name', content: 'Facilities at Wadduwa Beach Villa' },
                 { name: 'description', content: 'Come and enjoy a great day out by the pool. We have facilities such as' +
                         ' free parking, music, events lighting, beach view, self contained villas to make your stay comfortable' }
             ]

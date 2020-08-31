@@ -28,7 +28,7 @@
                 <book-now-menu type="button"/>
             </v-app-bar>
 
-            <v-content>
+            <v-main>
                 <v-alert color="primary" tile class="ma-0 text-center" light>
                     We're taking active steps about the COVID-19 situation.
                     <a class="blue--text" style="text-decoration: underline; cursor:pointer;"
@@ -42,7 +42,7 @@
                     </a>
                 </v-alert>
                 <router-view/>
-            </v-content>
+            </v-main>
 
             <footer-with-bottom-nav :items="navItems"/>
         </v-app>

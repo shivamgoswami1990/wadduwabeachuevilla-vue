@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Villas/Villas.jpg" preTitle="Wadduwa Beach Villas" title="Our Villas"
+        <banner-section imgFilename="Villas/Villas.jpg" preTitle="Wadduwa Beach Villa" title="Our Villas"
                         description="Rooms and Villas"/>
 
         <v-container class="py-12">
@@ -91,7 +91,7 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villas',
+            title: 'Wadduwa Beach Villa',
             titleTemplate: 'Honeymoon Villa → Family Villa → Double Room → %s',
             meta: [
                 { name: 'name', content: 'Luxury villas in Wadduwa' },

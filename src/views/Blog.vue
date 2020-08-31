@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Blog/Blog.jpeg" preTitle="Wadduwa Beach Villas" title="Our blog"
+        <banner-section imgFilename="Blog/Blog.jpeg" preTitle="Wadduwa Beach Villa" title="Our blog"
                         description="Bringing stories to life"/>
 
         <v-container class="py-12">
@@ -79,11 +79,11 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villas',
+            title: 'Wadduwa Beach Villa',
             titleTemplate: 'Blog → %s',
             meta: [
                 { name: 'name', content: 'Blog' },
-                { name: 'description', content: 'Exciting things happening at Wadduwa Beach Villas' }
+                { name: 'description', content: 'Exciting things happening at Wadduwa Beach Villa' }
             ]
         },
         components: {

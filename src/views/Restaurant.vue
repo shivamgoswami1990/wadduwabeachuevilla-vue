@@ -1,13 +1,13 @@
 <template>
     <div>
-        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villas" title="Restaurant"
+        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villa" title="Restaurant"
                         description="The finest dining experience paired with panoramic ocean views"/>
 
         <v-container class="py-12">
             <v-layout justify-center align-start fill-height row wrap>
                 <v-card tile flat color="black" width="250" height="140" class="seperator">
                     <v-card-title>LOCATION</v-card-title>
-                    <v-card-text>Ground floor, Wadduwa Beach Villas</v-card-text>
+                    <v-card-text>Ground floor, Wadduwa Beach Villa</v-card-text>
                 </v-card>
 
                 <v-card tile flat color="black" width="250" height="140" class="seperator">
@@ -37,7 +37,7 @@
 
                             <!-- Hover comp -->
                             <v-hover v-slot:default="{ hover }">
-                                <v-img :src="require('../assets/Restaurant/menus/' + menu.image)" width="695"
+                                <v-img :src="require('@/assets/Restaurant/menus/' + menu.image)" width="695"
                                        height="900" contain eager @click="toggle">
 
                                     <!-- Overlay comp -->
@@ -74,7 +74,7 @@
                     <v-card-text>
                         <v-carousel hide-delimiters height="600">
                             <v-carousel-item v-for="(menu, index) in menus" :key="index"
-                                             :src="require('../assets/Restaurant/menus/' + menu.image)"
+                                             :src="require('@/assets/Restaurant/menus/' + menu.image)"
                                              reverse-transition="fade-transition"
                                              transition="fade-transition">
 
@@ -103,7 +103,7 @@
                             <v-card-text style="height: calc(100% - 48px)">
                                 <v-layout align-center justify-center wrap fill-height>
 
-                                    <v-img :src="require('../assets/Restaurant/menus/' + selectedImagePath)"
+                                    <v-img :src="require('@/assets/Restaurant/menus/' + selectedImagePath)"
                                            :max-height="bannerHeight - 150" contain>
                                     </v-img>
 
@@ -144,10 +144,10 @@
 
     export default {
         metaInfo: {
-            title: 'Wadduwa Beach Villas',
+            title: 'Wadduwa Beach Villa',
             titleTemplate: 'Restaurant → Outdoor BBQ → Buffet → Beach resort dining → %s',
             meta: [
-                { name: 'name', content: 'Wadduwa Beach Villas Restaurant' },
+                { name: 'name', content: 'Wadduwa Beach Villa Restaurant' },
                 { name: 'description', content: 'Visit our villa for a great outdoor dining experience by' +
                         ' the beach. We have daily buffets and some of the best dishes in Sri Lanka.' }
             ]
