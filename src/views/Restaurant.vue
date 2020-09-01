@@ -76,13 +76,7 @@
                             <v-carousel-item v-for="(menu, index) in menus" :key="index"
                                              :src="require('@/assets/Restaurant/menus/' + menu.image)"
                                              reverse-transition="fade-transition"
-                                             transition="fade-transition">
-
-                                <v-layout justify-center align-end fill-height row wrap>
-                                    <v-btn tile block color="gray" height="50" class="font-weight-bold subtitle-1">
-                                        {{menu.title}}
-                                    </v-btn>
-                                </v-layout>
+                                             transition="fade-transition" class="carousel-img">
                             </v-carousel-item>
                         </v-carousel>
                     </v-card-text>
@@ -135,6 +129,14 @@
                 display: none;
             }
         }
+    }
+
+    .carousel-img {
+      & > .v-carousel__item {
+        & > .v-image__image {
+          background-size: contain;
+        }
+      }
     }
 </style>
 
