@@ -4,9 +4,9 @@
             <nav-drawer :items="navItems" v-if="showDrawer" @showDrawer="transitionend" />
 
             <v-app-bar app color="transparent" tile height="70px" elevation="0" hide-on-scroll fixed>
-                <v-app-bar-nav-icon @click="showDrawer = true">
+                <v-app-bar-nav-icon @click="showDrawer = true" aria-label="Menu button">
                     <slot>
-                        <v-icon size="32" color="primary">mdi-text</v-icon>
+                        <v-icon size="32" color="primary" aria-label="Menu icon">mdi-text</v-icon>
                     </slot>
                 </v-app-bar-nav-icon>
                 <a @click="$router.push({ name: 'home'})" class="ml-5">
@@ -31,7 +31,7 @@
             <v-main>
                 <v-alert color="primary" tile class="ma-0 text-center" light>
                     We're taking active steps about the COVID-19 situation.
-                    <a class="blue--text" style="text-decoration: underline; cursor:pointer;"
+                    <a class="black--text" style="text-decoration: underline; cursor:pointer; font-weight: bold"
                        @click="$router.push(
                             { name: 'post',
                               params: {

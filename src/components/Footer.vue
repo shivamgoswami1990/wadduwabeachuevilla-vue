@@ -46,20 +46,25 @@
                         <h3 class="pb-6  body-1 font-weight-bold">Social</h3>
 
                         <v-layout justify-center>
-                            <a target="_blank" href="https://www.facebook.com/wadduwabeachvillasPvtLtd/">
-                                <v-img :src="fb" max-width="30" max-height="30" contain class="ml-2"></v-img>
+                            <a target="_blank" href="https://www.facebook.com/wadduwabeachvillasPvtLtd/"
+                               aria-label="Facebook" rel="noopener">
+                                <v-img :src="fb" max-width="30" max-height="30" contain class="ml-2"/>
                             </a>
-                            <a target="_blank" href="https://www.tripadvisor.com/RentalPropertyManager-a_manager.236794">
-                                <v-img :src="ta" max-width="30" max-height="30" contain class="ml-2"></v-img>
+                            <a target="_blank" href="https://www.tripadvisor.com/RentalPropertyManager-a_manager.236794"
+                               aria-label="Trip advisor" rel="noopener">
+                                <v-img :src="ta" max-width="30" max-height="30" contain class="ml-2"/>
                             </a>
-                            <a target="_blank" href="https://www.airbnb.com/users/show/19675962">
-                                <v-img :src="ab" max-width="30" max-height="30" contain class="ml-2"></v-img>
+                            <a target="_blank" href="https://www.airbnb.com/users/show/19675962" rel="noopener"
+                               aria-label="AirBnB">
+                                <v-img :src="ab" max-width="30" max-height="30" contain class="ml-2"/>
                             </a>
-                            <a target="_blank" href="https://www.instagram.com/wadduwa.beach.villas/">
-                                <v-img :src="ig" max-width="30" max-height="30" contain class="ml-2"></v-img>
+                            <a target="_blank" href="https://www.instagram.com/wadduwa.beach.villas/" rel="noopener"
+                               aria-label="Instagram">
+                                <v-img :src="ig" max-width="30" max-height="30" contain class="ml-2"/>
                             </a>
-                            <a target="_blank" href="https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information">
-                                <v-img :src="ex" max-width="30" max-height="30" contain class="ml-2"></v-img>
+                            <a target="_blank" aria-label="Expedia" rel="noopener"
+                               href="https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information">
+                                <v-img :src="ex" max-width="30" max-height="30" contain class="ml-2"/>
                             </a>
                         </v-layout>
                     </v-col>

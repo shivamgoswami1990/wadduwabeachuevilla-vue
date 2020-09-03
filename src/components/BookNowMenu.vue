@@ -3,16 +3,17 @@
         <template v-slot:activator="{ on }">
 
             <!-- Conditional activators based on prop -->
-            <v-btn color="primary" v-on="on" v-if="$attrs.type === 'button'"
+            <v-btn color="primary" v-on="on" v-if="$attrs.type === 'button'" aria-label="Book now"
                    height="80%" width="40%" max-width="170px" class="black--text hidden-sm-and-down" tile>
                 Book Now
             </v-btn>
 
-            <v-btn v-on="on" icon tile :ripple="false" v-if="$attrs.type === 'button'">
-                <v-icon class="hidden-sm-and-up" color="primary" size="35">mdi-airplane-takeoff</v-icon>
+            <v-btn v-on="on" icon tile :ripple="false" v-if="$attrs.type === 'button'" aria-label="Book now">
+                <v-icon class="hidden-sm-and-up" color="primary" size="35" aria-label="Book now">mdi-airplane-takeoff</v-icon>
             </v-btn>
 
-            <a class="subtitle-1" v-on="on" style="text-decoration: underline" v-if="$attrs.type === 'anchor'">
+            <a class="subtitle-1" v-on="on" style="text-decoration: underline" v-if="$attrs.type === 'anchor'"
+               aria-label="Book now">
                 Book now
             </a>
             <!-- Conditional activators based on prop -->
