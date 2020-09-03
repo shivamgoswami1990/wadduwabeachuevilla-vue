@@ -109,6 +109,27 @@
 
             </v-layout>
         </v-container>
+
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org/",
+            "@type": "Restaurant",
+            "name": "Wadduwa Beach Villa Restaurant",
+            "image": [
+              "https://wadduwabeachvilla.com/img/Restaurant.e29c832d.jpg"
+            ],
+            "priceRange": "$$",
+            "servesCuisine": "Sri Lankan",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "36/17 Sanath",
+              "addressLocality": "A J Perera Mawatha",
+              "addressRegion": "Wadduwa",
+              "postalCode": "12560",
+              "addressCountry": "SL"
+            }
+          }
+        </script>
     </div>
 </template>
 
