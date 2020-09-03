@@ -22,8 +22,7 @@
                             <div class="contactus-item">
                                 <v-icon color="primary">mdi-map-marker</v-icon>
                                 <p class="caption">
-                                    Wadduwa Beach Villa 36/17, Sanath Perera Mawatha,
-                                    South Thalpitiya, Wadduwa, Sri Lanka
+                                  36/17 Sanath, A J Perera Mawatha, Wadduwa 12560, Sri Lanka
                                 </p>
                             </div>
 
@@ -71,8 +70,8 @@
         <v-bottom-navigation background-color="black" dark height="50">
             <p class="text-center caption">
                 © Copyright 2020 Wadduwa Beach Villa. All rights reserved
-                <br>
-                Made with ❣ by <a href="https://shivamgoswami.live" target="_blank">Shivam Goswami</a>
+<!--                <br>-->
+<!--                Made with ❣ by <a href="https://shivamgoswami.live" target="_blank">Shivam Goswami</a>-->
             </p>
         </v-bottom-navigation>
     </div>

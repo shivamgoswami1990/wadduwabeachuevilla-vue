@@ -47,6 +47,107 @@
       <room-cards :data="rooms" :height="580"/>
     </v-container>
     <!-- Rooms section -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        "image": [
+          "https://www.wadduwabeachvilla.com/img/background.37f84a77.jpg",
+          "https://www.wadduwabeachvilla.com/img/Restaurant.e29c832d.jpg"
+        ],
+        "@id": "https://www.wadduwabeachvilla.com",
+        "name": "Wadduwa Beach Villas",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "36/17 Sanath",
+          "addressLocality": "A J Perera Mawatha",
+          "addressRegion": "Wadduwa",
+          "postalCode": "12560",
+          "addressCountry": "SL"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 6.670724,
+          "longitude": 79.9211593
+        },
+        "url": "https://www.wadduwabeachvilla.com",
+        "priceRange": "$$",
+        "telephone": "+94712532311",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "12:00",
+            "closes": "14:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "17:00",
+            "closes": "20:30"
+          }
+        ],
+        "department": [
+          {
+            "@type": "Restaurant",
+            "servesCuisine": "Sri Lankan",
+            "priceRange": "$$",
+            "image": [
+              "https://www.wadduwabeachvilla.com/img/Restaurant.e29c832d.jpg"
+            ],
+            "name": "Wadduwa Beach Villas Restaurant",
+            "telephone": "+94713770692",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "36/17 Sanath",
+              "addressLocality": "A J Perera Mawatha",
+              "addressRegion": "Wadduwa",
+              "postalCode": "12560",
+              "addressCountry": "SL"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "12:00",
+                "closes": "14:30"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "17:00",
+                "closes": "20:30"
+              }
+            ]
+          }
+        ],
+        "menu": "https://wadduwabeachvilla.com/img/daymenu1.6fc6ace3.jpg",
+        "acceptsReservations": "True"
+      }
+    </script>
   </div>
 </template>
 
