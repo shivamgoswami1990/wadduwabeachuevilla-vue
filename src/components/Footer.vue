@@ -46,13 +46,13 @@
                         <h3 class="pb-6  body-1 font-weight-bold">Social</h3>
 
                         <v-layout justify-center>
-                            <a target="_blank" href="https://www.facebook.com/wadduwabeachvillasPvtLtd/"
+                            <a target="_blank" href="https://www.facebook.com/wadduwabeachvilla"
                                aria-label="Facebook" rel="noopener">
                                 <v-img :src="fb" max-width="30" max-height="30" contain class="ml-2"/>
                             </a>
-                            <a target="_blank" href="https://www.tripadvisor.com/RentalPropertyManager-a_manager.236794"
-                               aria-label="Trip advisor" rel="noopener">
-                                <v-img :src="ta" max-width="30" max-height="30" contain class="ml-2"/>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCoSGHbVx2x6geukCd8y-uUA"
+                               aria-label="Youtube" rel="noopener">
+                                <v-img :src="yt" max-width="30" max-height="30" contain class="ml-2"/>
                             </a>
                             <a target="_blank" href="https://www.airbnb.com/users/show/19675962" rel="noopener"
                                aria-label="AirBnB">
@@ -126,7 +126,7 @@
 <script>
     import logo from "@/assets/logo.png";
     import fb from "@/assets/Footer/fb.png";
-    import ta from "@/assets/Footer/ta.png";
+    import yt from "@/assets/Footer/yt.png";
     import ig from "@/assets/Footer/ig.png";
     import ab from "@/assets/Footer/ab.png";
     import ex from "@/assets/Footer/ex.png";
@@ -136,7 +136,7 @@
             return {
                 logo: logo,
                 fb: fb,
-                ta: ta,
+                yt: yt,
                 ig: ig,
                 ab: ab,
                 ex: ex

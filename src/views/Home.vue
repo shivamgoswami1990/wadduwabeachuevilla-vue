@@ -1,38 +1,7 @@
 <template>
   <div>
-    <!-- Video section -->
-    <vue-video-section
-            :elementId="'content-video'"
-            :ref="'content-video'"
-            :mp4Source="require('../assets/Home/background.mp4')"
-            :posterSource="require('../assets/Home/background.jpg')"
-            :mobileBreakpoint="992"
-            :desktopHeight="videoHeight"
-            :mobileHeight="videoHeight"
-            :playsinline="true"
-            :loop="true"
-            :autoplay="true"
-            :autobuffer="true"
-            :muted="true"
-    >
-      <div slot="overlay-content" class="overlay-content">
-        <v-container :style="{ height: videoHeight + 'px' }">
-          <v-layout justify-center align-start fill-height column wrap id="video-section">
-            <div class="title text--secondary">Sri Lanka</div>
-            <h1 class="white--text" :class="$vuetify.breakpoint.mdAndDown ? 'display-3' : 'display-4'">
-              Wadduwa Beach Villa
-            </h1>
-            <div class="display-1 white--text text--secondary">A local icon of private luxury</div>
-            <router-link class="title" :style="{ color: $vuetify.theme.currentTheme.primary }"
-                         :to="{ name: 'facilities' }">
-              Find out more about our packages
-            </router-link>
-
-          </v-layout>
-        </v-container>
-      </div>
-    </vue-video-section>
-    <!-- Video section -->
+    <banner-section imgFilename="Home/background.jpg" preTitle="Sri Lanka" title="Wadduwa Beach Villa"
+                    description="A local icon of private luxury"/>
 
     <!-- Rooms section -->
     <v-container class="pt-12">
@@ -173,7 +142,7 @@
 
 <script>
 // @ is an alias to /src
-import VueVideoSection from 'vue-video-section';
+import BannerSection from "@/components/BannerSection.vue";
 import RoomCards from '@/components/RoomCards.vue';
 
 export default {
@@ -187,7 +156,7 @@ export default {
     ]
   },
   components: {
-    VueVideoSection, RoomCards
+    BannerSection, RoomCards
   },
   data() {
     return {
