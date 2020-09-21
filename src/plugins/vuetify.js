@@ -1,5 +1,4 @@
 import '@mdi/font/css/materialdesignicons.css';
-import 'vue-video-section/dist/vue-video-section.css'
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
 import VueMeta from 'vue-meta'

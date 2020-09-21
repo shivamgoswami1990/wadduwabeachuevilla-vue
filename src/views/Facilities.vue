@@ -17,19 +17,9 @@
 
       <v-row no-gutters class="mt-10">
         <v-col cols="12" md="7" class="pt-12">
-          <vue-video-section
-              :elementId="'facilities-video'"
-              :ref="'facilities-video'"
-              :mp4Source="require('../assets/Facilities/3.mp4')"
-              :mobileBreakpoint="992"
-              :desktopHeight="720"
-              :mobileHeight="720"
-              :playsinline="true"
-              :loop="true"
-              :autoplay="true"
-              :autobuffer="true"
-              :muted="true"
-          />
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YFYl5qU5rZ0" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
         </v-col>
 
         <v-col cols="12" md="5">
@@ -78,23 +68,23 @@
         <v-col cols="12" md="6">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/OTYkhfjebN0" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
         </v-col>
         <v-col cols="12" md="6">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/UsIkY8Fxh_8" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
         </v-col>
 
         <v-col cols="12" md="6">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/GKmHnM7akmU" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
         </v-col>
         <v-col cols="12" md="6">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/UyyYWYJ0ssY" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
         </v-col>
       </v-row>
     </v-container>
@@ -126,7 +116,6 @@
 <script>
 // @ is an alias to /src
 import BannerSection from "@/components/BannerSection.vue";
-import VueVideoSection from 'vue-video-section';
 import ab from "@/assets/Footer/ab.png";
 import ex from "@/assets/Footer/ex.png";
 
@@ -143,7 +132,7 @@ export default {
     ]
   },
   components: {
-    BannerSection, VueVideoSection
+    BannerSection
   },
   data() {
     return {
