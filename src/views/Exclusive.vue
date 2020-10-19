@@ -31,67 +31,65 @@
 </template>
 
 <script>
-    // @ is an alias to /src
-    import BannerSection from "@/components/BannerSection.vue";
+// @ is an alias to /src
+import BannerSection from '@/components/BannerSection.vue';
 
-    export default {
-        metaInfo: {
-            title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Corporate functions → Private pool → Dedicated restaurant → %s',
-            meta: [
-                { name: 'name', content: 'Exclusive bookings near Colombo, Sri Lanka' },
-                { name: 'description', content: 'Contact us for your next corporate functions, weddings and family outings' }
-            ]
+export default {
+  metaInfo: {
+    title: 'Wadduwa Beach Villa',
+    titleTemplate: 'Corporate functions → Private pool → Dedicated restaurant → %s',
+    meta: [
+      { name: 'name', content: 'Exclusive bookings near Colombo, Sri Lanka' },
+      { name: 'description', content: 'Contact us for your next corporate functions, weddings and family outings' }
+    ]
+  },
+  components: {
+    BannerSection
+  },
+  data() {
+    return {
+      bannerHeight: null,
+      features: [
+        {
+          image: '1.jpg',
+          title: 'Private Swimming Pool'
         },
-        components: {
-            BannerSection
+        {
+          image: '2.jpg',
+          title: '1.5 Acre Landscaped Garden with outdoor living and dining areas',
+
         },
-        data() {
-            return {
-                bannerHeight: null,
-                features: [
-                    {
-                        image: '1.jpg',
-                        title: 'Private Swimming Pool'
-                    },
-                    {
-                        image: '2.jpg',
-                        title: '1.5 Acre Landscaped Garden with outdoor living and dining areas',
+        {
+          image: '3.jpg',
+          title: 'Customizable configuration of 3 Rooms and 3 Villas for a total of 22 Persons',
 
-                    },
-                    {
-                        image: '3.jpg',
-                        title: 'Customizable configuration of 3 Rooms and 3 Villas for a total of 22 Persons',
-
-                    },
-                    {
-                        image: '4.jpg',
-                        title: 'Dedicated restaurant and wait staff ',
-
-                    },
-                    {
-                        image: '5.jpg',
-                        title: 'Beach Access',
-
-                    }
-                ]
-            }
         },
-        mounted() {
-            this.bannerHeight = this.visibleViewportHeight();
+        {
+          image: '4.jpg',
+          title: 'Dedicated restaurant and wait staff ',
+
         },
-        methods: {
-            getImageOrder(index) {
-                if (this.$vuetify.breakpoint.smAndDown) {
-                    return 1;
-                } else {
-                    if (index % 2 == 0) {
-                        return 2;
-                    } else {
-                        return 1;
-                    }
-                }
-            }
+        {
+          image: '5.jpg',
+          title: 'Beach Access',
+
         }
+      ]
+    };
+  },
+  mounted() {
+    this.bannerHeight = this.visibleViewportHeight();
+  },
+  methods: {
+    getImageOrder(index) {
+      if (this.$vuetify.breakpoint.smAndDown) {
+        return 1;
+      }
+      if (index % 2 === 0) {
+        return 2;
+      }
+      return 1;
     }
+  }
+};
 </script>

@@ -19,19 +19,19 @@
 </style>
 
 <script>
-    // @ is an alias to /src
+// @ is an alias to /src
 
-    export default {
+export default {
 
-        data() {
-            return {
-                bannerHeight: null,
-                imgSrc: ''
-            }
-        },
-        mounted() {
-            this.bannerHeight = this.visibleViewportHeight();
-            this.imgSrc = require('@/assets/' + this.$attrs.imgFilename);
-        }
-    }
+  data() {
+    return {
+      bannerHeight: null,
+      imgSrc: ''
+    };
+  },
+  mounted() {
+    this.bannerHeight = this.visibleViewportHeight();
+    this.imgSrc = require('@/assets/' + this.$attrs.imgFilename);
+  }
+};
 </script>

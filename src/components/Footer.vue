@@ -124,23 +124,23 @@
 </style>
 
 <script>
-    import logo from "@/assets/logo.png";
-    import fb from "@/assets/Footer/fb.png";
-    import yt from "@/assets/Footer/yt.png";
-    import ig from "@/assets/Footer/ig.png";
-    import ab from "@/assets/Footer/ab.png";
-    import ex from "@/assets/Footer/ex.png";
+import logo from '@/assets/logo.png';
+import fb from '@/assets/Footer/fb.png';
+import yt from '@/assets/Footer/yt.png';
+import ig from '@/assets/Footer/ig.png';
+import ab from '@/assets/Footer/ab.png';
+import ex from '@/assets/Footer/ex.png';
 
-    export default {
-        data() {
-            return {
-                logo: logo,
-                fb: fb,
-                yt: yt,
-                ig: ig,
-                ab: ab,
-                ex: ex
-            }
-        }
-    }
+export default {
+  data() {
+    return {
+      logo,
+      fb,
+      yt,
+      ig,
+      ab,
+      ex
+    };
+  }
+};
 </script>

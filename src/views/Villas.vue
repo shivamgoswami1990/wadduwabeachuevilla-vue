@@ -83,49 +83,52 @@
 </style>
 
 <script>
-    // @ is an alias to /src
-    import BannerSection from "@/components/BannerSection.vue";
-    import BtnWithIcon from '@/components/BtnWithIcon.vue';
-    import ab from "@/assets/Footer/ab.png";
-    import ex from "@/assets/Footer/ex.png";
+// @ is an alias to /src
+import BannerSection from '@/components/BannerSection.vue';
+import BtnWithIcon from '@/components/BtnWithIcon.vue';
+import ab from '@/assets/Footer/ab.png';
+import ex from '@/assets/Footer/ex.png';
 
-    export default {
-        metaInfo: {
-            title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Honeymoon Villa → Family Villa → Double Room → %s',
-            meta: [
-                { name: 'name', content: 'Luxury villas in Wadduwa' },
-                { name: 'description', content: 'Come and enjoy your stay at luxury villas with outdoor pool,' +
-                        ' beach view and restaurant' }
-            ]
-        },
-        components: {
-            BannerSection, BtnWithIcon
-        },
-        data() {
-            return {
-                bannerHeight: null,
-                tab: null,
-                rooms: [],
-                ab: ab,
-                ex: ex
-            }
-        },
-        mounted() {
-            this.bannerHeight = this.visibleViewportHeight();
-            this.rooms = this.availableRooms();
+export default {
+  metaInfo: {
+    title: 'Wadduwa Beach Villa',
+    titleTemplate: 'Honeymoon Villa → Family Villa → Double Room → %s',
+    meta: [
+      { name: 'name', content: 'Luxury villas in Wadduwa' },
+      {
+        name: 'description',
+        content: 'Come and enjoy your stay at luxury villas with outdoor pool,'
+                        + ' beach view and restaurant'
+      }
+    ]
+  },
+  components: {
+    BannerSection, BtnWithIcon
+  },
+  data() {
+    return {
+      bannerHeight: null,
+      tab: null,
+      rooms: [],
+      ab,
+      ex
+    };
+  },
+  mounted() {
+    this.bannerHeight = this.visibleViewportHeight();
+    this.rooms = this.availableRooms();
 
-            if (this.$route.params !== undefined && this.$route.params !== null) {
-                if (Object.keys(this.$route.params).length > 0) {
-                    // Set the tab id & scroll to  iy
-                    this.tab = 'tab-' + this.$route.params.index;
-                    this.$vuetify.goTo(
-                        document.getElementsByClassName('v-tabs-items')[0], {
-                            offset: -500
-                        }
-                    );
-                }
-            }
-        }
+    if (this.$route.params !== undefined && this.$route.params !== null) {
+      if (Object.keys(this.$route.params).length > 0) {
+        // Set the tab id & scroll to  iy
+        this.tab = 'tab-' + this.$route.params.index;
+        this.$vuetify.goTo(
+          document.getElementsByClassName('v-tabs-items')[0], {
+            offset: -500
+          }
+        );
+      }
     }
+  }
+};
 </script>

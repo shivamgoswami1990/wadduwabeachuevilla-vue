@@ -129,46 +129,46 @@
 </style>
 
 <script>
-    // @ is an alias to /src
-    import BannerSection from "@/components/BannerSection.vue";
+// @ is an alias to /src
+import BannerSection from '@/components/BannerSection.vue';
 
-    export default {
-        components: {
-            BannerSection
-        },
-        data() {
-            return {
-                bannerHeight: null,
-                post: {}
-            }
-        },
-        metaInfo() {
-            if (this.post !== undefined && this.post !== null) {
-                if (typeof this.post === 'object') {
-                    return {
-                        title: 'Wadduwa Beach Villa',
-                        titleTemplate: this.post.title + ' → %s',
-                        meta: [
-                            { name: 'name', content: this.post.title },
-                            { name: 'description', content: this.post.section1 }
-                        ]
-                    }
-                }
-            }
-        },
-        mounted() {
-            this.bannerHeight = this.visibleViewportHeight();
-        },
-        created() {
-            let currentPostName = this.$route.params.name;
-            if (currentPostName !== undefined && currentPostName !== null) {
-                // Find the selected post object
-                this.blogPosts().forEach((post) => {
-                    if (post.title.replace(/\s+/g, '-').toLowerCase() === currentPostName) {
-                        this.post = post;
-                    }
-                });
-            }
-        }
+export default {
+  components: {
+    BannerSection
+  },
+  data() {
+    return {
+      bannerHeight: null,
+      post: {}
+    };
+  },
+  metaInfo() {
+    if (this.post !== undefined && this.post !== null) {
+      if (typeof this.post === 'object') {
+        return {
+          title: 'Wadduwa Beach Villa',
+          titleTemplate: this.post.title + ' → %s',
+          meta: [
+            { name: 'name', content: this.post.title },
+            { name: 'description', content: this.post.section1 }
+          ]
+        };
+      }
     }
+  },
+  mounted() {
+    this.bannerHeight = this.visibleViewportHeight();
+  },
+  created() {
+    const currentPostName = this.$route.params.name;
+    if (currentPostName !== undefined && currentPostName !== null) {
+      // Find the selected post object
+      this.blogPosts().forEach((post) => {
+        if (post.title.replace(/\s+/g, '-').toLowerCase() === currentPostName) {
+          this.post = post;
+        }
+      });
+    }
+  }
+};
 </script>

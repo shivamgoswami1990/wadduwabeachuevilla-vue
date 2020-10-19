@@ -21,17 +21,16 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                drawer: true
-            }
-        },
-        methods: {
-            closeDrawer() {
-                this.$emit('showDrawer', false);
-            }
-        }
+export default {
+  data() {
+    return {
+      drawer: true
+    };
+  },
+  methods: {
+    closeDrawer() {
+      this.$emit('showDrawer', false);
     }
+  }
+};
 </script>
-

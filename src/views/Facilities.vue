@@ -115,19 +115,20 @@
 
 <script>
 // @ is an alias to /src
-import BannerSection from "@/components/BannerSection.vue";
-import ab from "@/assets/Footer/ab.png";
-import ex from "@/assets/Footer/ex.png";
+import BannerSection from '@/components/BannerSection.vue';
+import ab from '@/assets/Footer/ab.png';
+import ex from '@/assets/Footer/ex.png';
 
 export default {
   metaInfo: {
     title: 'Wadduwa Beach Villa',
     titleTemplate: 'Music and DJ → Outdoor functions → Free parking → Free WiFi → Pool → %s',
     meta: [
-      {name: 'name', content: 'Facilities at Wadduwa Beach Villa'},
+      { name: 'name', content: 'Facilities at Wadduwa Beach Villa' },
       {
-        name: 'description', content: 'Come and enjoy a great day out by the pool. We have facilities such as' +
-            ' free parking, music, events lighting, beach view, self contained villas to make your stay comfortable'
+        name: 'description',
+        content: 'Come and enjoy a great day out by the pool. We have facilities such as'
+            + ' free parking, music, events lighting, beach view, self contained villas to make your stay comfortable'
       }
     ]
   },
@@ -160,9 +161,9 @@ export default {
         'Free Wifi',
         'Beach View'
       ],
-      ab: ab,
-      ex: ex
-    }
+      ab,
+      ex
+    };
   },
   mounted() {
     this.bannerHeight = this.visibleViewportHeight();
@@ -176,5 +177,5 @@ export default {
       }
     }
   }
-}
+};
 </script>

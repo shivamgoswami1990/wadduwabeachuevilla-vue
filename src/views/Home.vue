@@ -142,7 +142,7 @@
 
 <script>
 // @ is an alias to /src
-import BannerSection from "@/components/BannerSection.vue";
+import BannerSection from '@/components/BannerSection.vue';
 import RoomCards from '@/components/RoomCards.vue';
 
 export default {
@@ -151,8 +151,11 @@ export default {
     titleTemplate: 'Beach villas → Outdoor Events → Day out packages → Villas near Colombo → %s',
     meta: [
       { name: 'name', content: 'Visit luxury beach villas near Colombo' },
-      { name: 'description', content: 'Come stay at an affordable luxury villa in Sri Lanka.' +
-                'Enjoy great local cuisine outdoors by the beach' }
+      {
+        name: 'description',
+        content: 'Come stay at an affordable luxury villa in Sri Lanka.'
+                + 'Enjoy great local cuisine outdoors by the beach'
+      }
     ]
   },
   components: {
@@ -162,11 +165,11 @@ export default {
     return {
       videoHeight: null,
       rooms: []
-    }
+    };
   },
   mounted() {
     this.videoHeight = this.visibleViewportHeight();
     this.rooms = this.availableRooms();
   }
-}
+};
 </script>

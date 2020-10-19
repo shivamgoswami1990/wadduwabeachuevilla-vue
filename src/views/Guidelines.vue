@@ -138,62 +138,65 @@
 </style>
 
 <script>
-    // @ is an alias to /src
-    import BannerSection from "@/components/BannerSection.vue";
+// @ is an alias to /src
+import BannerSection from '@/components/BannerSection.vue';
 
-    export default {
-        metaInfo: {
-            title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Guidelines → Outdoor BBQ → Buffet → Beach resort dining → Dayout → %s',
-            meta: [
-                { name: 'name', content: 'Wadduwa Beach Villa Guidelines' },
-                { name: 'description', content: 'Visit our villa for a great outdoor dining experience by' +
-                        ' the beach. Help us make your experience more comfortable.' }
-            ]
+export default {
+  metaInfo: {
+    title: 'Wadduwa Beach Villa',
+    titleTemplate: 'Guidelines → Outdoor BBQ → Buffet → Beach resort dining → Dayout → %s',
+    meta: [
+      { name: 'name', content: 'Wadduwa Beach Villa Guidelines' },
+      {
+        name: 'description',
+        content: 'Visit our villa for a great outdoor dining experience by'
+                        + ' the beach. Help us make your experience more comfortable.'
+      }
+    ]
+  },
+  components: {
+    BannerSection
+  },
+  data() {
+    return {
+      bannerHeight: null,
+      viewportWidth: null,
+      slideGroup: null,
+      dialog: false,
+      selectedImagePath: null,
+      menus: [
+        {
+          image: '1.jpg',
+          title: 'Page 1'
         },
-        components: {
-            BannerSection
+        {
+          image: '2.jpg',
+          title: 'Page 2'
         },
-        data() {
-            return {
-                bannerHeight: null,
-                viewportWidth: null,
-                slideGroup: null,
-                dialog: false,
-                selectedImagePath: null,
-                menus: [
-                    {
-                        image: '1.jpg',
-                        title: 'Page 1'
-                    },
-                    {
-                        image: '2.jpg',
-                        title: 'Page 2'
-                    },
-                    {
-                        image: '3.jpg',
-                        title: 'Page 3'
-                    },
-                    {
-                        image: '4.jpg',
-                        title: 'Page 4'
-                    },
-                    {
-                        image: '5.jpg',
-                        title: 'Page 5'
-                    }
-                ]
-            }
+        {
+          image: '3.jpg',
+          title: 'Page 3'
         },
-        mounted() {
-            this.bannerHeight = this.visibleViewportHeight();
-            this.viewportWidth = this.visibleViewportWidth();
+        {
+          image: '4.jpg',
+          title: 'Page 4'
         },
-        methods: {
-            showDialog(imagePath) {
-                this.dialog = true;
-                this.selectedImagePath = imagePath;
-            }
+        {
+          image: '5.jpg',
+          title: 'Page 5'
         }
+      ]
+    };
+  },
+  mounted() {
+    this.bannerHeight = this.visibleViewportHeight();
+    this.viewportWidth = this.visibleViewportWidth();
+  },
+  methods: {
+    showDialog(imagePath) {
+      this.dialog = true;
+      this.selectedImagePath = imagePath;
     }
+  }
+};
 </script>

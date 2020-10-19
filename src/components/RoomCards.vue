@@ -49,13 +49,12 @@
 </style>
 
 <script>
-    // @ is an alias to /src
-    import BtnWithIcon from '@/components/BtnWithIcon.vue';
+// @ is an alias to /src
+import BtnWithIcon from '@/components/BtnWithIcon.vue';
 
-    export default {
-        components: {
-            BtnWithIcon
-        }
-    }
+export default {
+  components: {
+    BtnWithIcon
+  }
+};
 </script>
-

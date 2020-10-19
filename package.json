@@ -5,47 +5,31 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint --fix"
   },
   "dependencies": {
-    "@mdi/font": "^5.6.55",
+    "@mdi/font": "^5.7.55",
     "vue": "^2.6.12",
     "vue-meta": "^2.4.0",
-    "vue-router": "^3.4.3",
-    "vuetify": "^2.3.10"
+    "vue-router": "^3.4.7",
+    "vuetify": "^2.3.14"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.6",
-    "@vue/cli-plugin-eslint": "^4.5.6",
-    "@vue/cli-plugin-router": "^4.5.6",
-    "@vue/cli-service": "^4.5.6",
+    "@vue/cli-plugin-babel": "^4.5.7",
+    "@vue/cli-plugin-eslint": "^4.5.7",
+    "@vue/cli-plugin-router": "^4.5.7",
+    "@vue/cli-service": "^4.5.7",
+    "@vue/eslint-config-airbnb": "^5.1.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.9.0",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint": "^7.11.0",
+    "eslint-plugin-vuetify": "^1.0.0-beta.7",
+    "eslint-plugin-vue": "^7.1.0",
     "postcss-pxtorem": "^5.1.1",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
     "vue-cli-plugin-vuetify": "^2.0.7",
     "vue-template-compiler": "^2.6.12",
     "vuetify-loader": "^1.6.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {
-      "vue/no-use-v-if-with-v-for": 0,
-      "vue/valid-v-on": 0,
-      "vue/return-in-computed-property": 0
-    },
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
   },
   "postcss": {
     "plugins": {

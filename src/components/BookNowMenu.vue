@@ -44,24 +44,24 @@
 </template>
 
 <script>
-    import ab from "@/assets/Footer/ab.png";
-    import ex from "@/assets/Footer/ex.png";
+import ab from '@/assets/Footer/ab.png';
+import ex from '@/assets/Footer/ex.png';
 
-    export default {
-        data() {
-            return {
-                ab: ab,
-                ex: ex
-            }
-        },
-        methods: {
-            openBookNowLink(companyName) {
-                if (companyName === 'airbnb') {
-                    window.open('https://www.airbnb.com/users/show/19675962', '_blank');
-                } else if (companyName === 'expedia') {
-                    window.open('https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information', '_blank');
-                }
-            }
-        }
+export default {
+  data() {
+    return {
+      ab,
+      ex
+    };
+  },
+  methods: {
+    openBookNowLink(companyName) {
+      if (companyName === 'airbnb') {
+        window.open('https://www.airbnb.com/users/show/19675962', '_blank');
+      } else if (companyName === 'expedia') {
+        window.open('https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information', '_blank');
+      }
     }
+  }
+};
 </script>

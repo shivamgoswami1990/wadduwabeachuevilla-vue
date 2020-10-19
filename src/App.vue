@@ -66,35 +66,35 @@
 </style>
 
 <script>
-    import NavDrawer from '@/components/NavDrawer.vue';
-    import FooterWithBottomNav from '@/components/Footer.vue';
-    import BookNowMenu from '@/components/BookNowMenu.vue';
-    import logo from "@/assets/logo.png";
+import NavDrawer from '@/components/NavDrawer.vue';
+import FooterWithBottomNav from '@/components/Footer.vue';
+import BookNowMenu from '@/components/BookNowMenu.vue';
+import logo from '@/assets/logo.png';
 
-    export default {
-        components: {
-            NavDrawer, FooterWithBottomNav, BookNowMenu
-        },
-        data() {
-            return {
-                showDrawer: false,
-                videoHeight: null,
-                logo: logo,
-                navItems: [
-                    { title: "The Villas", isMainNavItem: true, linkTo: 'villas'},
-                    { title: "Restaurant", isMainNavItem: true, linkTo: 'restaurant'},
-                    { title: "Facilities", isMainNavItem: true, linkTo: 'facilities'},
-                    { title: "Exclusive", isMainNavItem: true, linkTo: 'exclusive'},
-                    { title: "Blog", isMainNavItem: true, linkTo: 'blog'},
-                    { title: "Guidelines", isMainNavItem: true, linkTo: 'guidelines'},
-                    { title: "Contact Us", isMainNavItem: false, linkTo: 'contactus'},
-                ]
-            }
-        },
-        methods: {
-            transitionend() {
-                this.showDrawer = false;
-            }
-        }
+export default {
+  components: {
+    NavDrawer, FooterWithBottomNav, BookNowMenu
+  },
+  data() {
+    return {
+      showDrawer: false,
+      videoHeight: null,
+      logo,
+      navItems: [
+        { title: 'The Villas', isMainNavItem: true, linkTo: 'villas' },
+        { title: 'Restaurant', isMainNavItem: true, linkTo: 'restaurant' },
+        { title: 'Facilities', isMainNavItem: true, linkTo: 'facilities' },
+        { title: 'Exclusive', isMainNavItem: true, linkTo: 'exclusive' },
+        { title: 'Blog', isMainNavItem: true, linkTo: 'blog' },
+        { title: 'Guidelines', isMainNavItem: true, linkTo: 'guidelines' },
+        { title: 'Contact Us', isMainNavItem: false, linkTo: 'contactus' },
+      ]
+    };
+  },
+  methods: {
+    transitionend() {
+      this.showDrawer = false;
     }
+  }
+};
 </script>

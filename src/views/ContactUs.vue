@@ -50,104 +50,106 @@
 </template>
 
 <script>
-    // @ is an alias to /src
-    import BannerSection from "@/components/BannerSection.vue";
-    import locationImg from "@/assets/ContactUs/location.jpg";
+// @ is an alias to /src
+import BannerSection from '@/components/BannerSection.vue';
+import locationImg from '@/assets/ContactUs/location.jpg';
 
-    export default {
-        metaInfo: {
-            title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Contact beach villas → %s',
-            meta: [
-                { name: 'name', content: 'Contact us' },
-                { name: 'description', content: 'Contact Beach Hotel near Colombo in Sri Lanka' }
-            ]
-        },
-        components: {
-            BannerSection
-        },
-        data() {
-            return {
-                bannerHeight: null,
-                locationImg: locationImg,
-                valid: false,
-                rules: {
-                    required: value => !!value || 'Required.',
-                    max: v => this.validateFormRules(v, 'lte', 20, 'Max 20 characters'),
-                    min: v => this.validateFormRules(v, 'gte', 8, 'Min 8 characters'),
-                    email: (v) => {
-                        if (v !== undefined && v !== null) {
-                            if (v.length > 0) {
-                                const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                                return pattern.test(v) || 'Invalid e-mail.';
-                            }
-                            return true;
-                        }
-                        return true;
-                    }
-                },
-                name: '',
-                email: '',
-                message: '',
-                showSuccessMessage: false,
-                showErrorMessage: false,
-                isLoading: false
+export default {
+  metaInfo: {
+    title: 'Wadduwa Beach Villa',
+    titleTemplate: 'Contact beach villas → %s',
+    meta: [
+      { name: 'name', content: 'Contact us' },
+      { name: 'description', content: 'Contact Beach Hotel near Colombo in Sri Lanka' }
+    ]
+  },
+  components: {
+    BannerSection
+  },
+  data() {
+    return {
+      bannerHeight: null,
+      locationImg,
+      valid: false,
+      rules: {
+        required: (value) => !!value || 'Required.',
+        max: (v) => this.validateFormRules(v, 'lte', 20, 'Max 20 characters'),
+        min: (v) => this.validateFormRules(v, 'gte', 8, 'Min 8 characters'),
+        email: (v) => {
+          if (v !== undefined && v !== null) {
+            if (v.length > 0) {
+              const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+              return pattern.test(v) || 'Invalid e-mail.';
             }
-        },
-        mounted() {
-            this.bannerHeight = this.visibleViewportHeight();
-            console.log(process.env.VUE_APP_REST_URL);
-        },
-        methods: {
-            save() {
-                if (this.$refs.form.validate()) {
-                    // Submit form on valid
-                    const data = { contact: {
-                        "name": this.name,
-                        "email": this.email,
-                        "message": this.message,
-                        }};
-                    let vm = this;
-                    vm.isLoading = true;
-                    fetch(process.env.VUE_APP_REST_URL + '/contacts', {
-                        method: 'POST', // or 'PUT'
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify(data),
-                    })
-                        .then((response) => response.json())
-                        .then((data) => {
-                            // On success, clear form & display success message
-                            if ('response_code' in data) {
-                                if (data.response_code === '202') {
-                                    vm.name = '';
-                                    vm.email = '';
-                                    vm.message = '';
-                                    vm.isLoading = false;
-
-                                    // Show the message on a timeout
-                                    vm.showSuccessMessage = true;
-                                    setTimeout(function () {
-                                        vm.showSuccessMessage = false;
-                                    }, 4000);
-                                }
-                            }
-                        })
-                        .catch((error) => {
-                            vm.isLoading = false;
-                            console.log(error);
-                            // Show the message on a timeout
-                            vm.showErrorMessage = true;
-                            setTimeout(function () {
-                                vm.showErrorMessage = false;
-                            }, 4000);
-                        });
-                }
-            },
-            openMaps() {
-                window.open('https://www.google.com/maps/place/Wadduwa+Beach+Villas/@6.670724,79.9211593,17z', '_blank');
-            }
+            return true;
+          }
+          return true;
         }
+      },
+      name: '',
+      email: '',
+      message: '',
+      showSuccessMessage: false,
+      showErrorMessage: false,
+      isLoading: false
+    };
+  },
+  mounted() {
+    this.bannerHeight = this.visibleViewportHeight();
+    console.log(process.env.VUE_APP_REST_URL);
+  },
+  methods: {
+    save() {
+      if (this.$refs.form.validate()) {
+        // Submit form on valid
+        const data = {
+          contact: {
+            name: this.name,
+            email: this.email,
+            message: this.message,
+          }
+        };
+        const vm = this;
+        vm.isLoading = true;
+        fetch(process.env.VUE_APP_REST_URL + '/contacts', {
+          method: 'POST', // or 'PUT'
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        })
+          .then((response) => response.json())
+          .then((data1) => {
+            // On success, clear form & display success message
+            if ('response_code' in data1) {
+              if (data1.response_code === '202') {
+                vm.name = '';
+                vm.email = '';
+                vm.message = '';
+                vm.isLoading = false;
+
+                // Show the message on a timeout
+                vm.showSuccessMessage = true;
+                setTimeout(() => {
+                  vm.showSuccessMessage = false;
+                }, 4000);
+              }
+            }
+          })
+          .catch((error) => {
+            vm.isLoading = false;
+            console.log(error);
+            // Show the message on a timeout
+            vm.showErrorMessage = true;
+            setTimeout(() => {
+              vm.showErrorMessage = false;
+            }, 4000);
+          });
+      }
+    },
+    openMaps() {
+      window.open('https://www.google.com/maps/place/Wadduwa+Beach+Villas/@6.670724,79.9211593,17z', '_blank');
     }
+  }
+};
 </script>

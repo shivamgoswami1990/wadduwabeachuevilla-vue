@@ -162,86 +162,89 @@
 </style>
 
 <script>
-    // @ is an alias to /src
-    import BannerSection from "@/components/BannerSection.vue";
+// @ is an alias to /src
+import BannerSection from '@/components/BannerSection.vue';
 
-    export default {
-        metaInfo: {
-            title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Restaurant → Outdoor BBQ → Buffet → Beach resort dining → %s',
-            meta: [
-                { name: 'name', content: 'Wadduwa Beach Villa Restaurant' },
-                { name: 'description', content: 'Visit our villa for a great outdoor dining experience by' +
-                        ' the beach. We have daily buffets and some of the best dishes in Sri Lanka.' }
-            ]
+export default {
+  metaInfo: {
+    title: 'Wadduwa Beach Villa',
+    titleTemplate: 'Restaurant → Outdoor BBQ → Buffet → Beach resort dining → %s',
+    meta: [
+      { name: 'name', content: 'Wadduwa Beach Villa Restaurant' },
+      {
+        name: 'description',
+        content: 'Visit our villa for a great outdoor dining experience by'
+                        + ' the beach. We have daily buffets and some of the best dishes in Sri Lanka.'
+      }
+    ]
+  },
+  components: {
+    BannerSection
+  },
+  data() {
+    return {
+      bannerHeight: null,
+      viewportWidth: null,
+      slideGroup: null,
+      dialog: false,
+      selectedImagePath: null,
+      menus: [
+        {
+          image: 'iftar-menu1.jpg',
+          title: 'Iftar Menu 1'
         },
-        components: {
-            BannerSection
+        {
+          image: 'iftar-menu2.jpg',
+          title: 'Iftar Menu 2'
         },
-        data() {
-            return {
-                bannerHeight: null,
-                viewportWidth: null,
-                slideGroup: null,
-                dialog: false,
-                selectedImagePath: null,
-                menus: [
-                    {
-                        image: 'iftar-menu1.jpg',
-                        title: 'Iftar Menu 1'
-                    },
-                    {
-                        image: 'iftar-menu2.jpg',
-                        title: 'Iftar Menu 2'
-                    },
-                    {
-                        image: 'iftar-tandc.jpg',
-                        title: 'Iftar terms and conditions'
-                    },
-                    {
-                        image: 'bbqmenu1.jpg',
-                        title: 'BBQ Menu 1'
-                    },
-                    {
-                        image: 'bbqmenu2.jpg',
-                        title: 'BBQ Menu 2'
-                    },
-                    {
-                        image: 'bbqmenu3.jpg',
-                        title: 'BBQ Menu 3'
-                    },
-                    {
-                        image: 'daymenu1.jpg',
-                        title: 'Day Out Menu 1'
-                    },
-                    {
-                        image: 'daymenu2.jpg',
-                        title: 'Day Out Menu 2'
-                    },
-                    {
-                        image: 'daymenu3.jpg',
-                        title: 'Day Out Menu 3'
-                    },
-                    {
-                        image: 'daymenu4.jpg',
-                        title: 'Day Out Menu 4'
-                    },
-                    {
-                        image: 'wbvbite.jpg',
-                        title: 'Bites Menu'
-                    }
-                ]
-            }
+        {
+          image: 'iftar-tandc.jpg',
+          title: 'Iftar terms and conditions'
         },
-        mounted() {
-            this.bannerHeight = this.visibleViewportHeight();
-            this.viewportWidth = this.visibleViewportWidth();
+        {
+          image: 'bbqmenu1.jpg',
+          title: 'BBQ Menu 1'
         },
-        methods: {
-            showDialog(imagePath) {
-                this.dialog = true;
-                this.selectedImagePath = imagePath;
-            }
+        {
+          image: 'bbqmenu2.jpg',
+          title: 'BBQ Menu 2'
+        },
+        {
+          image: 'bbqmenu3.jpg',
+          title: 'BBQ Menu 3'
+        },
+        {
+          image: 'daymenu1.jpg',
+          title: 'Day Out Menu 1'
+        },
+        {
+          image: 'daymenu2.jpg',
+          title: 'Day Out Menu 2'
+        },
+        {
+          image: 'daymenu3.jpg',
+          title: 'Day Out Menu 3'
+        },
+        {
+          image: 'daymenu4.jpg',
+          title: 'Day Out Menu 4'
+        },
+        {
+          image: 'wbvbite.jpg',
+          title: 'Bites Menu'
         }
+      ]
+    };
+  },
+  mounted() {
+    this.bannerHeight = this.visibleViewportHeight();
+    this.viewportWidth = this.visibleViewportWidth();
+  },
+  methods: {
+    showDialog(imagePath) {
+      this.dialog = true;
+      this.selectedImagePath = imagePath;
     }
+  }
+};
 </script>

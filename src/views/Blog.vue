@@ -74,30 +74,30 @@
 </style>
 
 <script>
-    // @ is an alias to /src
-    import BannerSection from "@/components/BannerSection.vue";
+// @ is an alias to /src
+import BannerSection from '@/components/BannerSection.vue';
 
-    export default {
-        metaInfo: {
-            title: 'Wadduwa Beach Villa',
-            titleTemplate: 'Blog → %s',
-            meta: [
-                { name: 'name', content: 'Blog' },
-                { name: 'description', content: 'Exciting things happening at Wadduwa Beach Villa' }
-            ]
-        },
-        components: {
-            BannerSection
-        },
-        data() {
-            return {
-                bannerHeight: null,
-                posts: null
-            }
-        },
-        mounted() {
-            this.bannerHeight = this.visibleViewportHeight();
-            this.posts = this.blogPosts();
-        }
-    }
+export default {
+  metaInfo: {
+    title: 'Wadduwa Beach Villa',
+    titleTemplate: 'Blog → %s',
+    meta: [
+      { name: 'name', content: 'Blog' },
+      { name: 'description', content: 'Exciting things happening at Wadduwa Beach Villa' }
+    ]
+  },
+  components: {
+    BannerSection
+  },
+  data() {
+    return {
+      bannerHeight: null,
+      posts: null
+    };
+  },
+  mounted() {
+    this.bannerHeight = this.visibleViewportHeight();
+    this.posts = this.blogPosts();
+  }
+};
 </script>
