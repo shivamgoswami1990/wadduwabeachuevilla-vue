@@ -22,12 +22,13 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#FADE03">
     <title>Wadduwa Beach Villas</title>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+          media="print" onload="this.onload=null;this.removeAttribute('media');">
 </head>
 <body>
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    <script defer>
+    <script>
         window.fbAsyncInit = function () {
             FB.init({
                 xfbml: true,
@@ -51,10 +52,6 @@
          logged_in_greeting="Ayubowan ! How can we help you?"
          logged_out_greeting="Ayubowan ! How can we help you?">
     </div>
-    <noscript>
-        <strong>We're sorry but wadduwabeachvilla doesn't work properly without JavaScript enabled. Please enable it to
-            continue.</strong>
-    </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
 </body>
