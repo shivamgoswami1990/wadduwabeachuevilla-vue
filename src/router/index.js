@@ -13,14 +13,6 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
   },
   {
-    path: '/contact-beachfront-hotel-in-wadduwa',
-    name: 'contactus',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/ContactUs.vue')
-  },
-  {
     path: '/luxury-villas-triple-room-two-bedroom-villa-family-villa',
     name: 'villas',
     // route level code-splitting

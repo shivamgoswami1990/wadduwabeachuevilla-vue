@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Guidelines/Guidelines.jpg" preTitle="Wadduwa Beach Villa" title="Rules and Guidelines"
+        <banner-section imgFilename="Guidelines/Guidelines.jpg" preTitle="Wadduwa Beach Villa" title="FAQs and Guidelines"
                         description="Help us make your experience more comfortable"/>
 
         <v-container class="py-12">
@@ -30,7 +30,7 @@
 
                 <!-- Desktop only carousel -->
                 <v-sheet width="80%" min-width="400" color="black" class="hidden-xs-only">
-                    <h2 class="display-2 mt-10 pt-5 text-center">Rules and Guidelines</h2>
+                    <h2 class="display-2 mt-10 pt-5 text-center">FAQs and Guidelines</h2>
                     <v-slide-group v-model="slideGroup" center-active show-arrows>
                         <v-slide-item v-for="(menu, index) in menus" :key="index" class="ma-4" v-slot:default="{ active, toggle }">
 
@@ -69,7 +69,7 @@
 
                 <!-- Mobile only carousel -->
                 <v-card tile flat color="black" width="70%" min-width="400" class="hidden-sm-and-up">
-                    <h2 class="display-2 mt-10 pt-5 text-center">Rules and Guidelines</h2>
+                    <h2 class="display-2 mt-10 pt-5 text-center">FAQs and Guidelines</h2>
                     <v-card-text>
                         <v-carousel hide-delimiters height="600">
                             <v-carousel-item v-for="(menu, index) in menus" :key="index"
