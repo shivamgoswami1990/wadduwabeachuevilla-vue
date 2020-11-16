@@ -23,6 +23,13 @@ module.exports = {
         routes: [
           '/'
         ],
+        minify: {
+          collapseBooleanAttributes: true,
+          collapseWhitespace: true,
+          decodeEntities: true,
+          keepClosingSlash: true,
+          sortAttributes: true
+        },
         postProcess(renderedRoute) {
           renderedRoute.html = renderedRoute.html.replace(/<script (.*?)>/g, '<script $1 defer>');
           return renderedRoute;

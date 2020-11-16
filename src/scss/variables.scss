@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import '~vuetify/src/styles/styles.sass';
+
+* {
+  font-family: 'Raleway', sans-serif !important;
+}
 
 $material-dark: (
         'app-bar': #000000,
@@ -11,7 +14,6 @@ $material-dark: (
 );
 
 $font-size-root: 16px;
-$body-font-family: 'Raleway', sans-serif !default;
 $card-border-radius: 0;
 $chip-label-border-radius: 0;
 
