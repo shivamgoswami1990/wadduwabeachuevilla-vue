@@ -135,7 +135,7 @@ import yt from '@/assets/Footer/yt.png';
 import ig from '@/assets/Footer/ig.png';
 import ab from '@/assets/Footer/ab.png';
 import ex from '@/assets/Footer/ex.png';
-import locationImg from '@/assets/ContactUs/location.jpg';
+import locationImg from '@/assets/Footer/location.jpg';
 
 export default {
   data() {
