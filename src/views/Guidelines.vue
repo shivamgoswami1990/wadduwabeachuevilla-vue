@@ -184,6 +184,14 @@ export default {
         {
           image: '5.jpg',
           title: 'Page 5'
+        },
+        {
+          image: '6.jpg',
+          title: 'Page 6'
+        },
+        {
+          image: '7.jpg',
+          title: 'Page 7'
         }
       ]
     };
