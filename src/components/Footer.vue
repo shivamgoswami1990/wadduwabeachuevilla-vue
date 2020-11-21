@@ -151,7 +151,7 @@ export default {
   },
   methods: {
     openMaps() {
-      window.open('https://www.google.com/maps/place/Wadduwa+Beach+Villas/@6.670724,79.9211593,17z', '_blank');
+      window.open('https://www.google.com/maps/place/Wadduwa+Beach+Villa/@6.6709174,79.9233563,15z/data=!4m8!3m7!1s0x0:0x2299e397b9ccc15d!5m2!4m1!1i2!8m2!3d6.6709174!4d79.9233563', '_blank');
     }
   }
 };

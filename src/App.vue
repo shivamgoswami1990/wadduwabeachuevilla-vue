@@ -86,7 +86,8 @@ export default {
         { title: 'Facilities', isMainNavItem: true, linkTo: 'facilities' },
         { title: 'Exclusive', isMainNavItem: true, linkTo: 'exclusive' },
         { title: 'Blog', isMainNavItem: true, linkTo: 'blog' },
-        { title: 'Guidelines', isMainNavItem: true, linkTo: 'guidelines' }
+        { title: 'FAQ', isMainNavItem: false, linkTo: 'guidelines' },
+        { title: 'Weddings', isMainNavItem: true, linkTo: 'events' }
       ]
     };
   },

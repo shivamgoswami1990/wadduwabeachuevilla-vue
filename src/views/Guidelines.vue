@@ -188,10 +188,6 @@ export default {
         {
           image: '6.jpg',
           title: 'Page 6'
-        },
-        {
-          image: '7.jpg',
-          title: 'Page 7'
         }
       ]
     };

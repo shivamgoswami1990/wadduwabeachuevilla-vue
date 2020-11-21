@@ -190,18 +190,6 @@ export default {
       selectedImagePath: null,
       menus: [
         {
-          image: 'iftar-menu1.jpg',
-          title: 'Iftar Menu 1'
-        },
-        {
-          image: 'iftar-menu2.jpg',
-          title: 'Iftar Menu 2'
-        },
-        {
-          image: 'iftar-tandc.jpg',
-          title: 'Iftar terms and conditions'
-        },
-        {
           image: 'bbqmenu1.jpg',
           title: 'BBQ Menu 1'
         },
@@ -232,6 +220,14 @@ export default {
         {
           image: 'wbvbite.jpg',
           title: 'Bites Menu'
+        },
+        {
+          image: 'iftar-menu1.jpg',
+          title: 'Iftar Menu 1'
+        },
+        {
+          image: 'iftar-menu2.jpg',
+          title: 'Iftar Menu 2'
         }
       ]
     };
