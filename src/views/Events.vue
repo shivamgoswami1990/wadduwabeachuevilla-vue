@@ -8,7 +8,7 @@
             <p class="pt-5 mb-0">
                 You can book the entire 1.5 acre property exclusively for your special day.
             </p>
-            <p class="mb-0">Brand new picturesque, contemporary reception hall (200 pax seating)</p>
+            <p class="mb-0">Brand new picturesque, contemporary reception hall (150 pax seating)</p>
             <p class="mb-0">Open air/beach weddings (up to 400 pax)</p>
             <p>
                 <a href="tel:+0094713770692"><b>Get in touch with us at +0094713770692</b></a>
