@@ -81,7 +81,7 @@ export default {
       videoHeight: null,
       logo,
       navItems: [
-        { title: 'The Villas', isMainNavItem: true, linkTo: 'villas' },
+        { title: 'Accommodation', isMainNavItem: true, linkTo: 'villas' },
         { title: 'Restaurant', isMainNavItem: true, linkTo: 'restaurant' },
         { title: 'Facilities', isMainNavItem: true, linkTo: 'facilities' },
         { title: 'Exclusive', isMainNavItem: true, linkTo: 'exclusive' },

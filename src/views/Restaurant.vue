@@ -1,6 +1,7 @@
 <template>
     <div>
-        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villa" title="Restaurant"
+        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villa"
+                        title="Our Restaurant: Al Fresco"
                         description="The finest dining experience paired with panoramic ocean views"/>
 
         <v-container class="py-12">
