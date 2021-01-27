@@ -14,11 +14,21 @@
                 <a href="tel:+0094713770692"><b>Get in touch with us at +0094713770692</b></a>
             </p>
 
-            <v-row no-gutters v-for="(feature, index) in features" :key="index">
+            <img-tile-section elongatedImgPath="Events/TileSection1/1.jpg"
+                              v-bind:siblingImgPathList="['Events/TileSection1/2.jpeg', 'Events/TileSection1/2.jpg']"/>
+
+            <v-row no-gutters v-for="(feature, index1) in features.slice(0, 2)" :key="'firstRowItem-' + index1">
                 <v-col cols="12" md="6" class="pa-4"
-                       :order="getImageOrder(index)">
-                    <v-img :src="require('@/assets/Events/' + feature.image)"
-                           gradient="360deg, rgba(0,0,0,0.15) 5%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.13) 100%"/>
+                       :order="getImageOrder(index1)">
+
+                  <v-carousel hide-delimiter-background id="carousel-container"
+                              delimiter-icon="mdi-minus" height="500">
+                    <v-carousel-item v-for="(imagePath, index2) in feature.imageList" :key="'firstCarouselItem-' + index2"
+                                     :src="require('@/assets/Events/' + imagePath)"
+                                     reverse-transition="fade-transition"
+                                     transition="fade-transition">
+                    </v-carousel-item>
+                  </v-carousel>
                 </v-col>
 
                 <v-col cols="12" md="6" order="1" class="pa-4">
@@ -27,6 +37,30 @@
                     </v-layout>
                 </v-col>
             </v-row>
+
+          <img-tile-section elongatedImgPath="Events/TileSection2/1.jpg"
+                            v-bind:siblingImgPathList="['Events/TileSection2/2.jpeg', 'Events/TileSection2/2.jpg']"/>
+
+          <v-row no-gutters v-for="(feature, index1) in features.slice(2)" :key="'secondRowItem-' + index1">
+            <v-col cols="12" md="6" class="pa-4"
+                   :order="getImageOrder(index1)">
+
+              <v-carousel hide-delimiter-background id="carousel-container"
+                          delimiter-icon="mdi-minus" height="500">
+                <v-carousel-item v-for="(imagePath, index2) in feature.imageList" :key="'secondCarouselItem-' + index2"
+                                 :src="require('@/assets/Events/' + imagePath)"
+                                 reverse-transition="fade-transition"
+                                 transition="fade-transition">
+                </v-carousel-item>
+              </v-carousel>
+            </v-col>
+
+            <v-col cols="12" md="6" order="1" class="pa-4">
+              <v-layout wrap fill-height justify-center align-center>
+                <h3 class="headline white--text text-uppercase" style="max-width: 400px">{{feature.title}}</h3>
+              </v-layout>
+            </v-col>
+          </v-row>
         </v-container>
     </div>
 </template>
@@ -34,6 +68,7 @@
 <script>
 // @ is an alias to /src
 import BannerSection from '@/components/BannerSection.vue';
+import ImgTileSection from '@/components/ImgTileSection.vue';
 
 export default {
   metaInfo: {
@@ -45,33 +80,33 @@ export default {
     ]
   },
   components: {
-    BannerSection
+    BannerSection, ImgTileSection
   },
   data() {
     return {
       bannerHeight: null,
       features: [
         {
-          image: '1.jpg',
+          imageList: ['Carousel1/1.jpeg', 'Carousel1/2.jpeg', 'Carousel1/3.jpeg'],
           title: 'Create a bespoke experience'
         },
         {
-          image: '2.jpg',
+          imageList: ['Carousel2/1.jpeg', 'Carousel2/1.jpeg'],
           title: '1.5 Acre Landscaped Garden with outdoor living and dining areas',
 
         },
         {
-          image: '3.jpg',
+          imageList: ['Carousel3/1.jpeg', 'Carousel3/1.jpeg'],
           title: 'Complimentary double room on FB basis for newlywed couples',
 
         },
         {
-          image: '4.jpg',
+          imageList: ['Carousel4/1.jpeg', 'Carousel4/2.jpeg', 'Carousel4/3.jpeg'],
           title: 'Wedding pre-shoot free of charge',
 
         },
         {
-          image: '5.jpg',
+          imageList: ['Carousel5/1.jpg', 'Carousel5/2.jpeg'],
           title: 'Corkage free for BYO',
 
         }
