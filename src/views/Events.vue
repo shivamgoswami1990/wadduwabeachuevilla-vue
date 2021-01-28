@@ -96,7 +96,7 @@ export default {
 
         },
         {
-          imageList: ['Carousel3/3.jpg', 'Carousel3/2.jpeg', 'Carousel3/1.jpeg'],
+          imageList: ['Carousel3/3.jpeg', 'Carousel3/2.jpeg', 'Carousel3/1.jpg'],
           title: 'Complimentary double room on FB basis for newlywed couples',
 
         },
