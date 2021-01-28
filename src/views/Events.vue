@@ -15,7 +15,7 @@
             </p>
 
             <img-tile-section elongatedImgPath="Events/TileSection1/1.jpg"
-                              v-bind:siblingImgPathList="['Events/TileSection1/2.jpeg', 'Events/TileSection1/2.jpg']"/>
+                              v-bind:siblingImgPathList="['Events/TileSection1/3.jpg', 'Events/TileSection1/2.jpg']"/>
 
             <v-row no-gutters v-for="(feature, index1) in features.slice(0, 2)" :key="'firstRowItem-' + index1">
                 <v-col cols="12" md="6" class="pa-4"
@@ -91,12 +91,12 @@ export default {
           title: 'Create a bespoke experience'
         },
         {
-          imageList: ['Carousel2/1.jpeg', 'Carousel2/1.jpeg'],
+          imageList: ['Carousel2/1.jpeg', 'Carousel2/2.jpeg', 'Carousel2/3.jpeg'],
           title: '1.5 Acre Landscaped Garden with outdoor living and dining areas',
 
         },
         {
-          imageList: ['Carousel3/1.jpeg', 'Carousel3/1.jpeg'],
+          imageList: ['Carousel3/1.jpg', 'Carousel3/2.jpeg', 'Carousel3/3.jpeg'],
           title: 'Complimentary double room on FB basis for newlywed couples',
 
         },
@@ -106,7 +106,7 @@ export default {
 
         },
         {
-          imageList: ['Carousel5/1.jpg', 'Carousel5/2.jpeg'],
+          imageList: ['Carousel5/1.jpeg', 'Carousel5/2.jpeg', 'Carousel5/3.jpeg'],
           title: 'Corkage free for BYO',
 
         }
