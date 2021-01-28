@@ -96,7 +96,7 @@ export default {
 
         },
         {
-          imageList: ['Carousel3/1.jpg', 'Carousel3/2.jpeg', 'Carousel3/3.jpeg'],
+          imageList: ['Carousel3/3.jpg', 'Carousel3/2.jpeg', 'Carousel3/1.jpeg'],
           title: 'Complimentary double room on FB basis for newlywed couples',
 
         },
@@ -106,7 +106,7 @@ export default {
 
         },
         {
-          imageList: ['Carousel5/1.jpeg', 'Carousel5/2.jpeg', 'Carousel5/3.jpeg'],
+          imageList: ['Carousel5/3.jpeg', 'Carousel5/2.jpeg', 'Carousel5/1.jpeg'],
           title: 'Corkage free for BYO',
 
         }
