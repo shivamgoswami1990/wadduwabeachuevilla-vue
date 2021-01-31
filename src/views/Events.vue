@@ -87,7 +87,7 @@ export default {
       bannerHeight: null,
       features: [
         {
-          imageList: ['Carousel1/1.jpeg', 'Carousel1/2.jpeg', 'Carousel1/3.jpeg'],
+          imageList: ['Carousel1/3.jpeg', 'Carousel1/2.jpeg', 'Carousel1/1.jpeg'],
           title: 'Create a bespoke experience'
         },
         {
