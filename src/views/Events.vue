@@ -117,7 +117,7 @@ export default {
 
         },
         {
-          imageList: ['Carousel5/3.jpeg', 'Carousel5/2.jpeg', 'Carousel5/1.jpg'],
+          imageList: ['Carousel5/1.jpg', 'Carousel5/2.jpeg'],
           title: '<span>Why choose us?</span><br/>'
               + '<span>Good question!  Our service and property isn’t simply four walls and curtains - we seamlessly blend; the beach, one and a half acres of landscaped gardens, the pool, and a formal airconditioned wedding hall.</span>'
               + '<span>Also, BYO and no corkage fee !</span>',
