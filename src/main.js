@@ -106,7 +106,8 @@ Vue.prototype.blogPosts = () => [
     subheading3: 'Restaurant',
     section4: 'The venue comes with a restaurant that provides both a la carte service and a buffet. Our highly skilled chefs are capable of providing local curry based dishes and international delights. We also understand that not everyone is the same and individuals have various dietary requirements and allergies. Our kitchen staff is able to provide for everyone. These include yummy vegan, vegetarian, gluten-free and dairy-free meals. If you let them know, they will surely look after you.',
     image2: 'Post1/2.jpg',
-    section5: 'So there you have it. If you are planning a trip to Sri Lanka be sure to add Wadduwa Beach Villa to your list. We can assure you, that it will be a trip of a lifetime. We look forward to welcoming you to our villas.'
+    section5: 'So there you have it. If you are planning a trip to Sri Lanka be sure to add Wadduwa Beach Villa to your list. We can assure you, that it will be a trip of a lifetime. We look forward to welcoming you to our villas.',
+    templateNo: 1
   },
   {
     title: '7 Reasons why you should dine at Wadduwa Beach Villa',
@@ -128,7 +129,8 @@ Vue.prototype.blogPosts = () => [
           + "<h2 class='post-title'>Hygiene</h2>"
           + 'At our resort, we believe that an excellent dining experience is meant not only to taste amazing, but also to make our patrons feel good, both at the premises and after the meal is done. Therefore, different food items are cut and prepared using designated boards and knives, as per industry standard. It is important to us that we respect your specific dietary needs, as such, this process also allows us to avoid cross contamination when catering to you. You will never have to doubt if your vegan meal is truly vegan, as cleanliness and hygiene are a priority to us, in order to serve you better!<br><br>'
           + "<h2 class='post-title'>Value</h2>"
-          + 'We understand that the quality of a service needs to be matched with an appropriate price, however, we also understand that a certain level of quality cannot be provided at a lower price. As such, at our villas, we provide a dining experience as opposed to a simple meal: for a reasonable price, we provide you with high quality food that not only looks and tastes great, but is supported by a perfect ambience and service. If this sounds like your cup of tea, excuse the pun, be sure not to miss out!'
+          + 'We understand that the quality of a service needs to be matched with an appropriate price, however, we also understand that a certain level of quality cannot be provided at a lower price. As such, at our villas, we provide a dining experience as opposed to a simple meal: for a reasonable price, we provide you with high quality food that not only looks and tastes great, but is supported by a perfect ambience and service. If this sounds like your cup of tea, excuse the pun, be sure not to miss out!',
+    templateNo: 1
   },
   {
     title: '4 reasons to celebrate your next day out package at Wadduwa Beach Villa',
@@ -145,13 +147,14 @@ Vue.prototype.blogPosts = () => [
     subheading3: 'Convenience factor: A 40 min drive from Colombo to Freedom!',
     section4: 'Your time is valuable. Hence, our villas are only a breezy 40 minute drive away from Colombo so that you can have fun sooner! To reach our beach get away, you have two options; you can drive down the picturesque coast or, if you’re an international traveller, you can take two scenic train rides to reach Wadduwa Beach Villa. If you do take the train, you will get to experience the sights and sounds of village life as you make the short walk from the train station to our beach resort.',
     image2: 'Post3/2.png',
-    section5: ''
+    section5: '',
+    templateNo: 1
   },
   {
     title: 'Handling of guest safety in light of COVID-19',
     blogFeatDesc: 'At Wadduwa Beach Villa(Pvt)Ltd,we are continuously monitoring the development of COVID-19 around the worid. Our number one priority is the well-being,health and safety of our guest and team members.In order to secure just that,we have set-up procedures,plans and routines in place,so that all  of our guests can be safe when staying at our hotel.',
     image1: 'Post4/1.jpg',
-    isNoticePost1: true
+    templateNo: 2
   },
   {
     title: 'Visit Sri Lanka ? Do not miss out, Serendib awaits !',
@@ -180,7 +183,8 @@ Vue.prototype.blogPosts = () => [
           + ' why not sail up north to experience the once-hidden gems? All this can be done at your leisure, with more than enough time to see every sight.'
           + '<br/>It is time that you visit Sri Lanka to discover the sights, be one with nature, enjoy the culture, and experience the true charm and many hidden gems the island has to offer.',
     image2: '',
-    section5: ''
+    section5: '',
+    templateNo: 1
   },
   {
     title: 'Woman Entrepreneurs in Sri Lanka #IWD2020',
@@ -225,7 +229,72 @@ Vue.prototype.blogPosts = () => [
           + "<a href='https://www.facebook.com/hashtag/womenownedbusiness?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#womenownedbusiness</a>"
           + "<a href='https://www.facebook.com/hashtag/satynmag?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#satynmag</a>"
           + "<a href='https://www.facebook.com/hashtag/satynmagreaders?epa=HASHTAG' class='d-inline-flex mr-2' target='_blank'>#satynmagreaders</a>"
-          + "<a href='' class='d-inline-flex mr-2' target='_blank'>#wadduwabeachvilla</a>"
+          + "<a href='' class='d-inline-flex mr-2' target='_blank'>#wadduwabeachvilla</a>",
+    templateNo: 1
+  },
+  {
+    title: 'Weddings, Receptions, and Engagement Parties at Wadduwa Beach Villas',
+    blogFeatDesc: 'Hello there, it has been a while. Welcome to 2021 from us at Wadduwa Beach Villas! We have some news to share with you all. A fully air-conditioned wedding hall has been constructed to provide you all with the opportunity to experience a blended beach and/or indoor wedding.',
+    image1: 'Post7/1.png',
+    section1: 'Hello there, it has been a while. Welcome to 2021 from us at Wadduwa Beach Villas! We have some news to share with you all. A fully air-conditioned wedding hall has been constructed to provide you all with the opportunity to experience a blended beach and/or indoor wedding.',
+    subheading1: 'Wedding goodies galore',
+    section2Desc: 'You can book the entire one-and-a-half-acre property exclusively for your special day, be it; an open air/beach wedding, an indoor wedding, and or a combination of both. As stated, there is a new charming, modern reception hall that is fully airconditioned. The property can cater seating for three hundred and fifty persons indoors and the outdoors capacity is up to four hundred persons.',
+    section2leftCol: 'Post7/1.png',
+    section2rightColText: 'Essentially, we allow for a seamless blend between an intimate indoor and an open-air outdoor wedding by the beach at the same location.'
+        + 'Yes, you can have your cake and eat it 😉'
+        + 'One and a half acres of landscaped coconut palm gardens and its associated outdoor living, and dining areas bend towards the beach front and onto the beach.',
+    section2rightColImg: 'Post7/2.png',
+    subheading2: 'Customizations & Options',
+    section3Desc: 'We offer a range of wedding packages to create a bespoke experience to suit your requirements. All packages receive a complimentary double room on a full board basis for newlywed couples. In addition, the wedding pre-shoot is free of charge.',
+    section3leftCol: 'Post7/3.png',
+    section3rightColText: 'Do your more family and loved ones that wish to stay with you during your special day and beyond?<br/><br/>'
+        + 'No worries, we have five villas on site. These villas can be reserved at an additional cost to cater for overnight, or extended stays for you and your loved ones.',
+    subheading3: 'So, why choose us?',
+    section4Desc: 'Good question! Weddings tend to be enclosed in a large hall and packed to the brim. With our service and property, said constraints do not apply. You are free to utilize the beach, one and a half acres of landscaped gardens, the pool, and a wedding hall. Even better, BYO and no corkage fee!',
+    section4leftCol: 'Post7/4.png',
+    section4rightColText: '<h2>Let make that magical day happen</h2><br/><br/><br/>'
+        + 'In conclusion, take your mind off things and plan your perfect day the way it should be. We are ready to answer your questions, and we look forward to sharing this special occasion with you. Do not hesitate to contact us over our listed social media profiles and contact details located in the footer of this website.',
+    section5img: 'Post7/5.png',
+    section6:
+        "<a href='https://www.facebook.com/hashtag/outdoorwedding?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#outdoorwedding</a>"
+        + "<a href='https://www.facebook.com/hashtag/beachwedding?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#beachwedding</a>"
+        + "<a href='https://www.facebook.com/hashtag/weddinngphotography?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#weddinngphotography</a>"
+        + "<a href='https://www.facebook.com/hashtag/weddinghall?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#weddinghall</a>"
+        + "<a href='https://www.facebook.com/hashtag/colombo?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#colombo</a>"
+        + "<a href='https://www.facebook.com/hashtag/different?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#different</a>"
+        + "<a href='https://www.facebook.com/hashtag/happiness?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#happiness</a>"
+        + "<a href='https://www.facebook.com/hashtag/bestwishes?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#bestwishes</a>"
+        + "<a href='https://www.facebook.com/hashtag/weddingphotography?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#weddingphotography</a>"
+        + "<a href='https://www.facebook.com/hashtag/weddinginspiration?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#weddinginspiration</a>"
+        + "<a href='https://www.facebook.com/hashtag/weddingideas?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#weddingideas</a>"
+        + "<a href='https://www.facebook.com/hashtag/eternal?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#eternal</a>"
+        + "<a href='https://www.facebook.com/hashtag/engagement?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#engagement</a>"
+        + "<a href='https://www.facebook.com/hashtag/weddings?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#weddings</a>"
+        + "<a href='https://www.facebook.com/hashtag/brideandgroom?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#brideandgroom</a>"
+        + "<a href='https://www.facebook.com/hashtag/panadura?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#Panadura</a>"
+        + "<a href='https://www.facebook.com/hashtag/wadduwa?__eep__=6&__cft__%5b0%5d=AZW080nCUbCkFSShRII0A11HGacMguIRAlOvvSNynjBkuN5HPKeua_ggePcOnwqRvd-sS_dIH6t0Yz7Pn3xje7RX-hXZGs1znQnoBiEEWMDFLJS2K-rZCly-4cIHTcdxIqJFYvBn6dd_HM5BHTK7ziEFwGSLlVtJAhNWc0KRI4CztdI4r10_LYTE3rKqH4Xo7fY&__tn__=*NK-R' class='d-inline-flex mr-2' target='_blank'>#wadduwa</a>"
+        + "<a href='' class='d-inline-flex mr-2' target='_blank'>#gardenwedding</a>",
+    templateNo: 3
+  },
+  {
+    title: 'An Update on Sustainability at Wadduwa Beach Villas',
+    blogFeatDesc: 'Good Morning to all of you out there. At Wadduwa Beach Villas, we remain committed to eco-friendly technologies and services. This is blog post is to illustrate the challenges and progress on this journey.',
+    section1: 'Good Morning to all of you out there. At Wadduwa Beach Villas, we remain committed to eco-friendly technologies and services. This is blog post is to illustrate the challenges and progress on this journey.'
+        + '<br/><br/><h2>Solar Power: </h2>'
+        + '<br/><br/>As of July 2020, we have installed, and are currently operating a Solar Photovoltaic system to provide energy to the restaurant and heat water. This system has a system inverter and system panel capacity of 20Kw, which is more than sufficient for our needs.'
+        + '<br/><br/>'
+        + 'Thus, we now operate partially on renewable energy – the sun which Sri Lanka is blessed to receive. In addition, we can, and do feedback excess energy generated into the national grid to reduce energy wastage.',
+    subheading1: 'Onsite food garden:',
+    section2: '<br/><br/>As Henry David Thoreau said, “We can never have enough of Nature”. Similarly, the little eco garden on site has been invigorated with a small-scale drop irrigation system. The eco garden now produces some healthy vegetables and fruits such as; green chillies, capsicums, thalana bath, okra, cabbage, tomatoes, winged beans, ladies cabbage, and bananas. As a result, we provide some fresh produce on site.',
+    image1: 'Post8/1.png',
+    subheading2: 'Recycling of organic and non-organic waste:',
+    section3: '<br/><br/>Recyclables such as glass bottles, beer cans, carboard, recyclable plastic materials, and newspapers continue to be handed over to a local recycler based in Wadduwa.'
+        + 'However, there is a limited capacity on site to recycle excess/ waste food, and nonhazardous organic waste in two medium sized composting silos. These composting silos are used to produce compost – which in turn is used to fertilise the landscaped garden. More pictures shall follow with the next blog post. Stay happy and healthy till then! 😊',
+    subheading3: '',
+    image2: 'Post8/2.png',
+    section5: '',
+    containsElongatedImages: true,
+    templateNo: 1
   },
 ];
 

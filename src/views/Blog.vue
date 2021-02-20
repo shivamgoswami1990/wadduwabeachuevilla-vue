@@ -97,7 +97,7 @@ export default {
   },
   mounted() {
     this.bannerHeight = this.visibleViewportHeight();
-    this.posts = this.blogPosts();
+    this.posts = this.blogPosts().reverse();
   }
 };
 </script>
