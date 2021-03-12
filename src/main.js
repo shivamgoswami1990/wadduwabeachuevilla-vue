@@ -234,7 +234,7 @@ Vue.prototype.blogPosts = () => [
   },
   {
     title: 'Weddings, Receptions, and Engagement Parties at Wadduwa Beach Villas',
-    blogFeatDesc: 'Hello there, it has been a while. Welcome to 2021 from us at Wadduwa Beach Villas! We have some news to share with you all. A fully air-conditioned wedding hall has been constructed to provide you all with the opportunity to experience a blended beach and/or indoor wedding.',
+    blogFeatDesc: 'Hello there, it has been a while. Welcome to 2021 from us at Wadduwa Beach Villas! We have some news to share with you all. A fully air-conditioned wedding hall has been constructed to provide you with the opportunity to experience a blended beach and/or indoor wedding.',
     image1: 'Post7/1.png',
     section1: 'Hello there, it has been a while. Welcome to 2021 from us at Wadduwa Beach Villas! We have some news to share with you all. A fully air-conditioned wedding hall has been constructed to provide you all with the opportunity to experience a blended beach and/or indoor wedding.',
     subheading1: 'Wedding goodies galore',
@@ -242,7 +242,7 @@ Vue.prototype.blogPosts = () => [
     section2leftCol: 'Post7/1.png',
     section2rightColText: 'Essentially, we allow for a seamless blend between an intimate indoor and an open-air outdoor wedding by the beach at the same location.'
         + 'Yes, you can have your cake and eat it 😉'
-        + 'One and a half acres of landscaped coconut palm gardens and its associated outdoor living, and dining areas bend towards the beach front and onto the beach.',
+        + 'One and a half acres of landscaped coconut palm gardens and its associated outdoor living, and dining areas bend towards the beach front and onto the beach. Your guests will appreciate the view.',
     section2rightColImg: 'Post7/2.png',
     subheading2: 'Customizations & Options',
     section3Desc: 'We offer a range of wedding packages to create a bespoke experience to suit your requirements. All packages receive a complimentary double room on a full board basis for newlywed couples. In addition, the wedding pre-shoot is free of charge.',
@@ -281,15 +281,15 @@ Vue.prototype.blogPosts = () => [
     blogFeatDesc: 'Good Morning to all of you out there. At Wadduwa Beach Villas, we remain committed to eco-friendly technologies and services. This is blog post is to illustrate the challenges and progress on this journey.',
     section1: 'Good Morning to all of you out there. At Wadduwa Beach Villas, we remain committed to eco-friendly technologies and services. This is blog post is to illustrate the challenges and progress on this journey.'
         + '<br/><br/><h2>Solar Power: </h2>'
-        + '<br/><br/>As of July 2020, we have installed, and are currently operating a Solar Photovoltaic system to provide energy to the restaurant and heat water. This system has a system inverter and system panel capacity of 20Kw, which is more than sufficient for our needs.'
+        + '<br/><br/>As of July 2020, we are currently operating a Solar Photovoltaic system to provide energy to the restaurant and add increased solar water heating capacity. In total there is a system inverter and system panel capacity of 20Kw, which is more than sufficient for our needs.'
         + '<br/><br/>'
-        + 'Thus, we now operate partially on renewable energy – the sun which Sri Lanka is blessed to receive. In addition, we can, and do feedback excess energy generated into the national grid to reduce energy wastage.',
+        + 'Thus, we now operate partially on renewable energy from the sun -which Sri Lanka is blessed to receive almost three hundred and sixty five days a year. In addition, we can, and do feedback excess energy produced into the national grid to reduce energy wastage. This also allows for a the local/national carbon footprint to be reduced.',
     subheading1: 'Onsite food garden:',
-    section2: '<br/><br/>As Henry David Thoreau said, “We can never have enough of Nature”. Similarly, the little eco garden on site has been invigorated with a small-scale drop irrigation system. The eco garden now produces some healthy vegetables and fruits such as; green chillies, capsicums, thalana bath, okra, cabbage, tomatoes, winged beans, ladies cabbage, and bananas. As a result, we provide some fresh produce on site.',
+    section2: '<br/><br/>As Henry David Thoreau said, “We can never have enough of Nature”. Similarly, the little eco garden on site has been invigorated with a small-scale drip irrigation system. The eco garden now produces some healthy vegetables and fruits such as; green chillies, capsicums, thalana batu, okra, cabbage, tomatoes, winged beans, ladies fingers, cabbage, and bananas. As a result, we provide some fresh produce on site.',
     image1: 'Post8/1.png',
     subheading2: 'Recycling of organic and non-organic waste:',
-    section3: '<br/><br/>Recyclables such as glass bottles, beer cans, carboard, recyclable plastic materials, and newspapers continue to be handed over to a local recycler based in Wadduwa.'
-        + 'However, there is a limited capacity on site to recycle excess/ waste food, and nonhazardous organic waste in two medium sized composting silos. These composting silos are used to produce compost – which in turn is used to fertilise the landscaped garden. More pictures shall follow with the next blog post. Stay happy and healthy till then! 😊',
+    section3: '<br/><br/>Recyclables such as; glass bottles, beer cans, cardboard, recyclable plastic materials, and newspapers continue to be handed over to a local recycler based in Wadduwa.'
+        + 'However, we have developed a limited capacity on site to recycle excess/ waste food, and nonhazardous organic waste in two medium sized composting silos. These composting silos are used to produce compost – which in turn is used to fertilise the landscaped garden. More pictures shall follow with the next blog post. Stay happy and healthy till then! 😊',
     subheading3: '',
     image2: 'Post8/2.png',
     section5: '',
