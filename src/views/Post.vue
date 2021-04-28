@@ -66,6 +66,7 @@ export default {
       this.blogPosts().forEach((post) => {
         if (post.title.replace(/\s+/g, '-').toLowerCase() === currentPostName) {
           this.post = post;
+          console.log(post);
         }
       });
     }

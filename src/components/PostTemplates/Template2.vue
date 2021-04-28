@@ -1,5 +1,5 @@
 <template>
-  <v-container class="py-12" v-if="$attrs.content.isNoticePost1">
+  <v-container class="py-12">
     <v-img :src="require('@/assets/Blog/' + $attrs.content.image1)" width="300" class="mx-auto"/>
 
     <p class="mt-10">15th March 2020</p>
@@ -82,6 +82,7 @@ export default {
     };
   },
   mounted() {
+    console.log("$attrs.content", this.$attrs.content);
   }
 };
 </script>
