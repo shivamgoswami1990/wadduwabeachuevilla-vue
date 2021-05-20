@@ -71,18 +71,3 @@
 
   </v-container>
 </template>
-
-<script>
-// @ is an alias to /src
-
-export default {
-
-  data() {
-    return {
-    };
-  },
-  mounted() {
-    console.log("$attrs.content", this.$attrs.content);
-  }
-};
-</script>

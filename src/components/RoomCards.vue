@@ -8,7 +8,8 @@
                         <v-card-title class="font-weight-bold">{{room.name}}</v-card-title>
                     </v-img>
 
-                    <v-chip label color="primary" class="black--text font-weight-bold" style="position: absolute; top: 0; right: 0">
+                    <v-chip v-if="false" label color="primary" class="black--text font-weight-bold"
+                            style="position: absolute; top: 0; right: 0">
                         Starting from USD {{room.price}}
                     </v-chip>
 

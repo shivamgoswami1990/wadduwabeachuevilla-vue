@@ -24,12 +24,10 @@
                             <v-row>
                                 <v-col cols="12" md="7">
                                     <v-carousel hide-delimiter-background id="carousel-container"
-                                                delimiter-icon="mdi-minus" height="500">
+                                                delimiter-icon="mdi-minus" height="500" :continuous="false"
+                                                :cycle="false">
                                         <v-carousel-item v-for="(image, index2) in room.images" :key="index2"
-                                                         :src="require('@/assets/Villas/rooms/' + room.parentDir + '/' + image)"
-                                                         reverse-transition="fade-transition"
-                                                         transition="fade-transition">
-                                        </v-carousel-item>
+                                                         :src="require('@/assets/Villas/rooms/' + room.parentDir + '/' + image)"/>
                                     </v-carousel>
                                 </v-col>
 
@@ -49,7 +47,7 @@
                                             <p class="mt-0 pt-0">{{room.people}} people</p>
                                         </v-col>
 
-                                        <v-col cols="12" md="4">
+                                        <v-col cols="12" md="4" v-if="false">
                                             <p class="mt-5 mb-0 pb-0 font-weight-bold subtitle-1">Starting from</p>
                                             <p class="mt-0 pt-0">USD {{room.price}}</p>
                                         </v-col>
