@@ -10,8 +10,8 @@
   "dependencies": {
     "vue": "^2.6.12",
     "vue-meta": "^2.4.0",
-    "vue-router": "^3.5.1",
-    "vuetify": "^2.5.0"
+    "vue-router": "^3.5.2",
+    "vuetify": "^2.5.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.13",
@@ -28,7 +28,7 @@
     "postcss-pxtorem": "^5.1.1",
     "sass": "^1.32.13",
     "sass-loader": "^10.1.1",
-    "vue-cli-plugin-vuetify": "^2.4.0",
+    "vue-cli-plugin-vuetify": "^2.4.1",
     "vue-template-compiler": "^2.6.12",
     "vuetify-loader": "^1.7.2"
   },

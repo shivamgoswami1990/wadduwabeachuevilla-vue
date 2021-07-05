@@ -61,33 +61,6 @@
         </v-col>
       </v-row>
     </v-container>
-
-    <v-container class="py-12">
-      <h2 class="display-2 pb-5">Customer stories</h2>
-      <v-row>
-        <v-col cols="12" md="6">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/OTYkhfjebN0" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
-        </v-col>
-        <v-col cols="12" md="6">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/UsIkY8Fxh_8" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
-        </v-col>
-
-        <v-col cols="12" md="6">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/GKmHnM7akmU" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
-        </v-col>
-        <v-col cols="12" md="6">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/UyyYWYJ0ssY" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  title="Wadduwa Beach Villa | Travel stories" rel="preconnect" allowfullscreen/>
-        </v-col>
-      </v-row>
-    </v-container>
   </div>
 </template>
 

@@ -5,15 +5,39 @@
 
     <!-- Rooms section -->
     <v-container class="pt-12">
-      <h2 class="display-2">The Villas</h2>
-      <p class="text-justify pa-2">
-        We provide a range of accommodation options that cater to different customer specifications.
-        The main difference in each is the size of the rooms, living areas, and added amenities.
-        All rooms and villas are situated on one and a half acres of landscaped, grassed land with
-        coconut trees and other native flora and fauna.
-      </p>
+<!--      <h2 class="display-2">The Villas</h2>-->
+<!--      <p class="text-justify pa-2">-->
+<!--        We provide a range of accommodation options that cater to different customer specifications.-->
+<!--        The main difference in each is the size of the rooms, living areas, and added amenities.-->
+<!--        All rooms and villas are situated on one and a half acres of landscaped, grassed land with-->
+<!--        coconut trees and other native flora and fauna.-->
+<!--      </p>-->
 
-      <room-cards :data="rooms" :height="580"/>
+<!--      <room-cards :data="rooms" :height="580"/>-->
+      <h2 class="display-2 pb-5">Customer Experiences</h2>
+      <v-row>
+        <v-col cols="12" md="6">
+          <iframe width="100%" :height="mobileVideoHeight" src="https://www.youtube.com/embed/OTYkhfjebN0" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  title="Wadduwa Beach Villa | Travel stories" class="mt-5" rel="preconnect" allowfullscreen/>
+        </v-col>
+        <v-col cols="12" md="6">
+          <iframe width="100%" :height="mobileVideoHeight" src="https://www.youtube.com/embed/UsIkY8Fxh_8" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  title="Wadduwa Beach Villa | Travel stories" class="mt-5" rel="preconnect" allowfullscreen/>
+        </v-col>
+
+        <v-col cols="12" md="6">
+          <iframe width="100%" :height="mobileVideoHeight" src="https://www.youtube.com/embed/GKmHnM7akmU" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  title="Wadduwa Beach Villa | Travel stories" class="mt-5" rel="preconnect" allowfullscreen/>
+        </v-col>
+        <v-col cols="12" md="6">
+          <iframe width="100%" :height="mobileVideoHeight" src="https://www.youtube.com/embed/UyyYWYJ0ssY" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  title="Wadduwa Beach Villa | Travel stories" class="mt-5" rel="preconnect" allowfullscreen/>
+        </v-col>
+      </v-row>
     </v-container>
     <!-- Rooms section -->
 
@@ -159,13 +183,18 @@ export default {
     ]
   },
   components: {
-    BannerSection, RoomCards
+    BannerSection
   },
   data() {
     return {
       videoHeight: null,
       rooms: []
     };
+  },
+  computed: {
+    mobileVideoHeight() {
+      return this.$vuetify.breakpoint.xsOnly ? 200 : 315;
+    }
   },
   mounted() {
     this.videoHeight = this.visibleViewportHeight();
