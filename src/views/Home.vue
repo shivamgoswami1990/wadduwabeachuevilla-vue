@@ -1,6 +1,6 @@
 <template>
   <div>
-    <banner-section imgFilename="Home/background.jpg" preTitle="Sri Lanka" title="Wadduwa Beach Villa"
+    <banner-section imgFilename="Home/background.jpg" preTitle="Sri Lanka" title="Wadduwa Beach Villas"
                     description="A local icon of private luxury"/>
 
     <!-- Rooms section -->
