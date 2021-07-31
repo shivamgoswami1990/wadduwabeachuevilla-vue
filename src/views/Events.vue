@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Events/Events.jpg" preTitle="Wadduwa Beach Villa" title="Wedding Reception Venue"
+        <banner-section imgFilename="Events/Events.jpg" preTitle="Wadduwa Beach Villas" title="Wedding Reception Venue"
                         description="Open air and beach weddings" position="right"/>
 
         <v-container class="py-12">

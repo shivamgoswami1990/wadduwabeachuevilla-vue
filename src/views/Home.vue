@@ -38,12 +38,12 @@
                   title="Wadduwa Beach Villa | Travel stories" class="mt-5" rel="preconnect" allowfullscreen/>
         </v-col>
         <v-col cols="12" md="6">
-          <iframe width="100%" :height="mobileVideoHeight" src="https://www.youtube.com/embed/brgFkkMHAjs" frameborder="0"
+          <iframe width="100%" :height="mobileVideoHeight" src="https://www.youtube.com/embed/QxtqGKYJ2y8" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   title="Wadduwa Beach Villa | Travel stories" class="mt-5" rel="preconnect" allowfullscreen/>
         </v-col>
         <v-col cols="12" md="6">
-          <iframe width="100%" :height="mobileVideoHeight" src="https://www.youtube.com/embed/QxtqGKYJ2y8" frameborder="0"
+          <iframe width="100%" :height="mobileVideoHeight" src="https://www.youtube.com/embed/brgFkkMHAjs" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   title="Wadduwa Beach Villa | Travel stories" class="mt-5" rel="preconnect" allowfullscreen/>
         </v-col>

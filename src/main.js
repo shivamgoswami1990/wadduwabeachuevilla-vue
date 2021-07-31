@@ -50,7 +50,7 @@ Vue.prototype.availableRooms = () => [
     facilities: ['Pool view', 'Attached bathroom', 'Kitchen', 'Veranda'],
     people: 2,
     parentDir: 'TripleRoom',
-    images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'],
+    images: ['1.jpg', '2.jpg', '3.jpg'],
     link: 'https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information',
     altLink: 'https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information',
     btnBookWithIconPath: 'ex.png'
@@ -62,7 +62,7 @@ Vue.prototype.availableRooms = () => [
     facilities: ['Pool view', 'Attached bathroom', 'Dining room'],
     people: 4,
     parentDir: 'FamilyVilla',
-    images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
+    images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'],
     link: 'https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579088127_n%2Ftg0WXIR0%2F4Retl',
     altLink: 'https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579088127_n%2Ftg0WXIR0%2F4Retl',
     btnBookWithIconPath: 'ab.png'

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Blog/Post.jpg" preTitle="Wadduwa Beach Villa" title="Recent story"
+        <banner-section imgFilename="Blog/Post.jpg" preTitle="Wadduwa Beach Villas" title="Recent story"
                         :description="post.title"/>
 
         <Template1 :content="post" v-if="post.templateNo === 1"/>

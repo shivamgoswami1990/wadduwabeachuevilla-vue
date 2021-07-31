@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villa"
+        <banner-section imgFilename="Restaurant/Restaurant.jpg" preTitle="Wadduwa Beach Villas"
                         title="Our Restaurant: Al Fresco"
                         description="The finest dining experience paired with panoramic ocean views"/>
 

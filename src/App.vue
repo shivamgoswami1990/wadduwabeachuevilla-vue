@@ -30,7 +30,7 @@
 
             <v-main>
                 <v-alert color="primary" tile class="ma-0 text-center" light>
-                    We're taking active steps about the COVID-19 situation.
+                  Active Management in the COVID-19 Era.
                     <a class="black--text" style="text-decoration: underline; cursor:pointer; font-weight: bold"
                        @click="$router.push(
                             { name: 'post',

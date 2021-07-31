@@ -35,6 +35,10 @@
                  aria-label="Instagram">
                 <v-img :src="ig" max-width="30" max-height="30" contain class="ml-2"/>
               </a>
+              <a target="_blank" :href="$vuetify.breakpoint.mdAndUp ? 'whatsapp://send?text=https://wadduwabeachvilla.com/':'https://web.whatsapp.com://send?text=https://wadduwabeachvilla.com/' " rel="noopener"
+                 aria-label="Whatsapp">
+                <v-img :src="whatsapp" max-width="30" max-height="30" contain class="ml-2"/>
+              </a>
               <a target="_blank" aria-label="Expedia" rel="noopener"
                  href="https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information">
                 <v-img :src="ex" max-width="30" max-height="30" contain class="ml-2"/>
@@ -77,8 +81,6 @@
     <v-bottom-navigation background-color="black" dark height="50">
       <p class="text-center caption">
         © Copyright 2020 Wadduwa Beach Villa. All rights reserved
-        <!--                <br>-->
-        <!--                Made with ❣ by <a href="https://shivamgoswami.live" target="_blank">Shivam Goswami</a>-->
       </p>
     </v-bottom-navigation>
   </div>
@@ -135,6 +137,7 @@ import yt from '@/assets/Footer/yt.png';
 import ig from '@/assets/Footer/ig.png';
 import ab from '@/assets/Footer/ab.png';
 import ex from '@/assets/Footer/ex.png';
+import whatsapp from '@/assets/Footer/whatsapp.png';
 import locationImg from '@/assets/Footer/location.jpg';
 
 export default {
@@ -146,6 +149,7 @@ export default {
       ig,
       ab,
       ex,
+      whatsapp,
       locationImg
     };
   },

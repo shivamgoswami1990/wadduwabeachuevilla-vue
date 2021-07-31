@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Villas/Villas.jpg" preTitle="Wadduwa Beach Villa" title="Our Villas"
+        <banner-section imgFilename="Villas/Villas.jpg" preTitle="Wadduwa Beach Villas" title="Our Villas"
                         description="Rooms and Villas"/>
 
         <v-container class="py-12">
