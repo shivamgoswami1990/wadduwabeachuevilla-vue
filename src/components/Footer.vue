@@ -35,7 +35,7 @@
                  aria-label="Instagram">
                 <v-img :src="ig" max-width="30" max-height="30" contain class="ml-2"/>
               </a>
-              <a target="_blank" :href="$vuetify.breakpoint.mdAndUp ? 'whatsapp://send?text=https://wadduwabeachvilla.com/':'https://web.whatsapp.com://send?text=https://wadduwabeachvilla.com/' " rel="noopener"
+              <a target="_blank" href="whatsapp://send?text=https://wadduwabeachvilla.com/" rel="noopener"
                  aria-label="Whatsapp">
                 <v-img :src="whatsapp" max-width="30" max-height="30" contain class="ml-2"/>
               </a>
@@ -80,7 +80,7 @@
 
     <v-bottom-navigation background-color="black" dark height="50">
       <p class="text-center caption">
-        © Copyright 2020 Wadduwa Beach Villa. All rights reserved
+        © Copyright 2020 Wadduwa Beach Villas. All rights reserved
       </p>
     </v-bottom-navigation>
   </div>
