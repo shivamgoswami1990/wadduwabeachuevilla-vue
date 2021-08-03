@@ -496,7 +496,7 @@ eval("module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABAC
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/logo.34341873.png\";\n\n//# sourceURL=webpack:///./src/assets/logo.png?");
+eval("module.exports = __webpack_require__.p + \"img/logo.62668932.png\";\n\n//# sourceURL=webpack:///./src/assets/logo.png?");
 
 /***/ }),
 
