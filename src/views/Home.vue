@@ -187,8 +187,8 @@ export default {
       { name: 'name', content: 'Visit luxury beach villas near Colombo' },
       {
         name: 'description',
-        content: 'Come stay at an affordable luxury villa in Sri Lanka.'
-                + 'Enjoy great local cuisine outdoors by the beach'
+        content: 'Escape to one and a half acres of Sri Lankan hospitality with; landscaped palm gardens, restaurant,'
+            + ' beachfront access, pool/baby pool, indoor & outdoor wedding venue at Wadduwa Beach Villas'
       }
     ]
   },
