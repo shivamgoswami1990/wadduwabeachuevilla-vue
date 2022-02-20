@@ -23,7 +23,7 @@
                     <v-card-title>CONTACT</v-card-title>
                     <v-card-text>
                         <p class="pa-0 ma-0">wadduwabeachvilla@gmail.com</p>
-                        <p class="pa-0 ma-0">wbv.manager@wadduwabeachvilla.com</p>
+                        <p class="pa-0 ma-0">reception@wadduwabeachvilla.com</p>
                     </v-card-text>
                 </v-card>
             </v-layout>

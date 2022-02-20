@@ -55,7 +55,7 @@
               <div class="contactus-item">
                 <v-icon color="primary">mdi-map-marker</v-icon>
                 <p class="caption">
-                  36/17 Sanath, A J Perera Mawatha, Wadduwa 12560, Sri Lanka
+                  36/17 Sanath Perera Mawatha, Wadduwa 12560, Sri Lanka
                 </p>
               </div>
 
@@ -69,7 +69,7 @@
               <div class="contactus-item">
                 <v-icon color="primary">mdi-email</v-icon>
                 <p class="caption">
-                  wadduwabeachvilla@gmail.com wbv.manager@wadduwabeachvilla.com
+                  wadduwabeachvilla@gmail.com reception@wadduwabeachvilla.com
                 </p>
               </div>
             </div>
