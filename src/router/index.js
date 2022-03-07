@@ -21,6 +21,22 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Villas.vue')
   },
   {
+    path: '/luxury-villas-triple-room-two-bedroom-villa-family-villa-suite-cottage-units',
+    name: 'rooms',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Rooms.vue')
+  },
+  {
+    path: '/accommodation/:name',
+    name: 'accommodation',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Accommodation.vue')
+  },
+  {
     path: '/restaurants-wadduwa-buffet-bed-and-breakfast-outdoor-dining',
     name: 'restaurant',
     // route level code-splitting

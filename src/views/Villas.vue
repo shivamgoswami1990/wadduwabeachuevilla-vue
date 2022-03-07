@@ -84,8 +84,6 @@
 // @ is an alias to /src
 import BannerSection from '@/components/BannerSection.vue';
 import BtnWithIcon from '@/components/BtnWithIcon.vue';
-import ab from '@/assets/Footer/ab.png';
-import ex from '@/assets/Footer/ex.png';
 
 export default {
   metaInfo: {
@@ -107,9 +105,7 @@ export default {
     return {
       bannerHeight: null,
       tab: null,
-      rooms: [],
-      ab,
-      ex
+      rooms: []
     };
   },
   mounted() {
