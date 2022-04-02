@@ -99,7 +99,7 @@ Vue.prototype.availableRooms = () => [
     price: '90',
     facilities: ['Pool view', 'Attached bathroom', 'Kitchen', 'Veranda'],
     people: 2,
-    parentDir: 'BoatGuestSuite',
+    parentDir: 'SereneGuestSuite',
     images: ['cover.jpeg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
     link: 'https://www.airbnb.com/rooms/564462960006653882?source_impression_id=p3_1646415318_wdxI8tb0tVFyxwsc',
     altLink: 'https://www.airbnb.com/rooms/564462960006653882?source_impression_id=p3_1646415318_wdxI8tb0tVFyxwsc',

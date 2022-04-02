@@ -404,7 +404,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"banner-section\", {\n        attrs: {\n          imgFilename: \"Offers/Offers.jpg\",\n          preTitle: \"Wadduwa Beach Villas\",\n          title: \"Offers\",\n          description: \"Our current promotions and offers\"\n        }\n      }),\n      _c(\n        \"v-container\",\n        { staticClass: \"py-12\" },\n        [\n          _c(\"h2\", { staticClass: \"display-2\" }, [\n            _vm._v(\"Our current promotions and offers\")\n          ]),\n          _c(\"p\", { staticClass: \"pt-5 pb-10 mb-0\" }, [\n            _vm._v(\n              \" An affordable venue with exciting offers for you and those closest to you \"\n            )\n          ]),\n          _c(\"v-img\", {\n            staticClass: \"mb-10\",\n            attrs: { src: __webpack_require__(/*! @/assets/Offers/1.png */ \"./src/assets/Offers/1.png\"), contain: \"\" }\n          }),\n          _c(\"v-img\", {\n            staticClass: \"mb-10\",\n            attrs: { src: __webpack_require__(/*! @/assets/Offers/2.png */ \"./src/assets/Offers/2.png\"), contain: \"\" }\n          }),\n          _c(\"v-img\", {\n            attrs: { src: __webpack_require__(/*! @/assets/Offers/3.png */ \"./src/assets/Offers/3.png\"), contain: \"\" }\n          })\n        ],\n        1\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/views/Offers.vue?./node_modules/cache-loader/dist/cjs.js?%7B%22cacheDirectory%22:%22node_modules/.cache/vue-loader%22,%22cacheIdentifier%22:%22464ba8d2-vue-loader-template%22%7D!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"banner-section\", {\n        attrs: {\n          imgFilename: \"Offers/Offers.jpeg\",\n          preTitle: \"Wadduwa Beach Villas\",\n          title: \"Offers\",\n          description: \"Our current promotions and offers\"\n        }\n      }),\n      _c(\n        \"v-container\",\n        { staticClass: \"py-12\" },\n        [\n          _c(\"h2\", { staticClass: \"display-2\" }, [\n            _vm._v(\"Our current promotions and offers\")\n          ]),\n          _c(\"p\", { staticClass: \"pt-5 pb-10 mb-0\" }, [\n            _vm._v(\n              \" An affordable venue with exciting offers for you and those closest to you \"\n            )\n          ]),\n          _c(\"v-img\", {\n            staticClass: \"mb-10\",\n            attrs: { src: __webpack_require__(/*! @/assets/Offers/1.png */ \"./src/assets/Offers/1.png\"), contain: \"\" }\n          }),\n          _c(\"v-img\", {\n            staticClass: \"mb-10\",\n            attrs: { src: __webpack_require__(/*! @/assets/Offers/2.png */ \"./src/assets/Offers/2.png\"), contain: \"\" }\n          }),\n          _c(\"v-img\", {\n            attrs: { src: __webpack_require__(/*! @/assets/Offers/3.png */ \"./src/assets/Offers/3.png\"), contain: \"\" }\n          })\n        ],\n        1\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/views/Offers.vue?./node_modules/cache-loader/dist/cjs.js?%7B%22cacheDirectory%22:%22node_modules/.cache/vue-loader%22,%22cacheIdentifier%22:%22464ba8d2-vue-loader-template%22%7D!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -1173,7 +1173,7 @@ eval("// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// lo
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./Blog/Blog.jpeg\": \"./src/assets/Blog/Blog.jpeg\",\n\t\"./Blog/Post.jpg\": \"./src/assets/Blog/Post.jpg\",\n\t\"./Blog/Post1/1.jpg\": \"./src/assets/Blog/Post1/1.jpg\",\n\t\"./Blog/Post1/2.jpg\": \"./src/assets/Blog/Post1/2.jpg\",\n\t\"./Blog/Post2/1.png\": \"./src/assets/Blog/Post2/1.png\",\n\t\"./Blog/Post2/2.png\": \"./src/assets/Blog/Post2/2.png\",\n\t\"./Blog/Post3/1.jpg\": \"./src/assets/Blog/Post3/1.jpg\",\n\t\"./Blog/Post3/2.png\": \"./src/assets/Blog/Post3/2.png\",\n\t\"./Blog/Post4/1.jpg\": \"./src/assets/Blog/Post4/1.jpg\",\n\t\"./Blog/Post5/1.jpg\": \"./src/assets/Blog/Post5/1.jpg\",\n\t\"./Blog/Post6/1.png\": \"./src/assets/Blog/Post6/1.png\",\n\t\"./Blog/Post7/1.png\": \"./src/assets/Blog/Post7/1.png\",\n\t\"./Blog/Post7/2.png\": \"./src/assets/Blog/Post7/2.png\",\n\t\"./Blog/Post7/3.png\": \"./src/assets/Blog/Post7/3.png\",\n\t\"./Blog/Post7/4.png\": \"./src/assets/Blog/Post7/4.png\",\n\t\"./Blog/Post7/5.png\": \"./src/assets/Blog/Post7/5.png\",\n\t\"./Blog/Post8/1.png\": \"./src/assets/Blog/Post8/1.png\",\n\t\"./Blog/Post8/2.png\": \"./src/assets/Blog/Post8/2.png\",\n\t\"./Events/Carousel1/1.jpeg\": \"./src/assets/Events/Carousel1/1.jpeg\",\n\t\"./Events/Carousel1/2.jpeg\": \"./src/assets/Events/Carousel1/2.jpeg\",\n\t\"./Events/Carousel1/3.jpg\": \"./src/assets/Events/Carousel1/3.jpg\",\n\t\"./Events/Carousel2/1.jpg\": \"./src/assets/Events/Carousel2/1.jpg\",\n\t\"./Events/Carousel2/2.jpg\": \"./src/assets/Events/Carousel2/2.jpg\",\n\t\"./Events/Carousel2/3.jpeg\": \"./src/assets/Events/Carousel2/3.jpeg\",\n\t\"./Events/Carousel3/1.jpg\": \"./src/assets/Events/Carousel3/1.jpg\",\n\t\"./Events/Carousel3/2.jpeg\": \"./src/assets/Events/Carousel3/2.jpeg\",\n\t\"./Events/Carousel3/3.jpeg\": \"./src/assets/Events/Carousel3/3.jpeg\",\n\t\"./Events/Carousel4/1.jpeg\": \"./src/assets/Events/Carousel4/1.jpeg\",\n\t\"./Events/Carousel4/2.jpeg\": \"./src/assets/Events/Carousel4/2.jpeg\",\n\t\"./Events/Carousel4/3.jpg\": \"./src/assets/Events/Carousel4/3.jpg\",\n\t\"./Events/Carousel5/1.jpg\": \"./src/assets/Events/Carousel5/1.jpg\",\n\t\"./Events/Carousel5/2.jpeg\": \"./src/assets/Events/Carousel5/2.jpeg\",\n\t\"./Events/Carousel5/3.jpeg\": \"./src/assets/Events/Carousel5/3.jpeg\",\n\t\"./Events/Events.jpg\": \"./src/assets/Events/Events.jpg\",\n\t\"./Events/TileSection1/1.jpg\": \"./src/assets/Events/TileSection1/1.jpg\",\n\t\"./Events/TileSection1/2.jpg\": \"./src/assets/Events/TileSection1/2.jpg\",\n\t\"./Events/TileSection1/3.jpg\": \"./src/assets/Events/TileSection1/3.jpg\",\n\t\"./Events/TileSection2/1.jpg\": \"./src/assets/Events/TileSection2/1.jpg\",\n\t\"./Events/TileSection2/2.jpeg\": \"./src/assets/Events/TileSection2/2.jpeg\",\n\t\"./Events/TileSection2/2.jpg\": \"./src/assets/Events/TileSection2/2.jpg\",\n\t\"./Exclusive/1.jpg\": \"./src/assets/Exclusive/1.jpg\",\n\t\"./Exclusive/2.jpg\": \"./src/assets/Exclusive/2.jpg\",\n\t\"./Exclusive/3.jpg\": \"./src/assets/Exclusive/3.jpg\",\n\t\"./Exclusive/4.jpg\": \"./src/assets/Exclusive/4.jpg\",\n\t\"./Exclusive/5.jpg\": \"./src/assets/Exclusive/5.jpg\",\n\t\"./Exclusive/Exclusive.jpg\": \"./src/assets/Exclusive/Exclusive.jpg\",\n\t\"./Facilities/Facilities.jpg\": \"./src/assets/Facilities/Facilities.jpg\",\n\t\"./Footer/ab.png\": \"./src/assets/Footer/ab.png\",\n\t\"./Footer/ex.png\": \"./src/assets/Footer/ex.png\",\n\t\"./Footer/fb.png\": \"./src/assets/Footer/fb.png\",\n\t\"./Footer/ig.png\": \"./src/assets/Footer/ig.png\",\n\t\"./Footer/location.jpg\": \"./src/assets/Footer/location.jpg\",\n\t\"./Footer/ta.png\": \"./src/assets/Footer/ta.png\",\n\t\"./Footer/whatsapp.png\": \"./src/assets/Footer/whatsapp.png\",\n\t\"./Footer/yt.png\": \"./src/assets/Footer/yt.png\",\n\t\"./Guidelines/Guidelines.jpg\": \"./src/assets/Guidelines/Guidelines.jpg\",\n\t\"./Guidelines/docs/1.jpg\": \"./src/assets/Guidelines/docs/1.jpg\",\n\t\"./Guidelines/docs/2.jpg\": \"./src/assets/Guidelines/docs/2.jpg\",\n\t\"./Guidelines/docs/3.jpg\": \"./src/assets/Guidelines/docs/3.jpg\",\n\t\"./Guidelines/docs/4.jpg\": \"./src/assets/Guidelines/docs/4.jpg\",\n\t\"./Guidelines/docs/5.jpg\": \"./src/assets/Guidelines/docs/5.jpg\",\n\t\"./Guidelines/docs/6.jpg\": \"./src/assets/Guidelines/docs/6.jpg\",\n\t\"./Home/background.jpg\": \"./src/assets/Home/background.jpg\",\n\t\"./Offers/1.png\": \"./src/assets/Offers/1.png\",\n\t\"./Offers/2.png\": \"./src/assets/Offers/2.png\",\n\t\"./Offers/3.png\": \"./src/assets/Offers/3.png\",\n\t\"./Offers/Offers.jpg\": \"./src/assets/Offers/Offers.jpg\",\n\t\"./Restaurant/Restaurant.jpg\": \"./src/assets/Restaurant/Restaurant.jpg\",\n\t\"./Restaurant/menus/Menu1.jpg\": \"./src/assets/Restaurant/menus/Menu1.jpg\",\n\t\"./Restaurant/menus/Menu2.jpg\": \"./src/assets/Restaurant/menus/Menu2.jpg\",\n\t\"./Restaurant/menus/bbqmenu1.jpg\": \"./src/assets/Restaurant/menus/bbqmenu1.jpg\",\n\t\"./Restaurant/menus/bbqmenu2.jpg\": \"./src/assets/Restaurant/menus/bbqmenu2.jpg\",\n\t\"./Restaurant/menus/bbqmenu3.jpg\": \"./src/assets/Restaurant/menus/bbqmenu3.jpg\",\n\t\"./Restaurant/menus/daymenu1.jpg\": \"./src/assets/Restaurant/menus/daymenu1.jpg\",\n\t\"./Restaurant/menus/daymenu2.jpg\": \"./src/assets/Restaurant/menus/daymenu2.jpg\",\n\t\"./Restaurant/menus/daymenu3.jpg\": \"./src/assets/Restaurant/menus/daymenu3.jpg\",\n\t\"./Restaurant/menus/daymenu4.jpg\": \"./src/assets/Restaurant/menus/daymenu4.jpg\",\n\t\"./Restaurant/menus/iftar-menu1.jpg\": \"./src/assets/Restaurant/menus/iftar-menu1.jpg\",\n\t\"./Restaurant/menus/iftar-menu2.jpg\": \"./src/assets/Restaurant/menus/iftar-menu2.jpg\",\n\t\"./Restaurant/menus/wbvbite.jpg\": \"./src/assets/Restaurant/menus/wbvbite.jpg\",\n\t\"./Villas/Villas.jpg\": \"./src/assets/Villas/Villas.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/1.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/1.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/10.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/10.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/11.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/11.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/12.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/12.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/13.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/13.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/2.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/2.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/3.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/3.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/4.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/4.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/5.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/5.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/6.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/6.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/7.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/7.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/8.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/8.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/9.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/9.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/cover.jpeg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/cover.jpeg\",\n\t\"./Villas/rooms/BoatGuestSuite/1.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/1.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/2.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/2.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/3.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/3.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/4.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/4.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/5.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/5.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/6.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/6.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/7.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/7.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/8.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/8.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/cover.jpeg\": \"./src/assets/Villas/rooms/BoatGuestSuite/cover.jpeg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/1.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/1.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/2.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/2.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/3.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/3.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/4.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/4.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/5.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/5.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/6.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/6.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/7.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/7.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/cover.jpeg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/cover.jpeg\",\n\t\"./Villas/rooms/HoneymoonVilla/1.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/1.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/2.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/2.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/3.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/3.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/4.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/4.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/5.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/5.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/6.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/6.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/7.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/7.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/8.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/8.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/9.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/9.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/1.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/1.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/2.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/2.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/3.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/3.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/4.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/4.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/5.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/5.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/6.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/6.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/7.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/7.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/8.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/8.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/cover.jpeg\": \"./src/assets/Villas/rooms/QuadrupleUnit/cover.jpeg\",\n\t\"./Villas/rooms/TripleRoom/1.jpg\": \"./src/assets/Villas/rooms/TripleRoom/1.jpg\",\n\t\"./Villas/rooms/TripleRoom/2.jpg\": \"./src/assets/Villas/rooms/TripleRoom/2.jpg\",\n\t\"./Villas/rooms/TripleRoom/3.jpg\": \"./src/assets/Villas/rooms/TripleRoom/3.jpg\",\n\t\"./logo.png\": \"./src/assets/logo.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src/assets_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./Blog/Blog.jpeg\": \"./src/assets/Blog/Blog.jpeg\",\n\t\"./Blog/Post.jpg\": \"./src/assets/Blog/Post.jpg\",\n\t\"./Blog/Post1/1.jpg\": \"./src/assets/Blog/Post1/1.jpg\",\n\t\"./Blog/Post1/2.jpg\": \"./src/assets/Blog/Post1/2.jpg\",\n\t\"./Blog/Post2/1.png\": \"./src/assets/Blog/Post2/1.png\",\n\t\"./Blog/Post2/2.png\": \"./src/assets/Blog/Post2/2.png\",\n\t\"./Blog/Post3/1.jpg\": \"./src/assets/Blog/Post3/1.jpg\",\n\t\"./Blog/Post3/2.png\": \"./src/assets/Blog/Post3/2.png\",\n\t\"./Blog/Post4/1.jpg\": \"./src/assets/Blog/Post4/1.jpg\",\n\t\"./Blog/Post5/1.jpg\": \"./src/assets/Blog/Post5/1.jpg\",\n\t\"./Blog/Post6/1.png\": \"./src/assets/Blog/Post6/1.png\",\n\t\"./Blog/Post7/1.png\": \"./src/assets/Blog/Post7/1.png\",\n\t\"./Blog/Post7/2.png\": \"./src/assets/Blog/Post7/2.png\",\n\t\"./Blog/Post7/3.png\": \"./src/assets/Blog/Post7/3.png\",\n\t\"./Blog/Post7/4.png\": \"./src/assets/Blog/Post7/4.png\",\n\t\"./Blog/Post7/5.png\": \"./src/assets/Blog/Post7/5.png\",\n\t\"./Blog/Post8/1.png\": \"./src/assets/Blog/Post8/1.png\",\n\t\"./Blog/Post8/2.png\": \"./src/assets/Blog/Post8/2.png\",\n\t\"./Events/Carousel1/1.jpeg\": \"./src/assets/Events/Carousel1/1.jpeg\",\n\t\"./Events/Carousel1/2.jpeg\": \"./src/assets/Events/Carousel1/2.jpeg\",\n\t\"./Events/Carousel1/3.jpg\": \"./src/assets/Events/Carousel1/3.jpg\",\n\t\"./Events/Carousel2/1.jpg\": \"./src/assets/Events/Carousel2/1.jpg\",\n\t\"./Events/Carousel2/2.jpg\": \"./src/assets/Events/Carousel2/2.jpg\",\n\t\"./Events/Carousel2/3.jpeg\": \"./src/assets/Events/Carousel2/3.jpeg\",\n\t\"./Events/Carousel3/1.jpg\": \"./src/assets/Events/Carousel3/1.jpg\",\n\t\"./Events/Carousel3/2.jpeg\": \"./src/assets/Events/Carousel3/2.jpeg\",\n\t\"./Events/Carousel3/3.jpeg\": \"./src/assets/Events/Carousel3/3.jpeg\",\n\t\"./Events/Carousel4/1.jpeg\": \"./src/assets/Events/Carousel4/1.jpeg\",\n\t\"./Events/Carousel4/2.jpeg\": \"./src/assets/Events/Carousel4/2.jpeg\",\n\t\"./Events/Carousel4/3.jpg\": \"./src/assets/Events/Carousel4/3.jpg\",\n\t\"./Events/Carousel5/1.jpg\": \"./src/assets/Events/Carousel5/1.jpg\",\n\t\"./Events/Carousel5/2.jpeg\": \"./src/assets/Events/Carousel5/2.jpeg\",\n\t\"./Events/Carousel5/3.jpeg\": \"./src/assets/Events/Carousel5/3.jpeg\",\n\t\"./Events/Events.jpg\": \"./src/assets/Events/Events.jpg\",\n\t\"./Events/TileSection1/1.jpg\": \"./src/assets/Events/TileSection1/1.jpg\",\n\t\"./Events/TileSection1/2.jpg\": \"./src/assets/Events/TileSection1/2.jpg\",\n\t\"./Events/TileSection1/3.jpg\": \"./src/assets/Events/TileSection1/3.jpg\",\n\t\"./Events/TileSection2/1.jpg\": \"./src/assets/Events/TileSection2/1.jpg\",\n\t\"./Events/TileSection2/2.jpeg\": \"./src/assets/Events/TileSection2/2.jpeg\",\n\t\"./Events/TileSection2/2.jpg\": \"./src/assets/Events/TileSection2/2.jpg\",\n\t\"./Exclusive/1.jpg\": \"./src/assets/Exclusive/1.jpg\",\n\t\"./Exclusive/2.jpg\": \"./src/assets/Exclusive/2.jpg\",\n\t\"./Exclusive/3.jpg\": \"./src/assets/Exclusive/3.jpg\",\n\t\"./Exclusive/4.jpg\": \"./src/assets/Exclusive/4.jpg\",\n\t\"./Exclusive/5.jpg\": \"./src/assets/Exclusive/5.jpg\",\n\t\"./Exclusive/Exclusive.jpg\": \"./src/assets/Exclusive/Exclusive.jpg\",\n\t\"./Facilities/Facilities.jpg\": \"./src/assets/Facilities/Facilities.jpg\",\n\t\"./Footer/ab.png\": \"./src/assets/Footer/ab.png\",\n\t\"./Footer/ex.png\": \"./src/assets/Footer/ex.png\",\n\t\"./Footer/fb.png\": \"./src/assets/Footer/fb.png\",\n\t\"./Footer/ig.png\": \"./src/assets/Footer/ig.png\",\n\t\"./Footer/location.jpg\": \"./src/assets/Footer/location.jpg\",\n\t\"./Footer/ta.png\": \"./src/assets/Footer/ta.png\",\n\t\"./Footer/whatsapp.png\": \"./src/assets/Footer/whatsapp.png\",\n\t\"./Footer/yt.png\": \"./src/assets/Footer/yt.png\",\n\t\"./Guidelines/Guidelines.jpg\": \"./src/assets/Guidelines/Guidelines.jpg\",\n\t\"./Guidelines/docs/1.jpg\": \"./src/assets/Guidelines/docs/1.jpg\",\n\t\"./Guidelines/docs/2.jpg\": \"./src/assets/Guidelines/docs/2.jpg\",\n\t\"./Guidelines/docs/3.jpg\": \"./src/assets/Guidelines/docs/3.jpg\",\n\t\"./Guidelines/docs/4.jpg\": \"./src/assets/Guidelines/docs/4.jpg\",\n\t\"./Guidelines/docs/5.jpg\": \"./src/assets/Guidelines/docs/5.jpg\",\n\t\"./Guidelines/docs/6.jpg\": \"./src/assets/Guidelines/docs/6.jpg\",\n\t\"./Home/background.jpg\": \"./src/assets/Home/background.jpg\",\n\t\"./Offers/1.png\": \"./src/assets/Offers/1.png\",\n\t\"./Offers/2.png\": \"./src/assets/Offers/2.png\",\n\t\"./Offers/3.png\": \"./src/assets/Offers/3.png\",\n\t\"./Offers/Offers.jpeg\": \"./src/assets/Offers/Offers.jpeg\",\n\t\"./Restaurant/Restaurant.jpg\": \"./src/assets/Restaurant/Restaurant.jpg\",\n\t\"./Restaurant/menus/Menu1.jpg\": \"./src/assets/Restaurant/menus/Menu1.jpg\",\n\t\"./Restaurant/menus/Menu2.jpg\": \"./src/assets/Restaurant/menus/Menu2.jpg\",\n\t\"./Restaurant/menus/bbqmenu1.jpg\": \"./src/assets/Restaurant/menus/bbqmenu1.jpg\",\n\t\"./Restaurant/menus/bbqmenu2.jpg\": \"./src/assets/Restaurant/menus/bbqmenu2.jpg\",\n\t\"./Restaurant/menus/bbqmenu3.jpg\": \"./src/assets/Restaurant/menus/bbqmenu3.jpg\",\n\t\"./Restaurant/menus/daymenu1.jpg\": \"./src/assets/Restaurant/menus/daymenu1.jpg\",\n\t\"./Restaurant/menus/daymenu2.jpg\": \"./src/assets/Restaurant/menus/daymenu2.jpg\",\n\t\"./Restaurant/menus/daymenu3.jpg\": \"./src/assets/Restaurant/menus/daymenu3.jpg\",\n\t\"./Restaurant/menus/daymenu4.jpg\": \"./src/assets/Restaurant/menus/daymenu4.jpg\",\n\t\"./Restaurant/menus/iftar-menu1.jpg\": \"./src/assets/Restaurant/menus/iftar-menu1.jpg\",\n\t\"./Restaurant/menus/iftar-menu2.jpg\": \"./src/assets/Restaurant/menus/iftar-menu2.jpg\",\n\t\"./Restaurant/menus/wbvbite.jpg\": \"./src/assets/Restaurant/menus/wbvbite.jpg\",\n\t\"./Villas/Villas.jpg\": \"./src/assets/Villas/Villas.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/1.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/1.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/10.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/10.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/11.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/11.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/12.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/12.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/13.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/13.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/2.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/2.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/3.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/3.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/4.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/4.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/5.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/5.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/6.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/6.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/7.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/7.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/8.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/8.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/9.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/9.jpg\",\n\t\"./Villas/rooms/BeachRoomAndTerraceSuite/cover.jpeg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/cover.jpeg\",\n\t\"./Villas/rooms/BoatGuestSuite/1.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/1.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/2.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/2.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/3.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/3.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/4.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/4.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/5.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/5.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/6.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/6.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/7.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/7.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/8.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/8.jpg\",\n\t\"./Villas/rooms/BoatGuestSuite/cover.jpeg\": \"./src/assets/Villas/rooms/BoatGuestSuite/cover.jpeg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/1.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/1.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/2.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/2.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/3.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/3.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/4.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/4.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/5.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/5.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/6.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/6.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/7.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/7.jpg\",\n\t\"./Villas/rooms/CozyTwoBedroomCottage/cover.jpeg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/cover.jpeg\",\n\t\"./Villas/rooms/HoneymoonVilla/1.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/1.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/2.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/2.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/3.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/3.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/4.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/4.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/5.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/5.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/6.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/6.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/7.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/7.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/8.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/8.jpg\",\n\t\"./Villas/rooms/HoneymoonVilla/9.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/9.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/1.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/1.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/2.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/2.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/3.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/3.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/4.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/4.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/5.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/5.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/6.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/6.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/7.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/7.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/8.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/8.jpg\",\n\t\"./Villas/rooms/QuadrupleUnit/cover.jpeg\": \"./src/assets/Villas/rooms/QuadrupleUnit/cover.jpeg\",\n\t\"./Villas/rooms/SereneGuestSuite/1.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/1.jpg\",\n\t\"./Villas/rooms/SereneGuestSuite/2.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/2.jpg\",\n\t\"./Villas/rooms/SereneGuestSuite/3.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/3.jpg\",\n\t\"./Villas/rooms/SereneGuestSuite/4.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/4.jpg\",\n\t\"./Villas/rooms/SereneGuestSuite/5.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/5.jpg\",\n\t\"./Villas/rooms/SereneGuestSuite/6.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/6.jpg\",\n\t\"./Villas/rooms/SereneGuestSuite/7.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/7.jpg\",\n\t\"./Villas/rooms/SereneGuestSuite/8.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/8.jpg\",\n\t\"./Villas/rooms/SereneGuestSuite/cover.jpeg\": \"./src/assets/Villas/rooms/SereneGuestSuite/cover.jpeg\",\n\t\"./logo.png\": \"./src/assets/logo.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src/assets_sync_^\\.\\/.*$?");
 
 /***/ }),
 
@@ -1855,7 +1855,7 @@ eval("module.exports = __webpack_require__.p + \"img/background.37f84a77.jpg\";\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/1.61f9c8c9.png\";\n\n//# sourceURL=webpack:///./src/assets/Offers/1.png?");
+eval("module.exports = __webpack_require__.p + \"img/1.e0f84faf.png\";\n\n//# sourceURL=webpack:///./src/assets/Offers/1.png?");
 
 /***/ }),
 
@@ -1866,7 +1866,7 @@ eval("module.exports = __webpack_require__.p + \"img/1.61f9c8c9.png\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/2.e19ec374.png\";\n\n//# sourceURL=webpack:///./src/assets/Offers/2.png?");
+eval("module.exports = __webpack_require__.p + \"img/2.33e09b88.png\";\n\n//# sourceURL=webpack:///./src/assets/Offers/2.png?");
 
 /***/ }),
 
@@ -1877,18 +1877,18 @@ eval("module.exports = __webpack_require__.p + \"img/2.e19ec374.png\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/3.ed9cf93f.png\";\n\n//# sourceURL=webpack:///./src/assets/Offers/3.png?");
+eval("module.exports = __webpack_require__.p + \"img/3.230469ad.png\";\n\n//# sourceURL=webpack:///./src/assets/Offers/3.png?");
 
 /***/ }),
 
-/***/ "./src/assets/Offers/Offers.jpg":
-/*!**************************************!*\
-  !*** ./src/assets/Offers/Offers.jpg ***!
-  \**************************************/
+/***/ "./src/assets/Offers/Offers.jpeg":
+/*!***************************************!*\
+  !*** ./src/assets/Offers/Offers.jpeg ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/Offers.f7125abf.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Offers/Offers.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/Offers.ef7c96eb.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Offers/Offers.jpeg?");
 
 /***/ }),
 
@@ -2064,7 +2064,7 @@ eval("module.exports = __webpack_require__.p + \"img/Villas.553116d2.jpg\";\n\n/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./BeachRoomAndTerraceSuite/1.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/1.jpg\",\n\t\"./BeachRoomAndTerraceSuite/10.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/10.jpg\",\n\t\"./BeachRoomAndTerraceSuite/11.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/11.jpg\",\n\t\"./BeachRoomAndTerraceSuite/12.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/12.jpg\",\n\t\"./BeachRoomAndTerraceSuite/13.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/13.jpg\",\n\t\"./BeachRoomAndTerraceSuite/2.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/2.jpg\",\n\t\"./BeachRoomAndTerraceSuite/3.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/3.jpg\",\n\t\"./BeachRoomAndTerraceSuite/4.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/4.jpg\",\n\t\"./BeachRoomAndTerraceSuite/5.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/5.jpg\",\n\t\"./BeachRoomAndTerraceSuite/6.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/6.jpg\",\n\t\"./BeachRoomAndTerraceSuite/7.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/7.jpg\",\n\t\"./BeachRoomAndTerraceSuite/8.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/8.jpg\",\n\t\"./BeachRoomAndTerraceSuite/9.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/9.jpg\",\n\t\"./BeachRoomAndTerraceSuite/cover.jpeg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/cover.jpeg\",\n\t\"./BoatGuestSuite/1.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/1.jpg\",\n\t\"./BoatGuestSuite/2.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/2.jpg\",\n\t\"./BoatGuestSuite/3.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/3.jpg\",\n\t\"./BoatGuestSuite/4.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/4.jpg\",\n\t\"./BoatGuestSuite/5.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/5.jpg\",\n\t\"./BoatGuestSuite/6.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/6.jpg\",\n\t\"./BoatGuestSuite/7.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/7.jpg\",\n\t\"./BoatGuestSuite/8.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/8.jpg\",\n\t\"./BoatGuestSuite/cover.jpeg\": \"./src/assets/Villas/rooms/BoatGuestSuite/cover.jpeg\",\n\t\"./CozyTwoBedroomCottage/1.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/1.jpg\",\n\t\"./CozyTwoBedroomCottage/2.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/2.jpg\",\n\t\"./CozyTwoBedroomCottage/3.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/3.jpg\",\n\t\"./CozyTwoBedroomCottage/4.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/4.jpg\",\n\t\"./CozyTwoBedroomCottage/5.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/5.jpg\",\n\t\"./CozyTwoBedroomCottage/6.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/6.jpg\",\n\t\"./CozyTwoBedroomCottage/7.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/7.jpg\",\n\t\"./CozyTwoBedroomCottage/cover.jpeg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/cover.jpeg\",\n\t\"./HoneymoonVilla/1.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/1.jpg\",\n\t\"./HoneymoonVilla/2.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/2.jpg\",\n\t\"./HoneymoonVilla/3.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/3.jpg\",\n\t\"./HoneymoonVilla/4.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/4.jpg\",\n\t\"./HoneymoonVilla/5.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/5.jpg\",\n\t\"./HoneymoonVilla/6.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/6.jpg\",\n\t\"./HoneymoonVilla/7.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/7.jpg\",\n\t\"./HoneymoonVilla/8.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/8.jpg\",\n\t\"./HoneymoonVilla/9.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/9.jpg\",\n\t\"./QuadrupleUnit/1.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/1.jpg\",\n\t\"./QuadrupleUnit/2.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/2.jpg\",\n\t\"./QuadrupleUnit/3.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/3.jpg\",\n\t\"./QuadrupleUnit/4.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/4.jpg\",\n\t\"./QuadrupleUnit/5.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/5.jpg\",\n\t\"./QuadrupleUnit/6.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/6.jpg\",\n\t\"./QuadrupleUnit/7.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/7.jpg\",\n\t\"./QuadrupleUnit/8.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/8.jpg\",\n\t\"./QuadrupleUnit/cover.jpeg\": \"./src/assets/Villas/rooms/QuadrupleUnit/cover.jpeg\",\n\t\"./TripleRoom/1.jpg\": \"./src/assets/Villas/rooms/TripleRoom/1.jpg\",\n\t\"./TripleRoom/2.jpg\": \"./src/assets/Villas/rooms/TripleRoom/2.jpg\",\n\t\"./TripleRoom/3.jpg\": \"./src/assets/Villas/rooms/TripleRoom/3.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets/Villas/rooms sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./BeachRoomAndTerraceSuite/1.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/1.jpg\",\n\t\"./BeachRoomAndTerraceSuite/10.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/10.jpg\",\n\t\"./BeachRoomAndTerraceSuite/11.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/11.jpg\",\n\t\"./BeachRoomAndTerraceSuite/12.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/12.jpg\",\n\t\"./BeachRoomAndTerraceSuite/13.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/13.jpg\",\n\t\"./BeachRoomAndTerraceSuite/2.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/2.jpg\",\n\t\"./BeachRoomAndTerraceSuite/3.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/3.jpg\",\n\t\"./BeachRoomAndTerraceSuite/4.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/4.jpg\",\n\t\"./BeachRoomAndTerraceSuite/5.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/5.jpg\",\n\t\"./BeachRoomAndTerraceSuite/6.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/6.jpg\",\n\t\"./BeachRoomAndTerraceSuite/7.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/7.jpg\",\n\t\"./BeachRoomAndTerraceSuite/8.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/8.jpg\",\n\t\"./BeachRoomAndTerraceSuite/9.jpg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/9.jpg\",\n\t\"./BeachRoomAndTerraceSuite/cover.jpeg\": \"./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/cover.jpeg\",\n\t\"./BoatGuestSuite/1.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/1.jpg\",\n\t\"./BoatGuestSuite/2.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/2.jpg\",\n\t\"./BoatGuestSuite/3.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/3.jpg\",\n\t\"./BoatGuestSuite/4.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/4.jpg\",\n\t\"./BoatGuestSuite/5.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/5.jpg\",\n\t\"./BoatGuestSuite/6.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/6.jpg\",\n\t\"./BoatGuestSuite/7.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/7.jpg\",\n\t\"./BoatGuestSuite/8.jpg\": \"./src/assets/Villas/rooms/BoatGuestSuite/8.jpg\",\n\t\"./BoatGuestSuite/cover.jpeg\": \"./src/assets/Villas/rooms/BoatGuestSuite/cover.jpeg\",\n\t\"./CozyTwoBedroomCottage/1.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/1.jpg\",\n\t\"./CozyTwoBedroomCottage/2.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/2.jpg\",\n\t\"./CozyTwoBedroomCottage/3.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/3.jpg\",\n\t\"./CozyTwoBedroomCottage/4.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/4.jpg\",\n\t\"./CozyTwoBedroomCottage/5.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/5.jpg\",\n\t\"./CozyTwoBedroomCottage/6.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/6.jpg\",\n\t\"./CozyTwoBedroomCottage/7.jpg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/7.jpg\",\n\t\"./CozyTwoBedroomCottage/cover.jpeg\": \"./src/assets/Villas/rooms/CozyTwoBedroomCottage/cover.jpeg\",\n\t\"./HoneymoonVilla/1.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/1.jpg\",\n\t\"./HoneymoonVilla/2.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/2.jpg\",\n\t\"./HoneymoonVilla/3.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/3.jpg\",\n\t\"./HoneymoonVilla/4.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/4.jpg\",\n\t\"./HoneymoonVilla/5.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/5.jpg\",\n\t\"./HoneymoonVilla/6.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/6.jpg\",\n\t\"./HoneymoonVilla/7.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/7.jpg\",\n\t\"./HoneymoonVilla/8.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/8.jpg\",\n\t\"./HoneymoonVilla/9.jpg\": \"./src/assets/Villas/rooms/HoneymoonVilla/9.jpg\",\n\t\"./QuadrupleUnit/1.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/1.jpg\",\n\t\"./QuadrupleUnit/2.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/2.jpg\",\n\t\"./QuadrupleUnit/3.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/3.jpg\",\n\t\"./QuadrupleUnit/4.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/4.jpg\",\n\t\"./QuadrupleUnit/5.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/5.jpg\",\n\t\"./QuadrupleUnit/6.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/6.jpg\",\n\t\"./QuadrupleUnit/7.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/7.jpg\",\n\t\"./QuadrupleUnit/8.jpg\": \"./src/assets/Villas/rooms/QuadrupleUnit/8.jpg\",\n\t\"./QuadrupleUnit/cover.jpeg\": \"./src/assets/Villas/rooms/QuadrupleUnit/cover.jpeg\",\n\t\"./SereneGuestSuite/1.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/1.jpg\",\n\t\"./SereneGuestSuite/2.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/2.jpg\",\n\t\"./SereneGuestSuite/3.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/3.jpg\",\n\t\"./SereneGuestSuite/4.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/4.jpg\",\n\t\"./SereneGuestSuite/5.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/5.jpg\",\n\t\"./SereneGuestSuite/6.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/6.jpg\",\n\t\"./SereneGuestSuite/7.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/7.jpg\",\n\t\"./SereneGuestSuite/8.jpg\": \"./src/assets/Villas/rooms/SereneGuestSuite/8.jpg\",\n\t\"./SereneGuestSuite/cover.jpeg\": \"./src/assets/Villas/rooms/SereneGuestSuite/cover.jpeg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets/Villas/rooms sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms_sync_^\\.\\/.*$?");
 
 /***/ }),
 
@@ -2075,7 +2075,7 @@ eval("var map = {\n\t\"./BeachRoomAndTerraceSuite/1.jpg\": \"./src/assets/Villas
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/1.fadb4a37.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/1.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/1.33e5e37a.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/1.jpg?");
 
 /***/ }),
 
@@ -2086,7 +2086,7 @@ eval("module.exports = __webpack_require__.p + \"img/1.fadb4a37.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/10.a68cc935.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/10.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/10.400f1600.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/10.jpg?");
 
 /***/ }),
 
@@ -2097,7 +2097,7 @@ eval("module.exports = __webpack_require__.p + \"img/10.a68cc935.jpg\";\n\n//# s
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/11.0036b8c5.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/11.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/11.940551e2.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/11.jpg?");
 
 /***/ }),
 
@@ -2108,7 +2108,7 @@ eval("module.exports = __webpack_require__.p + \"img/11.0036b8c5.jpg\";\n\n//# s
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/12.c01bff29.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/12.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/12.7f708001.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/12.jpg?");
 
 /***/ }),
 
@@ -2119,7 +2119,7 @@ eval("module.exports = __webpack_require__.p + \"img/12.c01bff29.jpg\";\n\n//# s
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/13.412aaaab.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/13.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/13.d466eca0.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/13.jpg?");
 
 /***/ }),
 
@@ -2130,7 +2130,7 @@ eval("module.exports = __webpack_require__.p + \"img/13.412aaaab.jpg\";\n\n//# s
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/2.1c2e382f.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/2.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/2.5462af80.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/2.jpg?");
 
 /***/ }),
 
@@ -2141,7 +2141,7 @@ eval("module.exports = __webpack_require__.p + \"img/2.1c2e382f.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/3.d981665f.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/3.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/3.efe51cfd.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/3.jpg?");
 
 /***/ }),
 
@@ -2152,7 +2152,7 @@ eval("module.exports = __webpack_require__.p + \"img/3.d981665f.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/4.4f7d8848.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/4.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/4.a5ea266d.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/4.jpg?");
 
 /***/ }),
 
@@ -2163,7 +2163,7 @@ eval("module.exports = __webpack_require__.p + \"img/4.4f7d8848.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/5.29436647.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/5.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/5.7a8c3d60.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/5.jpg?");
 
 /***/ }),
 
@@ -2174,7 +2174,7 @@ eval("module.exports = __webpack_require__.p + \"img/5.29436647.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/6.901691a5.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/6.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/6.b1187e6f.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/6.jpg?");
 
 /***/ }),
 
@@ -2185,7 +2185,7 @@ eval("module.exports = __webpack_require__.p + \"img/6.901691a5.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/7.b2fc7ee3.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/7.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/7.bcfdbaef.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/7.jpg?");
 
 /***/ }),
 
@@ -2196,7 +2196,7 @@ eval("module.exports = __webpack_require__.p + \"img/7.b2fc7ee3.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/8.d0614906.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/8.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/8.ba697d87.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/8.jpg?");
 
 /***/ }),
 
@@ -2207,7 +2207,7 @@ eval("module.exports = __webpack_require__.p + \"img/8.d0614906.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/9.2bc2bbf8.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/9.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/9.88fbd72b.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/9.jpg?");
 
 /***/ }),
 
@@ -2218,7 +2218,7 @@ eval("module.exports = __webpack_require__.p + \"img/9.2bc2bbf8.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/cover.cbb3a48e.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/cover.jpeg?");
+eval("module.exports = __webpack_require__.p + \"img/cover.f6213cf2.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BeachRoomAndTerraceSuite/cover.jpeg?");
 
 /***/ }),
 
@@ -2229,7 +2229,7 @@ eval("module.exports = __webpack_require__.p + \"img/cover.cbb3a48e.jpeg\";\n\n/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/1.3c67ee8a.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/1.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/1.b8f54700.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/1.jpg?");
 
 /***/ }),
 
@@ -2240,7 +2240,7 @@ eval("module.exports = __webpack_require__.p + \"img/1.3c67ee8a.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/2.a1d48f58.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/2.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/2.d1f83bfb.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/2.jpg?");
 
 /***/ }),
 
@@ -2251,7 +2251,7 @@ eval("module.exports = __webpack_require__.p + \"img/2.a1d48f58.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/3.2c320d0c.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/3.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/3.a4a988e6.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/3.jpg?");
 
 /***/ }),
 
@@ -2262,7 +2262,7 @@ eval("module.exports = __webpack_require__.p + \"img/3.2c320d0c.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/4.42d96d2d.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/4.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/4.aaceaa78.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/4.jpg?");
 
 /***/ }),
 
@@ -2273,7 +2273,7 @@ eval("module.exports = __webpack_require__.p + \"img/4.42d96d2d.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/5.b4e80f51.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/5.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/5.78f97758.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/5.jpg?");
 
 /***/ }),
 
@@ -2284,7 +2284,7 @@ eval("module.exports = __webpack_require__.p + \"img/5.b4e80f51.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/6.6c3ab90a.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/6.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/6.715a0e2d.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/6.jpg?");
 
 /***/ }),
 
@@ -2295,7 +2295,7 @@ eval("module.exports = __webpack_require__.p + \"img/6.6c3ab90a.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/7.b8769501.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/7.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/7.19e66aac.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/7.jpg?");
 
 /***/ }),
 
@@ -2306,7 +2306,7 @@ eval("module.exports = __webpack_require__.p + \"img/7.b8769501.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/8.0302b9e4.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/8.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/8.44113ec8.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/8.jpg?");
 
 /***/ }),
 
@@ -2317,7 +2317,7 @@ eval("module.exports = __webpack_require__.p + \"img/8.0302b9e4.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/cover.b953226c.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/cover.jpeg?");
+eval("module.exports = __webpack_require__.p + \"img/cover.fb6012ab.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/BoatGuestSuite/cover.jpeg?");
 
 /***/ }),
 
@@ -2328,7 +2328,7 @@ eval("module.exports = __webpack_require__.p + \"img/cover.b953226c.jpeg\";\n\n/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/1.0ebd21e4.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/1.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/1.76b30fb3.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/1.jpg?");
 
 /***/ }),
 
@@ -2339,7 +2339,7 @@ eval("module.exports = __webpack_require__.p + \"img/1.0ebd21e4.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/2.c8e482bf.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/2.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/2.744431c7.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/2.jpg?");
 
 /***/ }),
 
@@ -2350,7 +2350,7 @@ eval("module.exports = __webpack_require__.p + \"img/2.c8e482bf.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/3.af4b5507.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/3.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/3.26ded41a.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/3.jpg?");
 
 /***/ }),
 
@@ -2361,7 +2361,7 @@ eval("module.exports = __webpack_require__.p + \"img/3.af4b5507.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/4.f3820d4f.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/4.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/4.8e0263d8.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/4.jpg?");
 
 /***/ }),
 
@@ -2372,7 +2372,7 @@ eval("module.exports = __webpack_require__.p + \"img/4.f3820d4f.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/5.fbb7ca69.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/5.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/5.0063a28d.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/5.jpg?");
 
 /***/ }),
 
@@ -2383,7 +2383,7 @@ eval("module.exports = __webpack_require__.p + \"img/5.fbb7ca69.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/6.59be8670.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/6.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/6.eeca6ac4.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/6.jpg?");
 
 /***/ }),
 
@@ -2394,7 +2394,7 @@ eval("module.exports = __webpack_require__.p + \"img/6.59be8670.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/7.daca4b5b.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/7.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/7.cc0ebf91.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/7.jpg?");
 
 /***/ }),
 
@@ -2405,7 +2405,7 @@ eval("module.exports = __webpack_require__.p + \"img/7.daca4b5b.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/cover.f3c4cce4.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/cover.jpeg?");
+eval("module.exports = __webpack_require__.p + \"img/cover.b501bc11.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/CozyTwoBedroomCottage/cover.jpeg?");
 
 /***/ }),
 
@@ -2416,7 +2416,7 @@ eval("module.exports = __webpack_require__.p + \"img/cover.f3c4cce4.jpeg\";\n\n/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/1.f0911f61.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/1.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/1.18663e07.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/1.jpg?");
 
 /***/ }),
 
@@ -2427,7 +2427,7 @@ eval("module.exports = __webpack_require__.p + \"img/1.f0911f61.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/2.c41186ee.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/2.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/2.be942f77.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/2.jpg?");
 
 /***/ }),
 
@@ -2438,7 +2438,7 @@ eval("module.exports = __webpack_require__.p + \"img/2.c41186ee.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/3.42e3941e.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/3.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/3.9b5f33e6.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/3.jpg?");
 
 /***/ }),
 
@@ -2449,7 +2449,7 @@ eval("module.exports = __webpack_require__.p + \"img/3.42e3941e.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/4.9fe6805c.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/4.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/4.5d3df1de.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/4.jpg?");
 
 /***/ }),
 
@@ -2460,7 +2460,7 @@ eval("module.exports = __webpack_require__.p + \"img/4.9fe6805c.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/5.2646c312.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/5.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/5.863a43f5.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/5.jpg?");
 
 /***/ }),
 
@@ -2471,7 +2471,7 @@ eval("module.exports = __webpack_require__.p + \"img/5.2646c312.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/6.a98f9235.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/6.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/6.a04c1736.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/6.jpg?");
 
 /***/ }),
 
@@ -2482,7 +2482,7 @@ eval("module.exports = __webpack_require__.p + \"img/6.a98f9235.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/7.4757b638.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/7.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/7.2d1c37e3.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/7.jpg?");
 
 /***/ }),
 
@@ -2493,7 +2493,7 @@ eval("module.exports = __webpack_require__.p + \"img/7.4757b638.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/8.a12c414f.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/8.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/8.625d8a9d.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/8.jpg?");
 
 /***/ }),
 
@@ -2504,7 +2504,7 @@ eval("module.exports = __webpack_require__.p + \"img/8.a12c414f.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/9.39f5815e.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/9.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/9.57f890dc.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/HoneymoonVilla/9.jpg?");
 
 /***/ }),
 
@@ -2515,7 +2515,7 @@ eval("module.exports = __webpack_require__.p + \"img/9.39f5815e.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/1.045767a7.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/1.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/1.818fc4b8.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/1.jpg?");
 
 /***/ }),
 
@@ -2526,7 +2526,7 @@ eval("module.exports = __webpack_require__.p + \"img/1.045767a7.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/2.d59e66b1.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/2.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/2.aa4a0206.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/2.jpg?");
 
 /***/ }),
 
@@ -2537,7 +2537,7 @@ eval("module.exports = __webpack_require__.p + \"img/2.d59e66b1.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/3.632abe24.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/3.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/3.5c649c12.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/3.jpg?");
 
 /***/ }),
 
@@ -2548,7 +2548,7 @@ eval("module.exports = __webpack_require__.p + \"img/3.632abe24.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/4.e1bf8787.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/4.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/4.2677b98a.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/4.jpg?");
 
 /***/ }),
 
@@ -2559,7 +2559,7 @@ eval("module.exports = __webpack_require__.p + \"img/4.e1bf8787.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/5.3fe5f5db.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/5.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/5.66643173.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/5.jpg?");
 
 /***/ }),
 
@@ -2570,7 +2570,7 @@ eval("module.exports = __webpack_require__.p + \"img/5.3fe5f5db.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/6.c05dc4fe.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/6.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/6.a3daa72b.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/6.jpg?");
 
 /***/ }),
 
@@ -2581,7 +2581,7 @@ eval("module.exports = __webpack_require__.p + \"img/6.c05dc4fe.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/7.bfdb9000.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/7.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/7.6121a080.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/7.jpg?");
 
 /***/ }),
 
@@ -2592,7 +2592,7 @@ eval("module.exports = __webpack_require__.p + \"img/7.bfdb9000.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/8.0302b9e4.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/8.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/8.44113ec8.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/8.jpg?");
 
 /***/ }),
 
@@ -2603,40 +2603,106 @@ eval("module.exports = __webpack_require__.p + \"img/8.0302b9e4.jpg\";\n\n//# so
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/cover.27c9d5a6.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/cover.jpeg?");
+eval("module.exports = __webpack_require__.p + \"img/cover.bb4c9e1d.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/QuadrupleUnit/cover.jpeg?");
 
 /***/ }),
 
-/***/ "./src/assets/Villas/rooms/TripleRoom/1.jpg":
-/*!**************************************************!*\
-  !*** ./src/assets/Villas/rooms/TripleRoom/1.jpg ***!
-  \**************************************************/
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/1.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/1.jpg ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/1.93c4d18c.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/TripleRoom/1.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/1.f9480502.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/1.jpg?");
 
 /***/ }),
 
-/***/ "./src/assets/Villas/rooms/TripleRoom/2.jpg":
-/*!**************************************************!*\
-  !*** ./src/assets/Villas/rooms/TripleRoom/2.jpg ***!
-  \**************************************************/
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/2.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/2.jpg ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/2.1fffcd64.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/TripleRoom/2.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/2.6958d840.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/2.jpg?");
 
 /***/ }),
 
-/***/ "./src/assets/Villas/rooms/TripleRoom/3.jpg":
-/*!**************************************************!*\
-  !*** ./src/assets/Villas/rooms/TripleRoom/3.jpg ***!
-  \**************************************************/
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/3.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/3.jpg ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/3.4bebfb84.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/TripleRoom/3.jpg?");
+eval("module.exports = __webpack_require__.p + \"img/3.3d2fbc81.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/3.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/4.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/4.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/4.78229410.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/4.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/5.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/5.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/5.05e3d312.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/5.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/6.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/6.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/6.9492d954.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/6.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/7.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/7.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/7.38bfee10.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/7.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/8.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/8.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/8.b8995994.jpg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/8.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/Villas/rooms/SereneGuestSuite/cover.jpeg":
+/*!*************************************************************!*\
+  !*** ./src/assets/Villas/rooms/SereneGuestSuite/cover.jpeg ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/cover.07b8089c.jpeg\";\n\n//# sourceURL=webpack:///./src/assets/Villas/rooms/SereneGuestSuite/cover.jpeg?");
 
 /***/ }),
 

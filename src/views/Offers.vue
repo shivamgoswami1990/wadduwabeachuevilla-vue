@@ -1,6 +1,6 @@
 <template>
     <div>
-        <banner-section imgFilename="Offers/Offers.jpg" preTitle="Wadduwa Beach Villas"
+        <banner-section imgFilename="Offers/Offers.jpeg" preTitle="Wadduwa Beach Villas"
                         title="Offers"
                         description="Our current promotions and offers"/>
 
