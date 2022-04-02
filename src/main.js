@@ -32,49 +32,51 @@ Vue.prototype.validateFormRules = (value, opType, limit, msg) => {
 
 Vue.prototype.availableRooms = () => [
   {
-    name: 'Double Room',
-    description: 'Our standard double room is an expanded hotel room is designed for two people. Room amenities include; a king size bed, cable TV, storage space, wardrobe, clothes rack, continuous WIFI access, and en suite bathroom. This room type is ideal for a brief stay of a few days. All room options offer stunning views of the property and surrounding environment.',
+    name: 'Beach Room & Terrace Suite',
+    description: 'Our Beach Room & Terrace Suite is an expanded hotel room is designed for two people. Room amenities include; a king size bed, cable TV, storage space, wardrobe, clothes rack, continuous WIFI access, and en suite bathroom. This room type is ideal for a brief stay of a few days. All room options offer stunning views of the property and surrounding environment.',
     price: '70',
     facilities: ['Pool view', 'Attached bathroom', 'Kitchen', 'Veranda'],
     people: 2,
-    parentDir: 'DoubleRoom',
-    images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
-    link: 'https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information',
-    altLink: 'https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information',
-    btnBookWithIconPath: 'ex.png'
-  },
-  {
-    name: 'Triple Room',
-    description: 'Our standard triple room is an expanded hotel room designed for three people. Room amenities include; a king size bed, a large sofa bed, cable TV, storage space, wardrobe, clothes rack, continuous WIFI access, and en suite bathroom. This room type is ideal for a brief stay of a few days. All room options offer stunning views of the property and surrounding environment.',
-    price: '90',
-    facilities: ['Pool view', 'Attached bathroom', 'Kitchen', 'Veranda'],
-    people: 2,
-    parentDir: 'TripleRoom',
-    images: ['1.jpg', '2.jpg', '3.jpg'],
-    link: 'https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information',
-    altLink: 'https://www.expedia.com/Wadduwa-Hotels-Wadduwa-Beach-Villas-Pvt-Ltd.h42125118.Hotel-Information',
-    btnBookWithIconPath: 'ex.png'
-  },
-  {
-    name: 'Family Villa',
-    description: 'The Family Villa has a pool view and is located 15 meters from the sea shore. It has two separate bedrooms each with separate attached bathrooms, one with a sky view bathroom and tub. This villa includes a sitting room, private dining room, as well as a veranda and seating. Sleeps five adults.',
-    price: '135',
-    facilities: ['Pool view', 'Attached bathroom', 'Dining room'],
-    people: 4,
-    parentDir: 'FamilyVilla',
-    images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'],
-    link: 'https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579088127_n%2Ftg0WXIR0%2F4Retl',
-    altLink: 'https://www.airbnb.com/rooms/3824500?source_impression_id=p3_1579088127_n%2Ftg0WXIR0%2F4Retl',
+    parentDir: 'BeachRoomAndTerraceSuite',
+    images: ['cover.jpeg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg'],
+    link: 'https://www.airbnb.com/rooms/51786118?source_impression_id=p3_1646415464_NumSp7lcE3CFBYIn',
+    altLink: 'https://www.airbnb.com/rooms/51786118?source_impression_id=p3_1646415464_NumSp7lcE3CFBYIn',
+    link2: 'https://www.airbnb.com/rooms/564333807083457381?source_impression_id=p3_1646415465_HDVWnkYZobfOi6Q0',
+    altLink2: 'https://www.airbnb.com/rooms/564333807083457381?source_impression_id=p3_1646415465_HDVWnkYZobfOi6Q0',
     btnBookWithIconPath: 'ab.png'
   },
   {
-    name: 'Two Bedroom Villa',
-    description: 'The Two Bedroom Villa has both a beach and pool view. The two rooms have two separate attached bathrooms a private dining area, and enclosed veranda  of the property with 180 degree view. Sleeps five adults',
+    name: 'Boat Guest Suite',
+    description: 'Our Boat Guest Suite is an expanded hotel room designed for three people. Room amenities include; a king size bed, a large sofa bed, cable TV, storage space, wardrobe, clothes rack, continuous WIFI access, and en suite bathroom. This room type is ideal for a brief stay of a few days. All room options offer stunning views of the property and surrounding environment.',
+    price: '90',
+    facilities: ['Pool view', 'Attached bathroom', 'Kitchen', 'Veranda'],
+    people: 2,
+    parentDir: 'BoatGuestSuite',
+    images: ['cover.jpeg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
+    link: 'https://www.airbnb.com/rooms/564457355037192414?source_impression_id=p3_1646415316_viipD1bQN8iO6wNY',
+    altLink: 'https://www.airbnb.com/rooms/564457355037192414?source_impression_id=p3_1646415316_viipD1bQN8iO6wNY',
+    btnBookWithIconPath: 'ab.png'
+  },
+  {
+    name: 'Quadruple Unit',
+    description: 'The Quadruple Unit has a pool view and is located 15 meters from the sea shore. It has two separate bedrooms each with separate attached bathrooms, one with a sky view bathroom and tub. This villa includes a sitting room, private dining room, as well as a veranda and seating. Sleeps five adults.',
+    price: '135',
+    facilities: ['Pool view', 'Attached bathroom', 'Dining room'],
+    people: 4,
+    parentDir: 'QuadrupleUnit',
+    images: ['cover.jpeg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
+    link: 'https://www.airbnb.com/rooms/564442566904071547?source_impression_id=p3_1646415315_Je%2Bv3DpnGj5I021g',
+    altLink: 'https://www.airbnb.com/rooms/564442566904071547?source_impression_id=p3_1646415315_Je%2Bv3DpnGj5I021g',
+    btnBookWithIconPath: 'ab.png'
+  },
+  {
+    name: 'Cozy Two Bedroom Cottage',
+    description: 'The Cozy Two Bedroom Cottage has both a beach and pool view. The two rooms have two separate attached bathrooms a private dining area, and enclosed veranda  of the property with 180 degree view. Sleeps five adults',
     price: '90',
     facilities: ['Pool view', 'Two attached bathroom', 'Kitchen'],
     people: 4,
-    parentDir: 'TwoRoomVilla',
-    images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
+    parentDir: 'CozyTwoBedroomCottage',
+    images: ['cover.jpeg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg'],
     link: 'https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH',
     altLink: 'https://www.airbnb.com/rooms/4963179?source_impression_id=p3_1579078994_7j71vmZJbAOIq%2BOH',
     btnBookWithIconPath: 'ab.png'
@@ -86,9 +88,21 @@ Vue.prototype.availableRooms = () => [
     facilities: ['Pool view', 'Attached bathroom', 'Kitchen', 'Veranda'],
     people: 2,
     parentDir: 'HoneymoonVilla',
-    images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
+    images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
     link: 'https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1579088185_%2FYvlnDpyHBmFUoBl',
     altLink: 'https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1579088185_%2FYvlnDpyHBmFUoBl',
+    btnBookWithIconPath: 'ab.png'
+  },
+  {
+    name: 'Serene Guest Suite',
+    description: 'Our Serene Guest Suite is an expanded hotel room designed for a romantic couple. Room amenities include; a king size bed, a large sofa bed, cable TV, storage space, wardrobe, bathtub, clothes rack, continuous WIFI access, and en suite bathroom. This room type is ideal for a brief stay of a few days.',
+    price: '90',
+    facilities: ['Pool view', 'Attached bathroom', 'Kitchen', 'Veranda'],
+    people: 2,
+    parentDir: 'BoatGuestSuite',
+    images: ['cover.jpeg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
+    link: 'https://www.airbnb.com/rooms/564462960006653882?source_impression_id=p3_1646415318_wdxI8tb0tVFyxwsc',
+    altLink: 'https://www.airbnb.com/rooms/564462960006653882?source_impression_id=p3_1646415318_wdxI8tb0tVFyxwsc',
     btnBookWithIconPath: 'ab.png'
   }
 ];

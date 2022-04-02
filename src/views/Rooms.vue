@@ -21,7 +21,17 @@
                     {{room.description}}
                   </v-card-text>
                   <v-card-actions class="pa-0 action-btn-container">
-                    <btn-with-icon :href="room.altLink" :icon-src="room.btnBookWithIconPath"/>
+                    <!-- Split the button in two if link2 exists -->
+                    <v-row no-gutters v-if="room.link2">
+                      <v-col md="6" lg="6" cols="12">
+                        <btn-with-icon :href="room.altLink" :icon-src="room.btnBookWithIconPath"/>
+                      </v-col>
+                      <v-col md="6" lg="6" cols="12" class="pl-1">
+                        <btn-with-icon :href="room.altLink2" :icon-src="room.btnBookWithIconPath"/>
+                      </v-col>
+                    </v-row>
+
+                    <btn-with-icon v-else :href="room.altLink" :icon-src="room.btnBookWithIconPath"/>
                   </v-card-actions>
                 </v-card>
               </v-hover>
