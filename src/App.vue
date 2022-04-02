@@ -85,9 +85,10 @@ export default {
         { title: 'Restaurant', isMainNavItem: true, linkTo: 'restaurant' },
         { title: 'Facilities', isMainNavItem: true, linkTo: 'facilities' },
         { title: 'Exclusive', isMainNavItem: true, linkTo: 'exclusive' },
-        { title: 'Blog', isMainNavItem: true, linkTo: 'blog' },
-        { title: 'FAQ', isMainNavItem: false, linkTo: 'guidelines' },
-        { title: 'Weddings', isMainNavItem: true, linkTo: 'events' }
+        { title: 'Offers', isMainNavItem: true, linkTo: 'offers' },
+        { title: 'Weddings', isMainNavItem: true, linkTo: 'events' },
+        { title: 'Blog', isMainNavItem: false, linkTo: 'blog' },
+        { title: 'FAQ', isMainNavItem: false, linkTo: 'guidelines' }
       ]
     };
   },
