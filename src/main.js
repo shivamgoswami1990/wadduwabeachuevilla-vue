@@ -82,12 +82,12 @@ Vue.prototype.availableRooms = () => [
     btnBookWithIconPath: 'ab.png'
   },
   {
-    name: 'Honeymoon Villa',
-    description: 'The Honeymoon Villa has both a pool and beach view. The single bedroom cottage has an attached bathroom with a spa tub. There is a living area and a veranda which offers a 180 degree view of the greenery and lawn. It offers privacy as it is located in a secluded area of the property. Sleeps two adults.',
+    name: 'Honeymoon Guest Suite',
+    description: 'The Honeymoon Guest Suite has both a pool and beach view. The single bedroom cottage has an attached bathroom with a spa tub. There is a living area and a veranda which offers a 180 degree view of the greenery and lawn. It offers privacy as it is located in a secluded area of the property. Sleeps two adults.',
     price: '70',
     facilities: ['Pool view', 'Attached bathroom', 'Kitchen', 'Veranda'],
     people: 2,
-    parentDir: 'HoneymoonVilla',
+    parentDir: 'HoneymoonGuestSuite',
     images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
     link: 'https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1579088185_%2FYvlnDpyHBmFUoBl',
     altLink: 'https://www.airbnb.com/rooms/4512825?source_impression_id=p3_1579088185_%2FYvlnDpyHBmFUoBl',
