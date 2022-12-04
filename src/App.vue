@@ -42,24 +42,6 @@
           </a>
         </v-alert>
         <router-view />
-
-        <v-dialog v-model="noticeModal" width="400" open-delay="300" origin="center" persistent retain-focus>
-          <v-card width="100%">
-            <v-card-title class="text-h4 font-weight-medium justify-center">Notice</v-card-title>
-            <v-card-text class="font-weight-medium text-h5 text-center">
-              Dear Customers, <br/>
-              Please note that we are temporarily closed for renovations. <br/> <br/>
-
-              Kind regards, <br/>
-              Management
-            </v-card-text>
-            <v-card-actions>
-              <v-btn tile block color="primary" class="elevation-0 black--text font-weight-bold" height="45px" @click="noticeModal = false">
-                Close
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-dialog>
       </v-main>
 
       <footer-with-bottom-nav :items="navItems"/>
@@ -97,7 +79,6 @@ export default {
   },
   data() {
     return {
-      noticeModal: true,
       showDrawer: false,
       videoHeight: null,
       logo,
