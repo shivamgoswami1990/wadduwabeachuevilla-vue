@@ -104,11 +104,6 @@ export default {
           linkTo: 'exclusive'
         },
         {
-          title: 'Offers',
-          isMainNavItem: true,
-          linkTo: 'offers'
-        },
-        {
           title: 'Weddings',
           isMainNavItem: true,
           linkTo: 'events'
